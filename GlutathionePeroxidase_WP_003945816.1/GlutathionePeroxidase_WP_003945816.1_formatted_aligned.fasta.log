@@ -1,0 +1,193 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta -m MFP -B 1000 -alrt 1000 -T AUTO
+Seed:    367231 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 13:56:40 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.000245094 secs using 39.58% CPU
+NOTE: Change sequence name 'Rhodococcus sp. WMMA185 | WP_070379564.1 | glutathione peroxidase' -> Rhodococcus_sp._WMMA185
+NOTE: Change sequence name 'Rhodococcus spongiicola | WP_127945803.1 | glutathione peroxidase' -> Rhodococcus_spongiicola_|
+NOTE: Change sequence name 'Rhodococcus xishaensis | WP_127955491.1 | glutathione peroxidase' -> Rhodococcus_xishaensis_|
+NOTE: Change sequence name 'Rhodococcus sp. RD6.2 | WP_050066444.1 | glutathione peroxidase' -> Rhodococcus_sp._RD6.2
+NOTE: Change sequence name 'unclassified Rhodococcus | WP_169688273.1 | glutathione peroxidase' -> unclassified_Rhodococcus_|
+NOTE: Change sequence name 'Prescottella sp. R16 | WP_305093932.1 | glutathione peroxidase' -> Prescottella_sp._R16
+NOTE: Change sequence name 'Rhodococcus sp. HNM0569 | WP_169647600.1 | glutathione peroxidase' -> Rhodococcus_sp._HNM0569
+NOTE: Change sequence name 'Rhodococcus sovatensis | WP_338889646.1 | glutathione peroxidase' -> Rhodococcus_sovatensis_|
+NOTE: Change sequence name 'Nocardiaceae | WP_269417429.1 | glutathione peroxidase' -> Nocardiaceae_|_WP_269417429.1
+NOTE: Change sequence name 'Rhodococcus sp. PSi06 | WP_462665568.1 | glutathione peroxidase' -> Rhodococcus_sp._PSi06
+NOTE: Change sequence name 'unclassified Rhodococcus_1| WP_374700635.1 | glutathione peroxidase' -> unclassified_Rhodococcus_1|_WP_374700635.1
+NOTE: Change sequence name 'unclassified Rhodococcus_2 | WP_374222415.1 | glutathione peroxidase' -> unclassified_Rhodococcus_2_|
+NOTE: Change sequence name 'Rhodococcus sp. AW25M09 | WP_269744637.1 | glutathione peroxidase' -> Rhodococcus_sp._AW25M09
+NOTE: Change sequence name 'Mycolicibacterium sp. CBM1 | WP_457222775.1 | glutathione peroxidase' -> Mycolicibacterium_sp._CBM1
+NOTE: Change sequence name 'Mycobacterium sp. WMMD1722 | WP_422744644.1 | glutathione peroxidase' -> Mycobacterium_sp._WMMD1722
+NOTE: Change sequence name 'Mycolicibacterium arenosum | WP_255058471.1 | glutathione peroxidase' -> Mycolicibacterium_arenosum_|
+NOTE: Change sequence name 'Mycobacterium sp. AT1 | WP_079924327.1 | glutathione peroxidase' -> Mycobacterium_sp._AT1
+NOTE: Change sequence name 'Mycolicibacterium hodleri | WP_142555396.1 | glutathione peroxidase' -> Mycolicibacterium_hodleri_|
+NOTE: Change sequence name 'Streptomyces sp. ADI93-02 | WP_124278333.1 | glutathione peroxidase' -> Streptomyces_sp._ADI93-02
+NOTE: Change sequence name 'Mycobacterium | WP_265994625.1 | glutathione peroxidase' -> Mycobacterium_|_WP_265994625.1
+NOTE: Change sequence name 'Mycolicibacterium palauense | WP_099020684.1 | glutathione peroxidase' -> Mycolicibacterium_palauense_|
+NOTE: Change sequence name 'Streptomyces sp. SM10 | WP_103760023.1 | glutathione peroxidase' -> Streptomyces_sp._SM10
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000383854 secs using 39.34% CPU
+Alignment has 22 sequences with 171 columns, 115 distinct patterns
+73 parsimony-informative, 20 singleton sites, 78 constant sites
+                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.39098e-05 secs using 51.41% CPU
+   1  Rhodococcus_sp._WMMA185                       4.09%    passed    100.00%
+   2  Rhodococcus_spongiicola_|                     4.09%    passed    100.00%
+   3  Rhodococcus_xishaensis_|                      4.09%    passed     99.44%
+   4  Rhodococcus_sp._RD6.2                         3.51%    passed    100.00%
+   5  unclassified_Rhodococcus_|                    4.09%    passed     99.98%
+   6  Prescottella_sp._R16                          5.26%    passed    100.00%
+   7  Rhodococcus_sp._HNM0569                       4.09%    passed    100.00%
+   8  Rhodococcus_sovatensis_|                      1.75%    passed     99.98%
+   9  Nocardiaceae_|_WP_269417429.1                 1.17%    passed     99.90%
+  10  Rhodococcus_sp._PSi06                         1.17%    passed     99.96%
+  11  unclassified_Rhodococcus_1|_WP_374700635.1    1.17%    passed     99.02%
+  12  unclassified_Rhodococcus_2_|                  1.17%    passed     99.89%
+  13  Rhodococcus_sp._AW25M09                       1.17%    passed     99.95%
+  14  Mycolicibacterium_sp._CBM1                    5.26%    passed     99.22%
+  15  Mycobacterium_sp._WMMD1722                    2.34%    passed     99.99%
+  16  Mycolicibacterium_arenosum_|                  5.26%    passed    100.00%
+  17  Mycobacterium_sp._AT1                         5.26%    passed    100.00%
+  18  Mycolicibacterium_hodleri_|                   5.26%    passed    100.00%
+  19  Streptomyces_sp._ADI93-02                     5.26%    passed     99.39%
+  20  Mycobacterium_|_WP_265994625.1                5.26%    passed     99.92%
+  21  Mycolicibacterium_palauense_|                 5.26%    passed     99.91%
+  22  Streptomyces_sp._SM10                         4.68%    passed     99.93%
+****  TOTAL                                         3.67%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 8.41618e-05 secs using 47.53% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+130 trees examined
+Threads: 1 / Time: 8.062 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3033
+Threads: 2 / Time: 9.052 sec / Speedup: 0.891 / Efficiency: 45% / LogL: -3033
+Determining AUTO threadcount: done in 17.1145 secs using 113.1% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2250.437
+Optimal log-likelihood: -2250.437
+Proportion of invariable sites: 0.231
+Gamma shape alpha: 0.841
+Parameters optimization took 1 rounds (0.028 sec)
+Time for fast ML tree search: 0.177 seconds
+
+NOTE: ModelFinder requires 5 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 171 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           Q.PFAM+G4
+Corrected Akaike Information Criterion: Q.PFAM+G4
+Bayesian Information Criterion:         Q.PFAM+G4
+Best-fit model: Q.PFAM+G4 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.model.gz
+CPU time for ModelFinder: 27.683 seconds (0h:0m:27s)
+Wall-clock time for ModelFinder: 25.484 seconds (0h:0m:25s)
+Generating 1000 samples for ultrafast bootstrap (seed: 367231)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2247.055
+2. Current log-likelihood: -2246.212
+Optimal log-likelihood: -2246.194
+Gamma shape alpha: 0.446
+Parameters optimization took 2 rounds (0.064 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.229259 secs using 99.95% CPU
+Computing ML distances took 0.229530 sec (of wall-clock time) 0.229171 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.00543e-05 secs using 62.42% CPU
+Constructing RapidNJ tree: done in 5.88894e-05 secs using 88.3% CPU
+Computing RapidNJ tree took 0.000140 sec (of wall-clock time) 0.000093 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2249.871
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.088 second
+Computing log-likelihood of 98 initial trees ... 0.637 seconds
+Current best score: -2245.744
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2242.563
+Iteration 10 / LogL: -2245.672 / Time: 0h:0m:27s
+Iteration 20 / LogL: -2245.672 / Time: 0h:0m:28s
+Finish initializing candidate tree set (6)
+Current best tree score: -2242.563 / CPU time: 2.208
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -2242.563
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -2242.468
+Iteration 30 / LogL: -2244.015 / Time: 0h:0m:29s (0h:0m:12s left)
+UPDATE BEST LOG-LIKELIHOOD: -2242.467
+Iteration 40 / LogL: -2244.015 / Time: 0h:0m:30s (0h:0m:11s left)
+Iteration 50 / LogL: -2242.476 / Time: 0h:0m:32s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -2260.069
+Iteration 60 / LogL: -2242.563 / Time: 0h:0m:33s (0h:0m:9s left)
+Iteration 70 / LogL: -2242.469 / Time: 0h:0m:34s (0h:0m:7s left)
+Iteration 80 / LogL: -2242.563 / Time: 0h:0m:36s (0h:0m:6s left)
+Iteration 90 / LogL: -2243.134 / Time: 0h:0m:37s (0h:0m:4s left)
+Iteration 100 / LogL: -2242.563 / Time: 0h:0m:39s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -2261.983
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -2242.523 / Time: 0h:0m:40s (0h:0m:12s left)
+Iteration 120 / LogL: -2242.496 / Time: 0h:0m:42s (0h:0m:11s left)
+TREE SEARCH COMPLETED AFTER 126 ITERATIONS / Time: 0h:0m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2242.467
+Optimal log-likelihood: -2242.467
+Gamma shape alpha: 0.439
+Parameters optimization took 1 rounds (0.022 sec)
+BEST SCORE FOUND : -2242.467
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.076 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.splits.nex
+Total tree length: 2.422
+
+Total number of iterations: 126
+CPU time used for tree search: 17.209 sec (0h:0m:17s)
+Wall-clock time used for tree search: 17.224 sec (0h:0m:17s)
+Total CPU time used: 45.364 sec (0h:0m:45s)
+Total wall-clock time used: 43.187 sec (0h:0m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.splits.nex...
+22 taxa and 164 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.contree
+Log-likelihood of consensus tree: -2243.169
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/GlutathionePeroxidase_WP_003945816.1_formatted_aligned.fasta.log
+
+Date and Time: Tue Aug 18 13:57:23 2026
