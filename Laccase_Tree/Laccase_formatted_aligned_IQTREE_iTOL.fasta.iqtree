@@ -1,0 +1,787 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 274617
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 140 sequences with 646 amino-acid sites
+Number of constant sites: 173 (= 26.7802% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 173 (= 26.7802% of all sites)
+Number of parsimony informative sites: 382
+Number of distinct site patterns: 560
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: WAG+F+I+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+WAG+F+I+R4       -18254.413   37114.826 +        1   37653.493 +        1   38469.479 +        1
+LG+F+I+R4        -18262.411   37130.821 - 0.000336   37669.488 - 0.000336   38485.473 - 0.000336
+Q.PFAM+F+I+R4    -18265.310   37136.619 - 1.85e-05   37675.286 - 1.85e-05   38491.272 - 1.85e-05
+Q.YEAST+F+I+R4   -18278.571   37163.142 - 3.22e-11   37701.808 - 3.22e-11   38517.794 - 3.22e-11
+WAG+I+R4         -18342.379   37252.758 - 1.12e-30   37701.179 - 4.42e-11   38522.465 - 3.12e-12
+Q.PFAM+I+R4      -18349.037   37266.074 - 1.44e-33   37714.495 - 5.67e-14   38535.781 -    4e-15
+JTTDCMUT+F+I+R4  -18291.529   37189.059 - 7.59e-17   37727.726 - 7.59e-17   38543.711 - 7.59e-17
+JTT+F+I+R4       -18292.601   37191.202 -  2.6e-17   37729.869 -  2.6e-17   38545.854 -  2.6e-17
+JTT+I+R4         -18356.170   37280.341 - 1.15e-36   37728.762 - 4.52e-17   38550.048 - 3.19e-18
+LG+I+R4          -18356.763   37281.526 - 6.33e-37   37729.948 -  2.5e-17   38551.234 - 1.77e-18
+JTTDCMUT+I+R4    -18357.469   37282.939 - 3.12e-37   37731.360 - 1.23e-17   38552.646 - 8.72e-19
+Q.INSECT+F+I+R4  -18298.243   37202.487 - 9.22e-20   37741.154 - 9.22e-20   38557.139 - 9.22e-20
+LG+I+R3          -18368.836   37301.672 - 2.67e-41   37741.374 - 8.25e-20   38562.437 - 6.52e-21
+LG+R5            -18359.565   37289.129 - 1.41e-38   37741.962 - 6.15e-20   38563.307 - 4.22e-21
+LG+I+R5          -18356.475   37284.951 - 1.14e-37   37742.232 - 5.38e-20   38563.599 - 3.65e-21
+CPREV+F+I+R4     -18303.632   37213.265 - 4.21e-22   37751.932 - 4.21e-22   38567.917 - 4.21e-22
+LG+I+G4          -18381.287   37320.574 -  2.1e-45   37747.459 - 3.94e-21   38567.927 - 4.19e-22
+LG+R4            -18368.347   37302.695 -  1.6e-41   37746.739 - 5.65e-21   38567.931 - 4.18e-22
+LG+G4            -18387.247   37330.495 - 1.47e-47   37753.176 - 2.26e-22   38573.377 - 2.75e-23
+LG+R6            -18358.910   37291.821 - 3.68e-39   37753.586 - 1.84e-22   38574.940 - 1.26e-23
+Q.PLANT+F+I+R4   -18340.787   37287.574 - 3.08e-38   37826.240 - 3.08e-38   38642.226 - 3.08e-38
+LG+R3            -18413.035   37388.069 - 4.63e-60   37823.465 - 1.23e-37   38644.364 - 1.06e-38
+VT+F+I+R4        -18350.437   37306.874 - 1.98e-42   37845.540 - 1.98e-42   38661.526 - 1.98e-42
+Q.INSECT+I+R4    -18415.024   37398.048 - 3.16e-62   37846.469 - 1.25e-42   38667.755 - 8.81e-44
+Q.YEAST+I+R4     -18419.540   37407.080 - 3.45e-64   37855.501 - 1.36e-44   38676.787 - 9.63e-46
+Q.PLANT+I+R4     -18420.744   37409.487 - 1.04e-64   37857.908 - 4.09e-45   38679.194 - 2.89e-46
+LG+I+R2          -18434.134   37428.268 - 8.65e-69   37859.391 - 1.95e-45   38680.092 - 1.84e-46
+VT+I+R4          -18430.544   37429.088 - 5.74e-69   37877.509 - 2.27e-49   38698.795 -  1.6e-50
+CPREV+I+R4       -18458.881   37485.762 - 2.83e-81   37934.183 - 1.12e-61   38755.469 -  7.9e-63
+DAYHOFF+F+I+R4   -18398.389   37402.778 - 2.96e-63   37941.445 - 2.96e-63   38757.431 - 2.96e-63
+DCMUT+F+I+R4     -18400.281   37406.563 - 4.47e-64   37945.230 - 4.47e-64   38761.215 - 4.47e-64
+RTREV+F+I+R4     -18428.883   37463.767 - 1.69e-76   38002.434 - 1.69e-76   38818.419 - 1.69e-76
+MTINV+F+I+R4     -18436.088   37478.176 - 1.26e-79   38016.843 - 1.26e-79   38832.828 - 1.26e-79
+DAYHOFF+I+R4     -18506.843   37581.687 - 4.19e-102   38030.108 - 1.66e-82   38851.394 - 1.17e-83
+DCMUT+I+R4       -18509.044   37586.089 - 4.64e-103   38034.510 - 1.83e-83   38855.796 - 1.29e-84
+LG+R2            -18533.507   37625.015 - 1.64e-111   38051.900 - 3.07e-87   38872.368 - 3.26e-88
+BLOSUM62+F+I+R4  -18504.510   37615.020 - 2.42e-109   38153.687 - 2.42e-109   38969.673 - 2.42e-109
+PMB+F+I+R4       -18516.117   37638.234 - 2.2e-114   38176.901 - 2.2e-114   38992.886 - 2.2e-114
+MTZOA+F+I+R4     -18519.740   37645.481 - 5.89e-116   38184.147 - 5.89e-116   39000.133 - 5.89e-116
+RTREV+I+R4       -18586.008   37740.017 - 1.74e-136   38188.438 - 6.89e-117   39009.724 - 4.87e-118
+Q.MAMMAL+F+I+R4  -18524.787   37655.574 - 3.79e-118   38194.240 - 3.79e-118   39010.226 - 3.79e-118
+FLU+F+I+R4       -18536.261   37678.522 - 3.93e-123   38217.189 - 3.93e-123   39033.174 - 3.93e-123
+Q.MAMMAL+I+R4    -18601.904   37771.807 - 2.18e-143   38220.228 - 8.61e-124   39041.514 - 6.08e-125
+BLOSUM62+I+R4    -18622.862   37813.723 - 1.72e-152   38262.144 - 6.81e-133   39083.430 - 4.81e-134
+MTREV+F+I+R4     -18565.611   37737.222 - 7.05e-136   38275.889 - 7.05e-136   39091.875 - 7.05e-136
+FLU+I+R4         -18630.088   37828.177 - 1.25e-155   38276.598 - 4.95e-136   39097.884 - 3.49e-137
+MTMET+F+I+R4     -18570.610   37747.220 - 4.76e-138   38285.886 - 4.76e-138   39101.872 - 4.76e-138
+PMB+I+R4         -18648.984   37865.969 - 7.79e-164   38314.390 - 3.08e-144   39135.676 - 2.17e-145
+Q.BIRD+I+R4      -18721.937   38011.873 - 1.62e-195   38460.294 - 6.39e-176   39281.580 - 4.51e-177
+Q.BIRD+F+I+R4    -18665.975   37937.951 - 1.82e-179   38476.617 - 1.82e-179   39292.603 - 1.82e-179
+HIVB+F+I+R4      -18666.074   37938.149 - 1.65e-179   38476.815 - 1.65e-179   39292.801 - 1.65e-179
+HIVB+I+R4        -18780.824   38129.648 - 4.31e-221   38578.069 - 1.7e-201   39399.355 - 1.2e-202
+MTVER+F+I+R4     -18775.547   38157.094 - 4.73e-227   38695.760 - 4.73e-227   39511.746 - 4.73e-227
+MTART+F+I+R4     -18790.147   38186.294 - 2.16e-233   38724.960 - 2.16e-233   39540.946 - 2.16e-233
+MTZOA+I+R4       -19030.611   38629.222 -        0   39077.643 - 5.62e-310   39898.929 - 3.97e-311
+MTMAM+F+I+R4     -18973.107   38552.214 - 7.5e-313   39090.881 - 7.5e-313   39906.867 - 7.5e-313
+FLAVI+F+I+R4     -19007.228   38620.456 -        0   39159.123 -        0   39975.108 -        0
+FLAVI+I+R4       -19072.371   38712.741 -        0   39161.162 -        0   39982.448 -        0
+MTREV+I+R4       -19076.659   38721.319 -        0   39169.740 -        0   39991.026 -        0
+LG+I             -19101.396   38758.792 -        0   39181.473 -        0   40001.674 -        0
+HIVW+F+I+R4      -19080.778   38767.555 -        0   39306.222 -        0   40122.207 -        0
+MTMET+I+R4       -19165.235   38898.470 -        0   39346.891 -        0   40168.177 -        0
+MTVER+I+R4       -19239.129   39046.259 -        0   39494.680 -        0   40315.966 -        0
+MTINV+I+R4       -19299.345   39166.691 -        0   39615.112 -        0   40436.398 -        0
+HIVW+I+R4        -19323.976   39215.951 -        0   39664.372 -        0   40485.658 -        0
+MTART+I+R4       -19464.603   39497.207 -        0   39945.628 -        0   40766.914 -        0
+MTMAM+I+R4       -19474.243   39516.487 -        0   39964.908 -        0   40786.194 -        0
+LG               -19641.652   39837.304 -        0   40255.815 -        0   41075.716 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+I+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0731
+  pi(R) = 0.0559
+  pi(N) = 0.0473
+  pi(D) = 0.0742
+  pi(C) = 0.0018
+  pi(Q) = 0.0318
+  pi(E) = 0.0424
+  pi(G) = 0.0662
+  pi(H) = 0.0379
+  pi(I) = 0.0585
+  pi(L) = 0.0751
+  pi(K) = 0.0573
+  pi(M) = 0.0517
+  pi(F) = 0.0385
+  pi(P) = 0.0476
+  pi(S) = 0.0534
+  pi(T) = 0.0779
+  pi(W) = 0.0178
+  pi(Y) = 0.0243
+  pi(V) = 0.0674
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.1790
+Site proportion and rates:  (0.4207,0.3319) (0.2233,1.2861) (0.1464,2.8003) (0.0306,5.3405)
+
+ Category  Relative_rate  Proportion
+  0         0              0.1790
+  1         0.3319         0.4207
+  2         1.2861         0.2233
+  3         2.8003         0.1464
+  4         5.3405         0.0306
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -18176.9282 (s.e. 731.9520)
+Unconstrained log-likelihood (without tree): -4013.9641
+Number of free parameters (#branches + #model parameters): 303
+Akaike information criterion (AIC) score: 36959.8563
+Corrected Akaike information criterion (AICc) score: 37498.5230
+Bayesian information criterion (BIC) score: 38314.5086
+
+Total tree length (sum of branch lengths): 7.2692
+Sum of internal branch lengths: 3.3553 (46.1581% of tree length)
+
+WARNING: 17 near-zero internal branches (<0.0015) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase
+|
+|  +--uncultured_Psychrobacter_sp._1|WP_298906696.1|copper_resistance_system_multicopper_oxidase
++--| (82.7/100)
+|  +--Psychrobacter_maritimus_1|WP_201628412.1|copper_resistance_system_multicopper_oxidase
+|
+|        +--Psychrobacter_maritimus_2|WP_372828779.1|copper_resistance_system_multicopper_oxidase
+|     +--| (63.5/90)
+|     |  |  +--Psychrobacter_sp._M9-54-1|WP_200662746.1|copper_resistance_system_multicopper_oxidase
+|     |  +--| (90.1/100)
+|     |     +--Psychrobacter_sp._WY6|WP_284143884.1|multicopper_oxidase_domain-containing_protein
+|  +--| (82.3/87)
+|  |  +--Psychrobacter_sp._1|WP_372843729.1|copper_resistance_system_multicopper_oxidase
++--| (4/49)
+   |           +--Psychrobacter_sp._Ps6|WP_238036692.1|copper_resistance_system_multicopper_oxidase
+   |        +--| (56.8/96)
+   |        |  +--Psychrobacter_sp._Arc29|WP_371532333.1|copper_resistance_system_multicopper_oxidase
+   |     +--| (86.5/98)
+   |     |  +--Psychrobacter_sp._JCM_18901_1|WP_464753840.1|copper_resistance_system_multicopper_oxidase
+   |  +--| (33.9/83)
+   |  |  |                 +--Psychrobacter_sp._NG27|WP_198327676.1|copper_resistance_system_multicopper_oxidase
+   |  |  |              +--| (93.4/99)
+   |  |  |              |  +--Psychrobacter_sp._SWN149|WP_265090687.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           +--| (93.7/66)
+   |  |  |           |  |  +**Psychrobacter_sp._NG254|WP_320154178.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |  +--| (99.8/71)
+   |  |  |           |     |                                                                          +--Psychrobacter_immobilis_1|WP_201555270.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       +--| (23/40)
+   |  |  |           |     |                                                                       |  |        +--Psychrobacter_celer_1|WP_455705530.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       |  |     +--| (78.7/100)
+   |  |  |           |     |                                                                       |  |     |  +**Psychrobacter_maritimus_3|WP_201620353.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       |  |  +--| (79.7/77)
+   |  |  |           |     |                                                                       |  |  |  +--uncultured_Psychrobacter_sp._2|WP_289000163.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       |  +**| (0/37)
+   |  |  |           |     |                                                                       |     |  +--Psychrobacter_sp._H7-1|WP_201545234.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       |     +--| (9.8/35)
+   |  |  |           |     |                                                                       |        |  +--uncultured_Psychrobacter_sp._3|WP_289047145.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                       |        +--| (75.6/41)
+   |  |  |           |     |                                                                       |           +--Psychrobacter_immobilis_2|WP_201604737.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                    +--| (100/100)
+   |  |  |           |     |                                                                    |  +--Psychrobacter_sp._M4_1|WP_472781948.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                 +--| (85.2/92)
+   |  |  |           |     |                                                                 |  |     +**unclassified_Psychrobacter_2|WP_350655890.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                 |  |  +**| (0/46)
+   |  |  |           |     |                                                                 |  |  |  +--Psychrobacter_sp._P11G5|WP_068034901.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                                 |  +--| (86.6/98)
+   |  |  |           |     |                                                                 |     +--Psychrobacter_sp._P2G3|WP_068326517.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              +--| (39.2/45)
+   |  |  |           |     |                                                              |  |  +--uncultured_Psychrobacter_sp._7|WP_299185249.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |  +--| (100/100)
+   |  |  |           |     |                                                              |     |     +--uncultured_Psychrobacter_sp._8|WP_367103962.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |     |  +**| (0/48)
+   |  |  |           |     |                                                              |     |  |  |        +--uncultured_Psychrobacter_sp._10|WP_367109097.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |     |  |  |     +--| (89.7/86)
+   |  |  |           |     |                                                              |     |  |  |     |  +--Psychrobacter_sp._M4_2|WP_472781992.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |     |  |  |  +--| (77.1/62)
+   |  |  |           |     |                                                              |     |  |  |  |  +--uncultured_Psychrobacter_sp._13|WP_367111693.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |     |  |  +**| (0/33)
+   |  |  |           |     |                                                              |     |  |     +**uncultured_Psychrobacter_sp._11|WP_367106850.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |     +--| (87.8/90)
+   |  |  |           |     |                                                              |        |  +**Psychrobacter_sp._Cmf_22.2|WP_075103633.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                              |        +--| (99.6/100)
+   |  |  |           |     |                                                              |           +--Psychrobacter_sp._ENNN9_III|WP_319822887.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           +--| (94.4/71)
+   |  |  |           |     |                                                           |  |     +--uncultured_Psychrobacter_sp._14|WP_299069681.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  +--| (82/69)
+   |  |  |           |     |                                                           |  |  |  |        +**uncultured_Psychrobacter_sp._18|WP_298974489.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |     +--| (86.6/100)
+   |  |  |           |     |                                                           |  |  |  |     |  |  +--uncultured_Psychrobacter_sp._19|WP_298739300.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |     |  +--| (89.8/100)
+   |  |  |           |     |                                                           |  |  |  |     |     +**uncultured_Psychrobacter_sp._20|WP_299330535.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  +--| (83.6/69)
+   |  |  |           |     |                                                           |  |  |  |  |  |                    +--Psychrobacter_celer_4|WP_455706373.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |                 +--| (34.2/51)
+   |  |  |           |     |                                                           |  |  |  |  |  |                 |  +--Psychrobacter_sp._VH5|WP_430737341.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |              +--| (67.5/77)
+   |  |  |           |     |                                                           |  |  |  |  |  |              |  +--uncultured_Psychrobacter_sp._21|WP_288996651.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |           +--| (95/91)
+   |  |  |           |     |                                                           |  |  |  |  |  |           |  +--Psychrobacter_sp._A3|WP_274631640.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |        +--| (55.7/61)
+   |  |  |           |     |                                                           |  |  |  |  |  |        |  +--unclassified_Psychrobacter_6|WP_025647269.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |     +**| (0/50)
+   |  |  |           |     |                                                           |  |  |  |  |  |     |  +--Psychrobacter_sp._CAM01|WP_317053546.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |  +--| (94.2/98)
+   |  |  |           |     |                                                           |  |  |  |  |  |  |  |  +--uncultured_Psychrobacter_sp._22|WP_288999309.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  |  |  +--| (93.8/98)
+   |  |  |           |     |                                                           |  |  |  |  |  |  |     +--Psychrobacter_celer_5|WP_198336469.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  |  |  +--| (99.9/100)
+   |  |  |           |     |                                                           |  |  |  |  |     +--Psychrobacter_sp._Ps3|WP_238062109.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  |  |  +--| (100/100)
+   |  |  |           |     |                                                           |  |  |     +**Psychrobacter_submarinus_2|WP_201601002.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                           |  +--| (76.3/67)
+   |  |  |           |     |                                                           |     +--Psychrobacter_sp._AH5|WP_353104189.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                        +--| (80.7/53)
+   |  |  |           |     |                                                        |  +--Psychrobacter_celer_3|WP_334222014.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                     +--| (99.3/51)
+   |  |  |           |     |                                                     |  +--Psychrobacter_pacificensis_4|WP_430285161.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                  +--| (88.7/43)
+   |  |  |           |     |                                                  |  |  +--Psychrobacter_celer_2|WP_198336790.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                                  |  +**| (0/54)
+   |  |  |           |     |                                                  |     +**Psychrobacter_pacificensis_3|WP_223334656.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               +--| (94.2/45)
+   |  |  |           |     |                                               |  |        +--uncultured_Psychrobacter_sp._12|WP_289116019.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |     +--| (26.5/44)
+   |  |  |           |     |                                               |  |     |  +--Psychrobacter_glaciei_3|WP_240216656.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  +--| (94/57)
+   |  |  |           |     |                                               |  |  |  |  +--Psychrobacter_pacificensis_5|WP_212564402.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |  +--| (99.9/69)
+   |  |  |           |     |                                               |  |  |     |        +--uncultured_Psychrobacter_sp._15|WP_348654209.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |     |     +**| (0/13)
+   |  |  |           |     |                                               |  |  |     |     |  +--uncultured_Psychrobacter_sp._16|WP_300406665.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |     |  +**| (0/49)
+   |  |  |           |     |                                               |  |  |     |  |  +**Psychrobacter_4|WP_298980165.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |     +--| (97.8/65)
+   |  |  |           |     |                                               |  |  |        |           +--Psychrobacter_nivimaris_3|WP_201572231.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |        |        +--| (94.8/71)
+   |  |  |           |     |                                               |  |  |        |        |  +**Psychrobacter_3|WP_284719438.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |        |     +--| (32.3/65)
+   |  |  |           |     |                                               |  |  |        |     |  |  +--uncultured_Psychrobacter_sp._17|WP_299330080.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |        |     |  +**| (0/76)
+   |  |  |           |     |                                               |  |  |        |     |     +--Psychrobacter_sp._UBA3068|WP_286740907.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |        |  +--| (98.6/86)
+   |  |  |           |     |                                               |  |  |        |  |  +**Psychrobacter_submarinus_3|WP_438950592.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |        +--| (82.1/49)
+   |  |  |           |     |                                               |  |  |           |  +**Psychrobacter_submarinus_1|WP_201600875.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  |  |           +**| (0/64)
+   |  |  |           |     |                                               |  |  |              +--Psychrobacter_pacificensis_6|WP_474735469.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                               |  +**| (0/48)
+   |  |  |           |     |                                               |     +**unclassified_Psychrobacter_3|WP_025645679.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                            +--| (63/42)
+   |  |  |           |     |                                            |  +**Psychrobacter_sp._DD43|WP_201551691.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                         +--| (97.9/90)
+   |  |  |           |     |                                         |  +**Psychrobacter_sp._Pi2-51_2|WP_201593649.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                      +--| (97.5/92)
+   |  |  |           |     |                                      |  +--unclassified_Psychrobacter_4|WP_025653160.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                   +--| (97.8/98)
+   |  |  |           |     |                                   |  |     +--Psychrobacter_immobilis_4|WP_201582213.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                   |  |  +--| (75.6/86)
+   |  |  |           |     |                                   |  |  |  +--Psychrobacter_immobilis_5|WP_201567718.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                   |  +--| (81.5/96)
+   |  |  |           |     |                                   |     |  +--Psychrobacter_2|WP_201577598.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                   |     +--| (99.5/100)
+   |  |  |           |     |                                   |        +--Psychrobacter_sp._GW64-MNA-CIBAN-0177|WP_352287807.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                +--| (90.9/94)
+   |  |  |           |     |                                |  |     +--Psychrobacter_sp._DM4|WP_435979993.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                |  |  +--| (99.7/100)
+   |  |  |           |     |                                |  |  |  +--unclassified_Psychrobacter_5|WP_305899991.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                                |  +--| (94.9/100)
+   |  |  |           |     |                                |     +--Psychrobacter_sp._DM8|WP_435949448.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                             +--| (99.2/71)
+   |  |  |           |     |                             |  +--Psychrobacter_okhotskensis|WP_276529530.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                          +--| (92.8/59)
+   |  |  |           |     |                          |  |     +--Psychrobacter_sp._Pi2-51_1|WP_320157780.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                          |  |  +--| (74.8/90)
+   |  |  |           |     |                          |  |  |  |  +**Psychrobacter_sp._K31L|WP_323128914.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                          |  |  |  +--| (75.9/99)
+   |  |  |           |     |                          |  |  |     +--Psychrobacter_1|WP_413190037.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                          |  +--| (85.3/82)
+   |  |  |           |     |                          |     +--Psychrobacter_glaciei_2|WP_275691788.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                       +--| (96.3/70)
+   |  |  |           |     |                       |  |     +**uncultured_Psychrobacter_sp._6|WP_186475538.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                       |  |  +--| (79.5/96)
+   |  |  |           |     |                       |  |  |  +**Psychrobacter_pocilloporae|WP_284719828.1|multicopper_oxidase_domain-containing_protein
+   |  |  |           |     |                       |  +--| (48.2/92)
+   |  |  |           |     |                       |     |  +--uncultured_Psychrobacter_sp._9|WP_289116025.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                       |     +--| (97.4/100)
+   |  |  |           |     |                       |        +--Psychrobacter_sp._bablab_jr012|WP_228284712.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                    +--| (85.4/61)
+   |  |  |           |     |                    |  +--Psychrobacter_sp._JCM_18900_2|WP_201566452.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 +--| (96.2/50)
+   |  |  |           |     |                 |  |           +--uncultured_Psychrobacter_sp._4|WP_298810856.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |        +--| (88.3/99)
+   |  |  |           |     |                 |  |        |  |  +**uncultured_Psychrobacter_sp._5|WP_339343431.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |        |  +--| (98.5/100)
+   |  |  |           |     |                 |  |        |     +**Psychrobacter_sp._UBA3480_1|WP_296206776.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |     +--| (81.6/46)
+   |  |  |           |     |                 |  |     |  |        +--Psychrobacter_nivimaris_2|WP_320157866.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |     |  |     +**| (0/98)
+   |  |  |           |     |                 |  |     |  |     |  +--Psychrobacter_immobilis_3|WP_320157998.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |     |  |  +--| (79.5/52)
+   |  |  |           |     |                 |  |     |  |  |  +--Psychrobacter_proteolyticus_1|WP_425355847.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |     |  +--| (76.6/49)
+   |  |  |           |     |                 |  |     |     +--Psychrobacter_sp._APC_3281|WP_290177258.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  +**| (0/22)
+   |  |  |           |     |                 |  |  |  |              +--Psychrobacter_sp._SZ93C1|WP_197102965.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  |           +--| (63.9/85)
+   |  |  |           |     |                 |  |  |  |           |  +--Psychrobacter_sp._NG25|WP_320108710.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  |        +**| (0/54)
+   |  |  |           |     |                 |  |  |  |        |  +--Psychrobacter_fjordensis|WP_201551533.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  |     +--| (82.2/48)
+   |  |  |           |     |                 |  |  |  |     |  |  +--Psychrobacter_sp._TB55-MNA-CIBAN-0194|WP_352259758.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  |     |  +--| (73.8/91)
+   |  |  |           |     |                 |  |  |  |     |     +--Psychrobacter_sp._UBA3480_2|WP_296211063.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  |  +--| (93.1/46)
+   |  |  |           |     |                 |  |  |  |  |  +--Psychrobacter_sp._TPE_89C|WP_465183798.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  |  |  +--| (85.2/41)
+   |  |  |           |     |                 |  |  |     +--Psychrobacter_proteolyticus_2|WP_347162359.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |                 |  +--| (76.1/34)
+   |  |  |           |     |                 |     +--Psychrobacter_sp._R86515|WP_379544292.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              +--| (86.3/45)
+   |  |  |           |     |              |  |        +**Psychrobacter_sp._Pi2-1|WP_320157573.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |  |     +--| (84.4/97)
+   |  |  |           |     |              |  |     |  |  +--Psychrobacter_glaciei_1|WP_474738338.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |  |     |  +--| (94.5/97)
+   |  |  |           |     |              |  |     |     +**Psychrobacter_sp._2|WP_474726537.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |  |  +--| (86.3/75)
+   |  |  |           |     |              |  |  |  |  +--Psychrobacter_sp._APC_3279|WP_290176533.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |  |  |  +**| (0/36)
+   |  |  |           |     |              |  |  |     +--Psychrobacter_sp._Ps2|WP_269117530.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |  +--| (75.6/87)
+   |  |  |           |     |              |     |  +--Psychrobacter_noctis|WP_224737936.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |              |     +**| (0/56)
+   |  |  |           |     |              |        +--Psychrobacter_sp._C_20.9|WP_075107101.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |           +--| (78.4/38)
+   |  |  |           |     |           |  |  +**Psychrobacter_sp._JCM_18901_2|WP_464754084.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |           |  +--| (98.7/100)
+   |  |  |           |     |           |     +--Psychrobacter_sp._MES7-P7E|WP_102094145.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |        +--| (74.8/42)
+   |  |  |           |     |        |  |     +--Psychrobacter_nivimaris_1|WP_160022867.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |        |  |  +--| (75.6/62)
+   |  |  |           |     |        |  |  |  |  +**Psychrobacter_sp._ER1|WP_420230577.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |        |  |  |  +--| (99.5/100)
+   |  |  |           |     |        |  |  |     +--Psychrobacter_sp._Pi2-52|WP_277350418.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |        |  +**| (0/43)
+   |  |  |           |     |        |     +--Psychrobacter_sp._P11G3_1|WP_057760058.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |     +--| (95.1/49)
+   |  |  |           |     |     |  +--Psychrobacter_sp._BI730|WP_218870164.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     |  +--| (92.4/50)
+   |  |  |           |     |  |  +--unclassified_Psychrobacter_1|WP_320158633.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |     +--| (97.4/71)
+   |  |  |           |        |  +--Psychrobacter_sp._NZS113|WP_320158565.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |        +--| (96.9/97)
+   |  |  |           |           |  +--Psychrobacter_sp._JCM_18900_1|WP_201569653.1|copper_resistance_system_multicopper_oxidase
+   |  |  |           |           +--| (89.6/100)
+   |  |  |           |              +--Psychrobacter_sp._P11G3_2|WP_057758566.1|copper_resistance_system_multicopper_oxidase
+   |  |  |        +--| (96.6/73)
+   |  |  |        |  +--Psychrobacter_piscatorii|WP_058025816.1|copper_resistance_system_multicopper_oxidase
+   |  |  |     +--| (72.5/98)
+   |  |  |     |  +---Psychrobacter_sp._CAL346-MNA-CIBAN-0220|WP_350560759.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  +--| (78/91)
+   |  |  |  |  |          +--Psychrobacter_sp._CX14|WP_486543076.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |  |      +---| (100/100)
+   |  |  |  |  |      |   +--Psychrobacter_sp._CX16|WP_486552851.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |  |  +---| (99.2/100)
+   |  |  |  |  |  |   |  +--Psychrobacter_sp._CX97|WP_486529742.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |  |  |   +--| (99.9/100)
+   |  |  |  |  |  |      |  +--Psychrobacter_sp._CX5|WP_491185048.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |  |  |      +--| (85/100)
+   |  |  |  |  |  |         +--Psychrobacter_sp._CX90|WP_486550632.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |  +--| (95.8/99)
+   |  |  |  |     |                 +----------Paraperlucidibaca_sp.|WP_487990687.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |     +-----------------| (100/100)
+   |  |  |  |                       |             +-----Thiobacillus_sp.|WP_296821200.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          +--| (6.5/39)
+   |  |  |  |                       |          |  |               +-------Ketobacter_alkanivorans|WP_101892447.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  |            +--| (86.6/100)
+   |  |  |  |                       |          |  |            |  +----Sediminihaliea_albiluteola|WP_182169047.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  |        +---| (99.9/100)
+   |  |  |  |                       |          |  |        |   |      +--Thalassolituus_oleivorans|WP_225666578.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  |        |   +------| (100/100)
+   |  |  |  |                       |          |  |        |          +**unclassified_Bermanella|WP_396586513.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  |     +--| (87.8/100)
+   |  |  |  |                       |          |  |     |  +--------Vibrio_alginolyticus|WP_269128784.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  |  +--| (96.9/100)
+   |  |  |  |                       |          |  |  |  +-----------Gallaecimonas_kandeliae|WP_301495760.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |  +--| (98.1/99)
+   |  |  |  |                       |          |     |   +------Methylophaga_sp._OBS4|WP_266326050.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       |          |     +---| (99.1/100)
+   |  |  |  |                       |          |         +------------Methylophaga_sp._OBS3|WP_266278385.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                       +----------| (100/100)
+   |  |  |  |                                  |     +------Rhodanobacter_sp._G2-10|WP_473682845.1|copper_resistance_system_multicopper_oxidase
+   |  |  |  |                                  +-----| (99.6/100)
+   |  |  |  |                                        +----------Oleiagrimonas_sp._MCCC_1A03011|WP_113065197.1|copper_resistance_system_multicopper_oxidase
+   |  |  +--| (76.3/81)
+   |  |     |  +--Psychrobacter_pacificensis_1|WP_223332682.1|copper_resistance_system_multicopper_oxidase
+   |  |     +--| (97.2/100)
+   |  |        +--Psychrobacter_pacificensis_2|WP_277078041.1|copper_resistance_system_multicopper_oxidase
+   +--| (86.8/90)
+      +--Psychrobacter_sp._16-MNA-CIBAN-0192|WP_352339194.1|copper_resistance_system_multicopper_oxidase
+
+Tree in newick format:
+
+(Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase:0.0087816049,(uncultured_Psychrobacter_sp._1|WP_298906696.1|copper_resistance_system_multicopper_oxidase:0.0163495288,Psychrobacter_maritimus_1|WP_201628412.1|copper_resistance_system_multicopper_oxidase:0.0095938465)82.7/100:0.0092973223,(((Psychrobacter_maritimus_2|WP_372828779.1|copper_resistance_system_multicopper_oxidase:0.0077445828,(Psychrobacter_sp._M9-54-1|WP_200662746.1|copper_resistance_system_multicopper_oxidase:0.0179734374,Psychrobacter_sp._WY6|WP_284143884.1|multicopper_oxidase_domain-containing_protein:0.0268677264)90.1/100:0.0152168920)63.5/90:0.0038396608,Psychrobacter_sp._1|WP_372843729.1|copper_resistance_system_multicopper_oxidase:0.0240256512)82.3/87:0.0044438390,((((Psychrobacter_sp._Ps6|WP_238036692.1|copper_resistance_system_multicopper_oxidase:0.0032188546,Psychrobacter_sp._Arc29|WP_371532333.1|copper_resistance_system_multicopper_oxidase:0.0022667666)56.8/96:0.0062421897,Psychrobacter_sp._JCM_18901_1|WP_464753840.1|copper_resistance_system_multicopper_oxidase:0.0052214433)86.5/98:0.0064582684,((((((Psychrobacter_sp._NG27|WP_198327676.1|copper_resistance_system_multicopper_oxidase:0.0204059753,Psychrobacter_sp._SWN149|WP_265090687.1|copper_resistance_system_multicopper_oxidase:0.0080995529)93.4/99:0.0093938903,(Psychrobacter_sp._NG254|WP_320154178.1|copper_resistance_system_multicopper_oxidase:0.0000029828,(((((((((((((((((((((((((Psychrobacter_immobilis_1|WP_201555270.1|copper_resistance_system_multicopper_oxidase:0.0189618381,(((Psychrobacter_celer_1|WP_455705530.1|copper_resistance_system_multicopper_oxidase:0.0018652225,Psychrobacter_maritimus_3|WP_201620353.1|copper_resistance_system_multicopper_oxidase:0.0000009989)78.7/100:0.0018684631,uncultured_Psychrobacter_sp._2|WP_289000163.1|copper_resistance_system_multicopper_oxidase:0.0018661187)79.7/77:0.0018322308,(Psychrobacter_sp._H7-1|WP_201545234.1|copper_resistance_system_multicopper_oxidase:0.0037216612,(uncultured_Psychrobacter_sp._3|WP_289047145.1|copper_resistance_system_multicopper_oxidase:0.0134572733,Psychrobacter_immobilis_2|WP_201604737.1|copper_resistance_system_multicopper_oxidase:0.0018611731)75.6/41:0.0019175108)9.8/35:0.0018714232)0/37:0.0000020392)23/40:0.0023160870,Psychrobacter_sp._M4_1|WP_472781948.1|copper_resistance_system_multicopper_oxidase:0.0076480963)100/100:0.0312251436,((unclassified_Psychrobacter_2|WP_350655890.1|copper_resistance_system_multicopper_oxidase:0.0000009989,Psychrobacter_sp._P11G5|WP_068034901.1|copper_resistance_system_multicopper_oxidase:0.0018675337)0/46:0.0000009989,Psychrobacter_sp._P2G3|WP_068326517.1|copper_resistance_system_multicopper_oxidase:0.0037394521)86.6/98:0.0056494196)85.2/92:0.0057127903,(uncultured_Psychrobacter_sp._7|WP_299185249.1|copper_resistance_system_multicopper_oxidase:0.0251244773,((uncultured_Psychrobacter_sp._8|WP_367103962.1|copper_resistance_system_multicopper_oxidase:0.0037503877,(((uncultured_Psychrobacter_sp._10|WP_367109097.1|copper_resistance_system_multicopper_oxidase:0.0018838801,Psychrobacter_sp._M4_2|WP_472781992.1|copper_resistance_system_multicopper_oxidase:0.0077059985)89.7/86:0.0037738082,uncultured_Psychrobacter_sp._13|WP_367111693.1|copper_resistance_system_multicopper_oxidase:0.0037570285)77.1/62:0.0018782749,uncultured_Psychrobacter_sp._11|WP_367106850.1|copper_resistance_system_multicopper_oxidase:0.0000009989)0/33:0.0000028418)0/48:0.0000021577,(Psychrobacter_sp._Cmf_22.2|WP_075103633.1|copper_resistance_system_multicopper_oxidase:0.0000024579,Psychrobacter_sp._ENNN9_III|WP_319822887.1|copper_resistance_system_multicopper_oxidase:0.0043183869)99.6/100:0.0230899854)87.8/90:0.0103282105)100/100:0.0438656564)39.2/45:0.0125252731,((uncultured_Psychrobacter_sp._14|WP_299069681.1|copper_resistance_system_multicopper_oxidase:0.0215545127,(((uncultured_Psychrobacter_sp._18|WP_298974489.1|copper_resistance_system_multicopper_oxidase:0.0000009989,(uncultured_Psychrobacter_sp._19|WP_298739300.1|copper_resistance_system_multicopper_oxidase:0.0038648285,uncultured_Psychrobacter_sp._20|WP_299330535.1|copper_resistance_system_multicopper_oxidase:0.0000009989)89.8/100:0.0037978081)86.6/100:0.0038628981,(((((((Psychrobacter_celer_4|WP_455706373.1|copper_resistance_system_multicopper_oxidase:0.0101954881,Psychrobacter_sp._VH5|WP_430737341.1|copper_resistance_system_multicopper_oxidase:0.0060330645)34.2/51:0.0055391415,uncultured_Psychrobacter_sp._21|WP_288996651.1|copper_resistance_system_multicopper_oxidase:0.0094330889)67.5/77:0.0044108984,Psychrobacter_sp._A3|WP_274631640.1|copper_resistance_system_multicopper_oxidase:0.0254091220)95/91:0.0106036704,unclassified_Psychrobacter_6|WP_025647269.1|copper_resistance_system_multicopper_oxidase:0.0206131320)55.7/61:0.0066303287,Psychrobacter_sp._CAM01|WP_317053546.1|copper_resistance_system_multicopper_oxidase:0.0343737364)0/50:0.0000020124,(uncultured_Psychrobacter_sp._22|WP_288999309.1|copper_resistance_system_multicopper_oxidase:0.0077106563,Psychrobacter_celer_5|WP_198336469.1|copper_resistance_system_multicopper_oxidase:0.0134812205)93.8/98:0.0095706686)94.2/98:0.0117367775,Psychrobacter_sp._Ps3|WP_238062109.1|copper_resistance_system_multicopper_oxidase:0.0097124854)99.9/100:0.0299796464)83.6/69:0.0038067165,Psychrobacter_submarinus_2|WP_201601002.1|copper_resistance_system_multicopper_oxidase:0.0000027752)100/100:0.0656962223)82/69:0.0351321484,Psychrobacter_sp._AH5|WP_353104189.1|copper_resistance_system_multicopper_oxidase:0.0996150580)76.3/67:0.0167398640)94.4/71:0.0172003414,Psychrobacter_celer_3|WP_334222014.1|copper_resistance_system_multicopper_oxidase:0.0173464648)80.7/53:0.0064731550,Psychrobacter_pacificensis_4|WP_430285161.1|copper_resistance_system_multicopper_oxidase:0.0202408686)99.3/51:0.0208579227,(Psychrobacter_celer_2|WP_198336790.1|copper_resistance_system_multicopper_oxidase:0.0093704401,Psychrobacter_pacificensis_3|WP_223334656.1|copper_resistance_system_multicopper_oxidase:0.0000009989)0/54:0.0000024305)88.7/43:0.0037072228,(((uncultured_Psychrobacter_sp._12|WP_289116019.1|copper_resistance_system_multicopper_oxidase:0.0023128698,Psychrobacter_glaciei_3|WP_240216656.1|copper_resistance_system_multicopper_oxidase:0.0209579170)26.5/44:0.0019138144,(Psychrobacter_pacificensis_5|WP_212564402.1|copper_resistance_system_multicopper_oxidase:0.0058638320,(((uncultured_Psychrobacter_sp._15|WP_348654209.1|copper_resistance_system_multicopper_oxidase:0.0019197272,uncultured_Psychrobacter_sp._16|WP_300406665.1|copper_resistance_system_multicopper_oxidase:0.0019111352)0/13:0.0000009989,Psychrobacter_4|WP_298980165.1|copper_resistance_system_multicopper_oxidase:0.0000009989)0/49:0.0000022737,((((Psychrobacter_nivimaris_3|WP_201572231.1|copper_resistance_system_multicopper_oxidase:0.0137632247,Psychrobacter_3|WP_284719438.1|copper_resistance_system_multicopper_oxidase:0.0000024795)94.8/71:0.0057619381,(uncultured_Psychrobacter_sp._17|WP_299330080.1|copper_resistance_system_multicopper_oxidase:0.0057801367,Psychrobacter_sp._UBA3068|WP_286740907.1|copper_resistance_system_multicopper_oxidase:0.0194324478)0/76:0.0000023069)32.3/65:0.0077594522,Psychrobacter_submarinus_3|WP_438950592.1|copper_resistance_system_multicopper_oxidase:0.0000029216)98.6/86:0.0115182235,(Psychrobacter_submarinus_1|WP_201600875.1|copper_resistance_system_multicopper_oxidase:0.0000009989,Psychrobacter_pacificensis_6|WP_474735469.1|copper_resistance_system_multicopper_oxidase:0.0018915011)0/64:0.0000022650)82.1/49:0.0018851064)97.8/65:0.0133399757)99.9/69:0.0217667746)94/57:0.0070536150,unclassified_Psychrobacter_3|WP_025645679.1|copper_resistance_system_multicopper_oxidase:0.0000027663)0/48:0.0000020065)94.2/45:0.0077616548,Psychrobacter_sp._DD43|WP_201551691.1|copper_resistance_system_multicopper_oxidase:0.0000009989)63/42:0.0038632866,Psychrobacter_sp._Pi2-51_2|WP_201593649.1|copper_resistance_system_multicopper_oxidase:0.0000022660)97.9/90:0.0288450234,unclassified_Psychrobacter_4|WP_025653160.1|copper_resistance_system_multicopper_oxidase:0.0109384493)97.5/92:0.0201776603,((Psychrobacter_immobilis_4|WP_201582213.1|copper_resistance_system_multicopper_oxidase:0.0038869922,Psychrobacter_immobilis_5|WP_201567718.1|copper_resistance_system_multicopper_oxidase:0.0193619866)75.6/86:0.0051542612,(Psychrobacter_2|WP_201577598.1|copper_resistance_system_multicopper_oxidase:0.0030983268,Psychrobacter_sp._GW64-MNA-CIBAN-0177|WP_352287807.1|copper_resistance_system_multicopper_oxidase:0.0060734537)99.5/100:0.0300161001)81.5/96:0.0189408749)97.8/98:0.0258269510,((Psychrobacter_sp._DM4|WP_435979993.1|copper_resistance_system_multicopper_oxidase:0.0258547434,unclassified_Psychrobacter_5|WP_305899991.1|copper_resistance_system_multicopper_oxidase:0.0249121474)99.7/100:0.0422860049,Psychrobacter_sp._DM8|WP_435949448.1|copper_resistance_system_multicopper_oxidase:0.0456712167)94.9/100:0.0211572260)90.9/94:0.0131567856,Psychrobacter_okhotskensis|WP_276529530.1|copper_resistance_system_multicopper_oxidase:0.0381280112)99.2/71:0.0289600835,((Psychrobacter_sp._Pi2-51_1|WP_320157780.1|copper_resistance_system_multicopper_oxidase:0.0037357304,(Psychrobacter_sp._K31L|WP_323128914.1|copper_resistance_system_multicopper_oxidase:0.0000009989,Psychrobacter_1|WP_413190037.1|copper_resistance_system_multicopper_oxidase:0.0018648182)75.9/99:0.0018760164)74.8/90:0.0019373549,Psychrobacter_glaciei_2|WP_275691788.1|copper_resistance_system_multicopper_oxidase:0.0153154276)85.3/82:0.0057037558)92.8/59:0.0121975765,((uncultured_Psychrobacter_sp._6|WP_186475538.1|copper_resistance_system_multicopper_oxidase:0.0000025551,Psychrobacter_pocilloporae|WP_284719828.1|multicopper_oxidase_domain-containing_protein:0.0000009989)79.5/96:0.0025639382,(uncultured_Psychrobacter_sp._9|WP_289116025.1|copper_resistance_system_multicopper_oxidase:0.0039294814,Psychrobacter_sp._bablab_jr012|WP_228284712.1|copper_resistance_system_multicopper_oxidase:0.0268627941)97.4/100:0.0165789973)48.2/92:0.0119421565)96.3/70:0.0126061214,Psychrobacter_sp._JCM_18900_2|WP_201566452.1|copper_resistance_system_multicopper_oxidase:0.0047042277)85.4/61:0.0047207944,((((uncultured_Psychrobacter_sp._4|WP_298810856.1|copper_resistance_system_multicopper_oxidase:0.0018627323,(uncultured_Psychrobacter_sp._5|WP_339343431.1|copper_resistance_system_multicopper_oxidase:0.0000009989,Psychrobacter_sp._UBA3480_1|WP_296206776.1|copper_resistance_system_multicopper_oxidase:0.0000009989)98.5/100:0.0095461554)88.3/99:0.0037837096,(((Psychrobacter_nivimaris_2|WP_320157866.1|copper_resistance_system_multicopper_oxidase:0.0018702471,Psychrobacter_immobilis_3|WP_320157998.1|copper_resistance_system_multicopper_oxidase:0.0056320224)0/98:0.0000022275,Psychrobacter_proteolyticus_1|WP_425355847.1|copper_resistance_system_multicopper_oxidase:0.0113454903)79.5/52:0.0037570809,Psychrobacter_sp._APC_3281|WP_290177258.1|copper_resistance_system_multicopper_oxidase:0.0018776788)76.6/49:0.0018879258)81.6/46:0.0018720606,(((((Psychrobacter_sp._SZ93C1|WP_197102965.1|copper_resistance_system_multicopper_oxidase:0.0137784385,Psychrobacter_sp._NG25|WP_320108710.1|copper_resistance_system_multicopper_oxidase:0.0208923982)63.9/85:0.0115227582,Psychrobacter_fjordensis|WP_201551533.1|copper_resistance_system_multicopper_oxidase:0.0128856505)0/54:0.0002482468,(Psychrobacter_sp._TB55-MNA-CIBAN-0194|WP_352259758.1|copper_resistance_system_multicopper_oxidase:0.0222463095,Psychrobacter_sp._UBA3480_2|WP_296211063.1|copper_resistance_system_multicopper_oxidase:0.0050014584)73.8/91:0.0121386731)82.2/48:0.0111550676,Psychrobacter_sp._TPE_89C|WP_465183798.1|copper_resistance_system_multicopper_oxidase:0.0161046713)93.1/46:0.0088566676,Psychrobacter_proteolyticus_2|WP_347162359.1|copper_resistance_system_multicopper_oxidase:0.0096762794)85.2/41:0.0037792523)0/22:0.0000024362,Psychrobacter_sp._R86515|WP_379544292.1|copper_resistance_system_multicopper_oxidase:0.0133393709)76.1/34:0.0018567404)96.2/50:0.0076325509,(((Psychrobacter_sp._Pi2-1|WP_320157573.1|copper_resistance_system_multicopper_oxidase:0.0000027981,(Psychrobacter_glaciei_1|WP_474738338.1|copper_resistance_system_multicopper_oxidase:0.0037478406,Psychrobacter_sp._2|WP_474726537.1|copper_resistance_system_multicopper_oxidase:0.0000020220)94.5/97:0.0056420524)84.4/97:0.0018699288,(Psychrobacter_sp._APC_3279|WP_290176533.1|copper_resistance_system_multicopper_oxidase:0.0037378082,Psychrobacter_sp._Ps2|WP_269117530.1|copper_resistance_system_multicopper_oxidase:0.0094699658)0/36:0.0000027790)86.3/75:0.0018667539,(Psychrobacter_noctis|WP_224737936.1|copper_resistance_system_multicopper_oxidase:0.0074942237,Psychrobacter_sp._C_20.9|WP_075107101.1|copper_resistance_system_multicopper_oxidase:0.0190396674)0/56:0.0000028338)75.6/87:0.0018707322)86.3/45:0.0037815288,(Psychrobacter_sp._JCM_18901_2|WP_464754084.1|copper_resistance_system_multicopper_oxidase:0.0000027707,Psychrobacter_sp._MES7-P7E|WP_102094145.1|copper_resistance_system_multicopper_oxidase:0.0037529479)98.7/100:0.0113850054)78.4/38:0.0018195473,((Psychrobacter_nivimaris_1|WP_160022867.1|copper_resistance_system_multicopper_oxidase:0.0037946618,(Psychrobacter_sp._ER1|WP_420230577.1|copper_resistance_system_multicopper_oxidase:0.0000009989,Psychrobacter_sp._Pi2-52|WP_277350418.1|copper_resistance_system_multicopper_oxidase:0.0018572261)99.5/100:0.0131056563)75.6/62:0.0018665511,Psychrobacter_sp._P11G3_1|WP_057760058.1|copper_resistance_system_multicopper_oxidase:0.0018662172)0/43:0.0000025720)74.8/42:0.0018789680,Psychrobacter_sp._BI730|WP_218870164.1|copper_resistance_system_multicopper_oxidase:0.0093899937)95.1/49:0.0119637465,unclassified_Psychrobacter_1|WP_320158633.1|copper_resistance_system_multicopper_oxidase:0.0168790885)92.4/50:0.0102889302,(Psychrobacter_sp._NZS113|WP_320158565.1|copper_resistance_system_multicopper_oxidase:0.0086230644,(Psychrobacter_sp._JCM_18900_1|WP_201569653.1|copper_resistance_system_multicopper_oxidase:0.0033924687,Psychrobacter_sp._P11G3_2|WP_057758566.1|copper_resistance_system_multicopper_oxidase:0.0022177055)89.6/100:0.0067633849)96.9/97:0.0143544153)97.4/71:0.0172749182)99.8/71:0.0338255690)93.7/66:0.0131879682,Psychrobacter_piscatorii|WP_058025816.1|copper_resistance_system_multicopper_oxidase:0.0162732871)96.6/73:0.0252705802,Psychrobacter_sp._CAL346-MNA-CIBAN-0220|WP_350560759.1|copper_resistance_system_multicopper_oxidase:0.1218445169)72.5/98:0.0142635237,(((Psychrobacter_sp._CX14|WP_486543076.1|copper_resistance_system_multicopper_oxidase:0.0019535650,Psychrobacter_sp._CX16|WP_486552851.1|copper_resistance_system_multicopper_oxidase:0.0060373982)100/100:0.1305747350,(Psychrobacter_sp._CX97|WP_486529742.1|copper_resistance_system_multicopper_oxidase:0.0167742809,(Psychrobacter_sp._CX5|WP_491185048.1|copper_resistance_system_multicopper_oxidase:0.0342537029,Psychrobacter_sp._CX90|WP_486550632.1|copper_resistance_system_multicopper_oxidase:0.0480265957)85/100:0.0158010690)99.9/100:0.0934061451)99.2/100:0.1168887816,(Paraperlucidibaca_sp.|WP_487990687.1|copper_resistance_system_multicopper_oxidase:0.3149851851,((Thiobacillus_sp.|WP_296821200.1|copper_resistance_system_multicopper_oxidase:0.1651038465,(((((Ketobacter_alkanivorans|WP_101892447.1|copper_resistance_system_multicopper_oxidase:0.2157444164,Sediminihaliea_albiluteola|WP_182169047.1|copper_resistance_system_multicopper_oxidase:0.1441444445)86.6/100:0.0511112980,(Thalassolituus_oleivorans|WP_225666578.1|copper_resistance_system_multicopper_oxidase:0.0033689114,unclassified_Bermanella|WP_396586513.1|copper_resistance_system_multicopper_oxidase:0.0000024795)100/100:0.2117538274)99.9/100:0.1310372253,Vibrio_alginolyticus|WP_269128784.1|copper_resistance_system_multicopper_oxidase:0.2542871744)87.8/100:0.0593425090,Gallaecimonas_kandeliae|WP_301495760.1|copper_resistance_system_multicopper_oxidase:0.3414518577)96.9/100:0.0818272290,(Methylophaga_sp._OBS4|WP_266326050.1|copper_resistance_system_multicopper_oxidase:0.1938391028,Methylophaga_sp._OBS3|WP_266278385.1|copper_resistance_system_multicopper_oxidase:0.3716259397)99.1/100:0.1282313653)98.1/99:0.0655456411)6.5/39:0.0478458064,(Rhodanobacter_sp._G2-10|WP_473682845.1|copper_resistance_system_multicopper_oxidase:0.2114892167,Oleiagrimonas_sp._MCCC_1A03011|WP_113065197.1|copper_resistance_system_multicopper_oxidase:0.2982156975)99.6/100:0.1615791988)100/100:0.3116182486)100/100:0.5021331029)95.8/99:0.0821894651)78/91:0.0112920703,(Psychrobacter_pacificensis_1|WP_223332682.1|copper_resistance_system_multicopper_oxidase:0.0059824330,Psychrobacter_pacificensis_2|WP_277078041.1|copper_resistance_system_multicopper_oxidase:0.0105877821)97.2/100:0.0160809467)76.3/81:0.0163310220)33.9/83:0.0102561406,Psychrobacter_sp._16-MNA-CIBAN-0192|WP_352339194.1|copper_resistance_system_multicopper_oxidase:0.0247717486)86.8/90:0.0043407667)4/49:0.0021466907);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -18178.595473
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase
+|
+|     +--uncultured_Psychrobacter_sp._1|WP_298906696.1|copper_resistance_system_multicopper_oxidase
+|  +--| (100)
+|  |  +--Psychrobacter_maritimus_1|WP_201628412.1|copper_resistance_system_multicopper_oxidase
++--| (50)
+|  |     +--Psychrobacter_maritimus_2|WP_372828779.1|copper_resistance_system_multicopper_oxidase
+|  |  +--| (90)
+|  |  |  |  +--Psychrobacter_sp._M9-54-1|WP_200662746.1|copper_resistance_system_multicopper_oxidase
+|  |  |  +--| (100)
+|  |  |     +--Psychrobacter_sp._WY6|WP_284143884.1|multicopper_oxidase_domain-containing_protein
+|  +--| (87)
+|     +--Psychrobacter_sp._1|WP_372843729.1|copper_resistance_system_multicopper_oxidase
+|
+|           +--Psychrobacter_sp._Ps6|WP_238036692.1|copper_resistance_system_multicopper_oxidase
+|        +--| (96)
+|        |  +--Psychrobacter_sp._Arc29|WP_371532333.1|copper_resistance_system_multicopper_oxidase
+|     +--| (98)
+|     |  +--Psychrobacter_sp._JCM_18901_1|WP_464753840.1|copper_resistance_system_multicopper_oxidase
+|  +--| (83)
+|  |  |                 +--Psychrobacter_sp._NG27|WP_198327676.1|copper_resistance_system_multicopper_oxidase
+|  |  |              +--| (99)
+|  |  |              |  +--Psychrobacter_sp._SWN149|WP_265090687.1|copper_resistance_system_multicopper_oxidase
+|  |  |           +--| (66)
+|  |  |           |  |  +--Psychrobacter_sp._NG254|WP_320154178.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |  +--| (71)
+|  |  |           |     |                                                                       +--Psychrobacter_immobilis_1|WP_201555270.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    +--| (59)
+|  |  |           |     |                                                                    |  |              +--Psychrobacter_celer_1|WP_455705530.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    |  |           +--| (100)
+|  |  |           |     |                                                                    |  |           |  +--Psychrobacter_maritimus_3|WP_201620353.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    |  |        +--| (77)
+|  |  |           |     |                                                                    |  |        |  +--uncultured_Psychrobacter_sp._2|WP_289000163.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    |  |     +--| (47)
+|  |  |           |     |                                                                    |  |     |  +--Psychrobacter_sp._H7-1|WP_201545234.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    |  |  +--| (31)
+|  |  |           |     |                                                                    |  |  |  +--Psychrobacter_immobilis_2|WP_201604737.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                    |  +--| (54)
+|  |  |           |     |                                                                    |     +--Psychrobacter_sp._M4_1|WP_472781948.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                                 +--| (100)
+|  |  |           |     |                                                                 |  +--uncultured_Psychrobacter_sp._3|WP_289047145.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                              +--| (92)
+|  |  |           |     |                                                              |  |     +--unclassified_Psychrobacter_2|WP_350655890.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                              |  |  +--| (54)
+|  |  |           |     |                                                              |  |  |  +--Psychrobacter_sp._P2G3|WP_068326517.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                              |  +--| (98)
+|  |  |           |     |                                                              |     +--Psychrobacter_sp._P11G5|WP_068034901.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           +--| (45)
+|  |  |           |     |                                                           |  |  +--uncultured_Psychrobacter_sp._7|WP_299185249.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |  +--| (100)
+|  |  |           |     |                                                           |     |     +--uncultured_Psychrobacter_sp._8|WP_367103962.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |     |  +--| (48)
+|  |  |           |     |                                                           |     |  |  |        +--uncultured_Psychrobacter_sp._10|WP_367109097.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |     |  |  |     +--| (86)
+|  |  |           |     |                                                           |     |  |  |     |  +--Psychrobacter_sp._M4_2|WP_472781992.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |     |  |  |  +--| (62)
+|  |  |           |     |                                                           |     |  |  |  |  +--uncultured_Psychrobacter_sp._13|WP_367111693.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |     |  |  +--| (33)
+|  |  |           |     |                                                           |     |  |     +--uncultured_Psychrobacter_sp._11|WP_367106850.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |     +--| (90)
+|  |  |           |     |                                                           |        |  +--Psychrobacter_sp._Cmf_22.2|WP_075103633.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                           |        +--| (100)
+|  |  |           |     |                                                           |           +--Psychrobacter_sp._ENNN9_III|WP_319822887.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        +--| (71)
+|  |  |           |     |                                                        |  |     +--uncultured_Psychrobacter_sp._14|WP_299069681.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  +--| (69)
+|  |  |           |     |                                                        |  |  |  |        +--uncultured_Psychrobacter_sp._18|WP_298974489.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |     +--| (100)
+|  |  |           |     |                                                        |  |  |  |     |  |  +--uncultured_Psychrobacter_sp._19|WP_298739300.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |     |  +--| (100)
+|  |  |           |     |                                                        |  |  |  |     |     +--uncultured_Psychrobacter_sp._20|WP_299330535.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  +--| (69)
+|  |  |           |     |                                                        |  |  |  |  |  |                    +--Psychrobacter_celer_4|WP_455706373.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |                 +--| (51)
+|  |  |           |     |                                                        |  |  |  |  |  |                 |  +--Psychrobacter_sp._VH5|WP_430737341.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |              +--| (77)
+|  |  |           |     |                                                        |  |  |  |  |  |              |  +--uncultured_Psychrobacter_sp._21|WP_288996651.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |           +--| (91)
+|  |  |           |     |                                                        |  |  |  |  |  |           |  +--Psychrobacter_sp._A3|WP_274631640.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |        +--| (61)
+|  |  |           |     |                                                        |  |  |  |  |  |        |  +--unclassified_Psychrobacter_6|WP_025647269.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |     +--| (50)
+|  |  |           |     |                                                        |  |  |  |  |  |     |  +--Psychrobacter_sp._CAM01|WP_317053546.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |  +--| (98)
+|  |  |           |     |                                                        |  |  |  |  |  |  |  |  +--uncultured_Psychrobacter_sp._22|WP_288999309.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  |  |  +--| (98)
+|  |  |           |     |                                                        |  |  |  |  |  |  |     +--Psychrobacter_celer_5|WP_198336469.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  |  |  +--| (100)
+|  |  |           |     |                                                        |  |  |  |  |     +--Psychrobacter_sp._Ps3|WP_238062109.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  |  |  +--| (100)
+|  |  |           |     |                                                        |  |  |     +--Psychrobacter_submarinus_2|WP_201601002.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                        |  +--| (67)
+|  |  |           |     |                                                        |     +--Psychrobacter_sp._AH5|WP_353104189.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                     +--| (53)
+|  |  |           |     |                                                     |  +--Psychrobacter_celer_3|WP_334222014.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                                  +--| (51)
+|  |  |           |     |                                                  |  +--Psychrobacter_pacificensis_4|WP_430285161.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                               +--| (43)
+|  |  |           |     |                                               |  |  +--Psychrobacter_celer_2|WP_198336790.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                               |  +--| (54)
+|  |  |           |     |                                               |     +--Psychrobacter_pacificensis_3|WP_223334656.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            +--| (45)
+|  |  |           |     |                                            |  |        +--uncultured_Psychrobacter_sp._12|WP_289116019.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |     +--| (44)
+|  |  |           |     |                                            |  |     |  +--Psychrobacter_glaciei_3|WP_240216656.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  +--| (57)
+|  |  |           |     |                                            |  |  |  |  +--Psychrobacter_pacificensis_5|WP_212564402.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |  +--| (69)
+|  |  |           |     |                                            |  |  |     |     +--uncultured_Psychrobacter_sp._15|WP_348654209.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |     |  +--| (49)
+|  |  |           |     |                                            |  |  |     |  |  |  +--Psychrobacter_4|WP_298980165.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |     |  |  +--| (34)
+|  |  |           |     |                                            |  |  |     |  |     +--uncultured_Psychrobacter_sp._16|WP_300406665.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |     +--| (65)
+|  |  |           |     |                                            |  |  |        |           +--Psychrobacter_nivimaris_3|WP_201572231.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |        |        +--| (71)
+|  |  |           |     |                                            |  |  |        |        |  +--Psychrobacter_3|WP_284719438.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |        |     +--| (65)
+|  |  |           |     |                                            |  |  |        |     |  |  +--uncultured_Psychrobacter_sp._17|WP_299330080.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |        |     |  +--| (76)
+|  |  |           |     |                                            |  |  |        |     |     +--Psychrobacter_sp._UBA3068|WP_286740907.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |        |  +--| (86)
+|  |  |           |     |                                            |  |  |        |  |  +--Psychrobacter_submarinus_3|WP_438950592.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |        +--| (49)
+|  |  |           |     |                                            |  |  |           |  +--Psychrobacter_submarinus_1|WP_201600875.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  |  |           +--| (64)
+|  |  |           |     |                                            |  |  |              +--Psychrobacter_pacificensis_6|WP_474735469.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                            |  +--| (48)
+|  |  |           |     |                                            |     +--unclassified_Psychrobacter_3|WP_025645679.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                         +--| (90)
+|  |  |           |     |                                         |  |  +--Psychrobacter_sp._DD43|WP_201551691.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                         |  +--| (51)
+|  |  |           |     |                                         |     +--Psychrobacter_sp._Pi2-51_2|WP_201593649.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                      +--| (92)
+|  |  |           |     |                                      |  +--unclassified_Psychrobacter_4|WP_025653160.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                   +--| (98)
+|  |  |           |     |                                   |  |     +--Psychrobacter_immobilis_4|WP_201582213.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                   |  |  +--| (86)
+|  |  |           |     |                                   |  |  |  +--Psychrobacter_immobilis_5|WP_201567718.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                   |  +--| (96)
+|  |  |           |     |                                   |     |  +--Psychrobacter_2|WP_201577598.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                   |     +--| (100)
+|  |  |           |     |                                   |        +--Psychrobacter_sp._GW64-MNA-CIBAN-0177|WP_352287807.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                +--| (94)
+|  |  |           |     |                                |  |     +--Psychrobacter_sp._DM4|WP_435979993.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                |  |  +--| (100)
+|  |  |           |     |                                |  |  |  +--unclassified_Psychrobacter_5|WP_305899991.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                                |  +--| (100)
+|  |  |           |     |                                |     +--Psychrobacter_sp._DM8|WP_435949448.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                             +--| (71)
+|  |  |           |     |                             |  +--Psychrobacter_okhotskensis|WP_276529530.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                          +--| (59)
+|  |  |           |     |                          |  |     +--Psychrobacter_sp._Pi2-51_1|WP_320157780.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                          |  |  +--| (90)
+|  |  |           |     |                          |  |  |  |  +--Psychrobacter_sp._K31L|WP_323128914.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                          |  |  |  +--| (99)
+|  |  |           |     |                          |  |  |     +--Psychrobacter_1|WP_413190037.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                          |  +--| (82)
+|  |  |           |     |                          |     +--Psychrobacter_glaciei_2|WP_275691788.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                       +--| (70)
+|  |  |           |     |                       |  |     +--uncultured_Psychrobacter_sp._6|WP_186475538.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                       |  |  +--| (96)
+|  |  |           |     |                       |  |  |  +--Psychrobacter_pocilloporae|WP_284719828.1|multicopper_oxidase_domain-containing_protein
+|  |  |           |     |                       |  +--| (92)
+|  |  |           |     |                       |     |  +--uncultured_Psychrobacter_sp._9|WP_289116025.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                       |     +--| (100)
+|  |  |           |     |                       |        +--Psychrobacter_sp._bablab_jr012|WP_228284712.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                    +--| (61)
+|  |  |           |     |                    |  +--Psychrobacter_sp._JCM_18900_2|WP_201566452.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 +--| (50)
+|  |  |           |     |                 |  |           +--uncultured_Psychrobacter_sp._4|WP_298810856.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |        +--| (99)
+|  |  |           |     |                 |  |        |  |  +--uncultured_Psychrobacter_sp._5|WP_339343431.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |        |  +--| (100)
+|  |  |           |     |                 |  |        |     +--Psychrobacter_sp._UBA3480_1|WP_296206776.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |     +--| (46)
+|  |  |           |     |                 |  |     |  |        +--Psychrobacter_nivimaris_2|WP_320157866.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |     |  |     +--| (98)
+|  |  |           |     |                 |  |     |  |     |  +--Psychrobacter_immobilis_3|WP_320157998.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |     |  |  +--| (52)
+|  |  |           |     |                 |  |     |  |  |  +--Psychrobacter_proteolyticus_1|WP_425355847.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |     |  +--| (49)
+|  |  |           |     |                 |  |     |     +--Psychrobacter_sp._APC_3281|WP_290177258.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  +--| (22)
+|  |  |           |     |                 |  |  |  |              +--Psychrobacter_sp._SZ93C1|WP_197102965.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  |           +--| (85)
+|  |  |           |     |                 |  |  |  |           |  +--Psychrobacter_sp._NG25|WP_320108710.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  |        +--| (54)
+|  |  |           |     |                 |  |  |  |        |  +--Psychrobacter_fjordensis|WP_201551533.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  |     +--| (48)
+|  |  |           |     |                 |  |  |  |     |  |  +--Psychrobacter_sp._TB55-MNA-CIBAN-0194|WP_352259758.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  |     |  +--| (91)
+|  |  |           |     |                 |  |  |  |     |     +--Psychrobacter_sp._UBA3480_2|WP_296211063.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  |  +--| (46)
+|  |  |           |     |                 |  |  |  |  |  +--Psychrobacter_sp._TPE_89C|WP_465183798.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  |  |  +--| (41)
+|  |  |           |     |                 |  |  |     +--Psychrobacter_proteolyticus_2|WP_347162359.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |                 |  +--| (34)
+|  |  |           |     |                 |     +--Psychrobacter_sp._R86515|WP_379544292.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              +--| (45)
+|  |  |           |     |              |  |           +--Psychrobacter_sp._Pi2-1|WP_320157573.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |  |        +--| (97)
+|  |  |           |     |              |  |        |  |  +--Psychrobacter_glaciei_1|WP_474738338.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |  |        |  +--| (97)
+|  |  |           |     |              |  |        |     +--Psychrobacter_sp._2|WP_474726537.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |  |     +--| (37)
+|  |  |           |     |              |  |     |  +--Psychrobacter_sp._Ps2|WP_269117530.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |  |  +--| (75)
+|  |  |           |     |              |  |  |  +--Psychrobacter_sp._APC_3279|WP_290176533.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |  +--| (87)
+|  |  |           |     |              |     |  +--Psychrobacter_noctis|WP_224737936.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |              |     +--| (56)
+|  |  |           |     |              |        +--Psychrobacter_sp._C_20.9|WP_075107101.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |           +--| (38)
+|  |  |           |     |           |  |  +--Psychrobacter_sp._JCM_18901_2|WP_464754084.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |           |  +--| (100)
+|  |  |           |     |           |     +--Psychrobacter_sp._MES7-P7E|WP_102094145.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |        +--| (42)
+|  |  |           |     |        |  |     +--Psychrobacter_nivimaris_1|WP_160022867.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |        |  |  +--| (62)
+|  |  |           |     |        |  |  |  |  +--Psychrobacter_sp._ER1|WP_420230577.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |        |  |  |  +--| (100)
+|  |  |           |     |        |  |  |     +--Psychrobacter_sp._Pi2-52|WP_277350418.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |        |  +--| (43)
+|  |  |           |     |        |     +--Psychrobacter_sp._P11G3_1|WP_057760058.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |     +--| (49)
+|  |  |           |     |     |  +--Psychrobacter_sp._BI730|WP_218870164.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     |  +--| (50)
+|  |  |           |     |  |  +--unclassified_Psychrobacter_1|WP_320158633.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |     +--| (71)
+|  |  |           |        |  +--Psychrobacter_sp._NZS113|WP_320158565.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |        +--| (97)
+|  |  |           |           |  +--Psychrobacter_sp._JCM_18900_1|WP_201569653.1|copper_resistance_system_multicopper_oxidase
+|  |  |           |           +--| (100)
+|  |  |           |              +--Psychrobacter_sp._P11G3_2|WP_057758566.1|copper_resistance_system_multicopper_oxidase
+|  |  |        +--| (73)
+|  |  |        |  +--Psychrobacter_piscatorii|WP_058025816.1|copper_resistance_system_multicopper_oxidase
+|  |  |     +--| (98)
+|  |  |     |  +---Psychrobacter_sp._CAL346-MNA-CIBAN-0220|WP_350560759.1|copper_resistance_system_multicopper_oxidase
+|  |  |  +--| (91)
+|  |  |  |  |           +--Psychrobacter_sp._CX14|WP_486543076.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |  |      +----| (100)
+|  |  |  |  |      |    +--Psychrobacter_sp._CX16|WP_486552851.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |  |  +---| (100)
+|  |  |  |  |  |   |  +--Psychrobacter_sp._CX97|WP_486529742.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |  |  |   +--| (100)
+|  |  |  |  |  |      |  +--Psychrobacter_sp._CX5|WP_491185048.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |  |  |      +--| (100)
+|  |  |  |  |  |         +--Psychrobacter_sp._CX90|WP_486550632.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |  +--| (99)
+|  |  |  |     |                  +----------Paraperlucidibaca_sp.|WP_487990687.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |     +------------------| (100)
+|  |  |  |                        |              +-----Thiobacillus_sp.|WP_296821200.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                        |           +--| (61)
+|  |  |  |                        |           |  |      +-------Rhodanobacter_sp._G2-10|WP_473682845.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                        |           |  +------| (100)
+|  |  |  |                        |           |         +----------Oleiagrimonas_sp._MCCC_1A03011|WP_113065197.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                        +-----------| (100)
+|  |  |  |                                    |                +-------Ketobacter_alkanivorans|WP_101892447.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    |             +--| (100)
+|  |  |  |                                    |             |  +----Sediminihaliea_albiluteola|WP_182169047.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    |        +----| (100)
+|  |  |  |                                    |        |    |       +--Thalassolituus_oleivorans|WP_225666578.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    |        |    +-------| (100)
+|  |  |  |                                    |        |            +--unclassified_Bermanella|WP_396586513.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    |     +--| (100)
+|  |  |  |                                    |     |  +--------Vibrio_alginolyticus|WP_269128784.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    |  +--| (100)
+|  |  |  |                                    |  |  +------------Gallaecimonas_kandeliae|WP_301495760.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                    +--| (99)
+|  |  |  |                                       |    +------Methylophaga_sp._OBS4|WP_266326050.1|copper_resistance_system_multicopper_oxidase
+|  |  |  |                                       +----| (100)
+|  |  |  |                                            +-------------Methylophaga_sp._OBS3|WP_266278385.1|copper_resistance_system_multicopper_oxidase
+|  |  +--| (81)
+|  |     |  +--Psychrobacter_pacificensis_1|WP_223332682.1|copper_resistance_system_multicopper_oxidase
+|  |     +--| (100)
+|  |        +--Psychrobacter_pacificensis_2|WP_277078041.1|copper_resistance_system_multicopper_oxidase
++--| (90)
+   +--Psychrobacter_sp._16-MNA-CIBAN-0192|WP_352339194.1|copper_resistance_system_multicopper_oxidase
+
+
+Consensus tree in newick format: 
+
+(Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase:0.0092935316,((uncultured_Psychrobacter_sp._1|WP_298906696.1|copper_resistance_system_multicopper_oxidase:0.0166408125,Psychrobacter_maritimus_1|WP_201628412.1|copper_resistance_system_multicopper_oxidase:0.0092324680)100:0.0101627735,((Psychrobacter_maritimus_2|WP_372828779.1|copper_resistance_system_multicopper_oxidase:0.0076851303,(Psychrobacter_sp._M9-54-1|WP_200662746.1|copper_resistance_system_multicopper_oxidase:0.0179494781,Psychrobacter_sp._WY6|WP_284143884.1|multicopper_oxidase_domain-containing_protein:0.0268006103)100:0.0151859724)90:0.0038845492,Psychrobacter_sp._1|WP_372843729.1|copper_resistance_system_multicopper_oxidase:0.0239364808)87:0.0031266450)50:0.0028028630,((((Psychrobacter_sp._Ps6|WP_238036692.1|copper_resistance_system_multicopper_oxidase:0.0030967150,Psychrobacter_sp._Arc29|WP_371532333.1|copper_resistance_system_multicopper_oxidase:0.0023743115)96:0.0055524960,Psychrobacter_sp._JCM_18901_1|WP_464753840.1|copper_resistance_system_multicopper_oxidase:0.0059893975)98:0.0064292743,((((((Psychrobacter_sp._NG27|WP_198327676.1|copper_resistance_system_multicopper_oxidase:0.0203507033,Psychrobacter_sp._SWN149|WP_265090687.1|copper_resistance_system_multicopper_oxidase:0.0080769777)99:0.0093687649,(Psychrobacter_sp._NG254|WP_320154178.1|copper_resistance_system_multicopper_oxidase:0.0000025215,((((((((((((((((((((((((Psychrobacter_immobilis_1|WP_201555270.1|copper_resistance_system_multicopper_oxidase:0.0170028755,(((((Psychrobacter_celer_1|WP_455705530.1|copper_resistance_system_multicopper_oxidase:0.0018609573,Psychrobacter_maritimus_3|WP_201620353.1|copper_resistance_system_multicopper_oxidase:0.0000025132)100:0.0018596038,uncultured_Psychrobacter_sp._2|WP_289000163.1|copper_resistance_system_multicopper_oxidase:0.0018577301)77:0.0000025132,Psychrobacter_sp._H7-1|WP_201545234.1|copper_resistance_system_multicopper_oxidase:0.0037398927)47:0.0018575962,Psychrobacter_immobilis_2|WP_201604737.1|copper_resistance_system_multicopper_oxidase:0.0056184968)31:0.0000025132,Psychrobacter_sp._M4_1|WP_472781948.1|copper_resistance_system_multicopper_oxidase:0.0096354067)54:0.0018735990)59:0.0048016415,uncultured_Psychrobacter_sp._3|WP_289047145.1|copper_resistance_system_multicopper_oxidase:0.0104080576)100:0.0279899284,((unclassified_Psychrobacter_2|WP_350655890.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_sp._P2G3|WP_068326517.1|copper_resistance_system_multicopper_oxidase:0.0037303755)54:0.0000025132,Psychrobacter_sp._P11G5|WP_068034901.1|copper_resistance_system_multicopper_oxidase:0.0018630227)98:0.0041367330)92:0.0065651556,(uncultured_Psychrobacter_sp._7|WP_299185249.1|copper_resistance_system_multicopper_oxidase:0.0250783577,((uncultured_Psychrobacter_sp._8|WP_367103962.1|copper_resistance_system_multicopper_oxidase:0.0037409685,(((uncultured_Psychrobacter_sp._10|WP_367109097.1|copper_resistance_system_multicopper_oxidase:0.0018792235,Psychrobacter_sp._M4_2|WP_472781992.1|copper_resistance_system_multicopper_oxidase:0.0076861023)86:0.0037639405,uncultured_Psychrobacter_sp._13|WP_367111693.1|copper_resistance_system_multicopper_oxidase:0.0037476323)62:0.0018735906,uncultured_Psychrobacter_sp._11|WP_367106850.1|copper_resistance_system_multicopper_oxidase:0.0000025132)33:0.0000025132)48:0.0000029217,(Psychrobacter_sp._Cmf_22.2|WP_075103633.1|copper_resistance_system_multicopper_oxidase:0.0000025162,Psychrobacter_sp._ENNN9_III|WP_319822887.1|copper_resistance_system_multicopper_oxidase:0.0043150451)100:0.0230312445)90:0.0102763265)100:0.0435564935)45:0.0128380096,((uncultured_Psychrobacter_sp._14|WP_299069681.1|copper_resistance_system_multicopper_oxidase:0.0212784305,(((uncultured_Psychrobacter_sp._18|WP_298974489.1|copper_resistance_system_multicopper_oxidase:0.0000025132,(uncultured_Psychrobacter_sp._19|WP_298739300.1|copper_resistance_system_multicopper_oxidase:0.0038569627,uncultured_Psychrobacter_sp._20|WP_299330535.1|copper_resistance_system_multicopper_oxidase:0.0000025132)100:0.0037902655)100:0.0038476026,(((((((Psychrobacter_celer_4|WP_455706373.1|copper_resistance_system_multicopper_oxidase:0.0101733985,Psychrobacter_sp._VH5|WP_430737341.1|copper_resistance_system_multicopper_oxidase:0.0060212549)51:0.0055273269,uncultured_Psychrobacter_sp._21|WP_288996651.1|copper_resistance_system_multicopper_oxidase:0.0094151944)77:0.0044018100,Psychrobacter_sp._A3|WP_274631640.1|copper_resistance_system_multicopper_oxidase:0.0253585090)91:0.0105823693,unclassified_Psychrobacter_6|WP_025647269.1|copper_resistance_system_multicopper_oxidase:0.0205712723)61:0.0066176527,Psychrobacter_sp._CAM01|WP_317053546.1|copper_resistance_system_multicopper_oxidase:0.0343087534)50:0.0000027469,(uncultured_Psychrobacter_sp._22|WP_288999309.1|copper_resistance_system_multicopper_oxidase:0.0076954594,Psychrobacter_celer_5|WP_198336469.1|copper_resistance_system_multicopper_oxidase:0.0134544041)98:0.0095512753)98:0.0117128337,Psychrobacter_sp._Ps3|WP_238062109.1|copper_resistance_system_multicopper_oxidase:0.0096911459)100:0.0299127461)69:0.0038066902,Psychrobacter_submarinus_2|WP_201601002.1|copper_resistance_system_multicopper_oxidase:0.0000025162)100:0.0656630624)69:0.0351233084,Psychrobacter_sp._AH5|WP_353104189.1|copper_resistance_system_multicopper_oxidase:0.0992076632)67:0.0163021909)71:0.0176001531,Psychrobacter_celer_3|WP_334222014.1|copper_resistance_system_multicopper_oxidase:0.0165503915)53:0.0072043204,Psychrobacter_pacificensis_4|WP_430285161.1|copper_resistance_system_multicopper_oxidase:0.0201772662)51:0.0208736502,(Psychrobacter_celer_2|WP_198336790.1|copper_resistance_system_multicopper_oxidase:0.0093483318,Psychrobacter_pacificensis_3|WP_223334656.1|copper_resistance_system_multicopper_oxidase:0.0000025132)54:0.0000025132)43:0.0037018268,(((uncultured_Psychrobacter_sp._12|WP_289116019.1|copper_resistance_system_multicopper_oxidase:0.0023074157,Psychrobacter_glaciei_3|WP_240216656.1|copper_resistance_system_multicopper_oxidase:0.0209178390)44:0.0019099516,(Psychrobacter_pacificensis_5|WP_212564402.1|copper_resistance_system_multicopper_oxidase:0.0058504555,((uncultured_Psychrobacter_sp._15|WP_348654209.1|copper_resistance_system_multicopper_oxidase:0.0019155063,(Psychrobacter_4|WP_298980165.1|copper_resistance_system_multicopper_oxidase:0.0000025132,uncultured_Psychrobacter_sp._16|WP_300406665.1|copper_resistance_system_multicopper_oxidase:0.0019070226)34:0.0000025132)49:0.0000025132,((((Psychrobacter_nivimaris_3|WP_201572231.1|copper_resistance_system_multicopper_oxidase:0.0137356498,Psychrobacter_3|WP_284719438.1|copper_resistance_system_multicopper_oxidase:0.0000025132)71:0.0057501308,(uncultured_Psychrobacter_sp._17|WP_299330080.1|copper_resistance_system_multicopper_oxidase:0.0057677949,Psychrobacter_sp._UBA3068|WP_286740907.1|copper_resistance_system_multicopper_oxidase:0.0193900450)76:0.0000021392)65:0.0077432466,Psychrobacter_submarinus_3|WP_438950592.1|copper_resistance_system_multicopper_oxidase:0.0000021392)86:0.0114947692,(Psychrobacter_submarinus_1|WP_201600875.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_pacificensis_6|WP_474735469.1|copper_resistance_system_multicopper_oxidase:0.0018874636)64:0.0000025132)49:0.0018812395)65:0.0133127891)69:0.0217251468)57:0.0070399376,unclassified_Psychrobacter_3|WP_025645679.1|copper_resistance_system_multicopper_oxidase:0.0000025132)48:0.0000025162)45:0.0077950498,(Psychrobacter_sp._DD43|WP_201551691.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_sp._Pi2-51_2|WP_201593649.1|copper_resistance_system_multicopper_oxidase:0.0037214616)51:0.0000025162)90:0.0277798138,unclassified_Psychrobacter_4|WP_025653160.1|copper_resistance_system_multicopper_oxidase:0.0158649889)92:0.0156203967,((Psychrobacter_immobilis_4|WP_201582213.1|copper_resistance_system_multicopper_oxidase:0.0039100870,Psychrobacter_immobilis_5|WP_201567718.1|copper_resistance_system_multicopper_oxidase:0.0192660548)86:0.0033742833,(Psychrobacter_2|WP_201577598.1|copper_resistance_system_multicopper_oxidase:0.0032845098,Psychrobacter_sp._GW64-MNA-CIBAN-0177|WP_352287807.1|copper_resistance_system_multicopper_oxidase:0.0058643613)100:0.0315180387)96:0.0194620973)98:0.0264195818,((Psychrobacter_sp._DM4|WP_435979993.1|copper_resistance_system_multicopper_oxidase:0.0252993173,unclassified_Psychrobacter_5|WP_305899991.1|copper_resistance_system_multicopper_oxidase:0.0253501076)100:0.0421736905,Psychrobacter_sp._DM8|WP_435949448.1|copper_resistance_system_multicopper_oxidase:0.0455867754)100:0.0211470593)94:0.0127739003,Psychrobacter_okhotskensis|WP_276529530.1|copper_resistance_system_multicopper_oxidase:0.0386249628)71:0.0284719437,((Psychrobacter_sp._Pi2-51_1|WP_320157780.1|copper_resistance_system_multicopper_oxidase:0.0037256937,(Psychrobacter_sp._K31L|WP_323128914.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_1|WP_413190037.1|copper_resistance_system_multicopper_oxidase:0.0018599416)99:0.0018713189)90:0.0019324295,Psychrobacter_glaciei_2|WP_275691788.1|copper_resistance_system_multicopper_oxidase:0.0152738534)82:0.0057778378)59:0.0120879739,((uncultured_Psychrobacter_sp._6|WP_186475538.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_pocilloporae|WP_284719828.1|multicopper_oxidase_domain-containing_protein:0.0000025132)96:0.0025545128,(uncultured_Psychrobacter_sp._9|WP_289116025.1|copper_resistance_system_multicopper_oxidase:0.0039203921,Psychrobacter_sp._bablab_jr012|WP_228284712.1|copper_resistance_system_multicopper_oxidase:0.0267974952)100:0.0165364362)92:0.0119057926)70:0.0125790612,Psychrobacter_sp._JCM_18900_2|WP_201566452.1|copper_resistance_system_multicopper_oxidase:0.0046934677)61:0.0047061575,((((uncultured_Psychrobacter_sp._4|WP_298810856.1|copper_resistance_system_multicopper_oxidase:0.0018576309,(uncultured_Psychrobacter_sp._5|WP_339343431.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_sp._UBA3480_1|WP_296206776.1|copper_resistance_system_multicopper_oxidase:0.0000025132)100:0.0095195625)99:0.0037732187,(((Psychrobacter_nivimaris_2|WP_320157866.1|copper_resistance_system_multicopper_oxidase:0.0018651567,Psychrobacter_immobilis_3|WP_320157998.1|copper_resistance_system_multicopper_oxidase:0.0056166626)98:0.0000020724,Psychrobacter_proteolyticus_1|WP_425355847.1|copper_resistance_system_multicopper_oxidase:0.0113145330)52:0.0037469091,Psychrobacter_sp._APC_3281|WP_290177258.1|copper_resistance_system_multicopper_oxidase:0.0018725329)49:0.0018827385)46:0.0018668713,(((((Psychrobacter_sp._SZ93C1|WP_197102965.1|copper_resistance_system_multicopper_oxidase:0.0137367752,Psychrobacter_sp._NG25|WP_320108710.1|copper_resistance_system_multicopper_oxidase:0.0208320773)85:0.0114920594,Psychrobacter_fjordensis|WP_201551533.1|copper_resistance_system_multicopper_oxidase:0.0128570419)54:0.0002381583,(Psychrobacter_sp._TB55-MNA-CIBAN-0194|WP_352259758.1|copper_resistance_system_multicopper_oxidase:0.0221842285,Psychrobacter_sp._UBA3480_2|WP_296211063.1|copper_resistance_system_multicopper_oxidase:0.0049871709)91:0.0121053890)48:0.0111233745,Psychrobacter_sp._TPE_89C|WP_465183798.1|copper_resistance_system_multicopper_oxidase:0.0160606073)46:0.0088308705,Psychrobacter_proteolyticus_2|WP_347162359.1|copper_resistance_system_multicopper_oxidase:0.0096492254)41:0.0037686037)22:0.0000025132,Psychrobacter_sp._R86515|WP_379544292.1|copper_resistance_system_multicopper_oxidase:0.0133008487)34:0.0018518607)50:0.0076126235,((((Psychrobacter_sp._Pi2-1|WP_320157573.1|copper_resistance_system_multicopper_oxidase:0.0000025132,(Psychrobacter_glaciei_1|WP_474738338.1|copper_resistance_system_multicopper_oxidase:0.0037374466,Psychrobacter_sp._2|WP_474726537.1|copper_resistance_system_multicopper_oxidase:0.0000025132)97:0.0056264142)97:0.0018647421,Psychrobacter_sp._Ps2|WP_269117530.1|copper_resistance_system_multicopper_oxidase:0.0094436298)37:0.0000025132,Psychrobacter_sp._APC_3279|WP_290176533.1|copper_resistance_system_multicopper_oxidase:0.0037274864)75:0.0018615967,(Psychrobacter_noctis|WP_224737936.1|copper_resistance_system_multicopper_oxidase:0.0074734101,Psychrobacter_sp._C_20.9|WP_075107101.1|copper_resistance_system_multicopper_oxidase:0.0189949269)56:0.0000025132)87:0.0018654979)45:0.0037716554,(Psychrobacter_sp._JCM_18901_2|WP_464754084.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_sp._MES7-P7E|WP_102094145.1|copper_resistance_system_multicopper_oxidase:0.0037425730)100:0.0113534376)38:0.0018150236,((Psychrobacter_nivimaris_1|WP_160022867.1|copper_resistance_system_multicopper_oxidase:0.0037844895,(Psychrobacter_sp._ER1|WP_420230577.1|copper_resistance_system_multicopper_oxidase:0.0000025132,Psychrobacter_sp._Pi2-52|WP_277350418.1|copper_resistance_system_multicopper_oxidase:0.0018520289)100:0.0130681060)62:0.0018613913,Psychrobacter_sp._P11G3_1|WP_057760058.1|copper_resistance_system_multicopper_oxidase:0.0018611805)43:0.0000025132)42:0.0018741527,Psychrobacter_sp._BI730|WP_218870164.1|copper_resistance_system_multicopper_oxidase:0.0093639914)49:0.0119323501,unclassified_Psychrobacter_1|WP_320158633.1|copper_resistance_system_multicopper_oxidase:0.0168320351)50:0.0102614673,(Psychrobacter_sp._NZS113|WP_320158565.1|copper_resistance_system_multicopper_oxidase:0.0085979623,(Psychrobacter_sp._JCM_18900_1|WP_201569653.1|copper_resistance_system_multicopper_oxidase:0.0033826171,Psychrobacter_sp._P11G3_2|WP_057758566.1|copper_resistance_system_multicopper_oxidase:0.0022115572)100:0.0067452993)97:0.0143125729)71:0.0172291278)71:0.0337357277)66:0.0130791554,Psychrobacter_piscatorii|WP_058025816.1|copper_resistance_system_multicopper_oxidase:0.0163069419)73:0.0252652696,Psychrobacter_sp._CAL346-MNA-CIBAN-0220|WP_350560759.1|copper_resistance_system_multicopper_oxidase:0.1215544773)98:0.0144252009,(((Psychrobacter_sp._CX14|WP_486543076.1|copper_resistance_system_multicopper_oxidase:0.0019486360,Psychrobacter_sp._CX16|WP_486552851.1|copper_resistance_system_multicopper_oxidase:0.0060219000)100:0.1300554576,(Psychrobacter_sp._CX97|WP_486529742.1|copper_resistance_system_multicopper_oxidase:0.0168041000,(Psychrobacter_sp._CX5|WP_491185048.1|copper_resistance_system_multicopper_oxidase:0.0341723371,Psychrobacter_sp._CX90|WP_486550632.1|copper_resistance_system_multicopper_oxidase:0.0479146421)100:0.0156820334)100:0.0934216232)100:0.1201829595,(Paraperlucidibaca_sp.|WP_487990687.1|copper_resistance_system_multicopper_oxidase:0.3073026246,((Thiobacillus_sp.|WP_296821200.1|copper_resistance_system_multicopper_oxidase:0.1561498529,(Rhodanobacter_sp._G2-10|WP_473682845.1|copper_resistance_system_multicopper_oxidase:0.2118355400,Oleiagrimonas_sp._MCCC_1A03011|WP_113065197.1|copper_resistance_system_multicopper_oxidase:0.2949607293)100:0.1937766958)61:0.0279358140,(((((Ketobacter_alkanivorans|WP_101892447.1|copper_resistance_system_multicopper_oxidase:0.2150288049,Sediminihaliea_albiluteola|WP_182169047.1|copper_resistance_system_multicopper_oxidase:0.1434967857)100:0.0526188188,(Thalassolituus_oleivorans|WP_225666578.1|copper_resistance_system_multicopper_oxidase:0.0033599793,unclassified_Bermanella|WP_396586513.1|copper_resistance_system_multicopper_oxidase:0.0000025132)100:0.2095420113)100:0.1313344525,Vibrio_alginolyticus|WP_269128784.1|copper_resistance_system_multicopper_oxidase:0.2520930159)100:0.0593661492,Gallaecimonas_kandeliae|WP_301495760.1|copper_resistance_system_multicopper_oxidase:0.3392932868)100:0.0778021991,(Methylophaga_sp._OBS4|WP_266326050.1|copper_resistance_system_multicopper_oxidase:0.1931083962,Methylophaga_sp._OBS3|WP_266278385.1|copper_resistance_system_multicopper_oxidase:0.3692952744)100:0.1304005452)99:0.0565273181)100:0.3292857516)100:0.5126051109)99:0.0783137842)91:0.0109076240,(Psychrobacter_pacificensis_1|WP_223332682.1|copper_resistance_system_multicopper_oxidase:0.0059667199,Psychrobacter_pacificensis_2|WP_277078041.1|copper_resistance_system_multicopper_oxidase:0.0105599060)100:0.0162350460)81:0.0161824472)83:0.0098169899,Psychrobacter_sp._16-MNA-CIBAN-0192|WP_352339194.1|copper_resistance_system_multicopper_oxidase:0.0242721452)90:0.0041843622);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.treefile -m "WAG+F+I{0.179035}+R4{0.420694,0.331874,0.223324,1.28608,0.146375,2.80034,0.0305718,5.34053}" --length 646
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Aug 18 14:42:06 2026
+Total CPU time used: 2579.730669 seconds (0h:42m:59s)
+Total wall-clock time used: 1738.956362 seconds (0h:28m:58s)
+

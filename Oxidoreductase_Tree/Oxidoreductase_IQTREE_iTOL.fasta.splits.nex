@@ -1,0 +1,74 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=14;
+TAXLABELS
+[1] 'Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase'
+[2] 'Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase'
+[3] 'Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase'
+[4] 'Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase'
+[5] 'Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase'
+[6] 'Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase'
+[7] 'Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase'
+[8] 'Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase'
+[9] 'Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase'
+[10] 'Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase'
+[11] 'Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase'
+[12] 'Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase'
+[13] 'unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase'
+[14] 'Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=14 nsplits=45;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	60	 2 3,
+	100	 4,
+	100	 7,
+	100	 8,
+	100	 9,
+	22	 8 9,
+	100	 7 8 9,
+	100	 10,
+	100	 11,
+	100	 13,
+	86	 11 13,
+	100	 12,
+	100	 11 12 13,
+	100	 14,
+	100	 11 12 13 14,
+	100	 10 11 12 13 14,
+	91	 1 2 3 4 5 6,
+	45	 1 2 3 5 6,
+	100	 6,
+	68	 1 2 3 5,
+	100	 5,
+	100	 1 2 3,
+	100	 1,
+	16	 1 2 3 4 6,
+	2	 1 2 3 6,
+	35	 1 2,
+	37	 4 6,
+	73	 7 8,
+	4	 1 2 3 4 5,
+	10	 5 6,
+	9	 1 2 3 4,
+	5	 1 3,
+	5	 7 9,
+	1	 4 6 7 8 9,
+	6	 5 10 11 12 13 14,
+	7	 12 13,
+	6	 4 7 8 9,
+	1	 6 10 11 12 13 14,
+	7	 11 12,
+	5	 1 2 3 4 7 8 9,
+	1	 1 2 3 5 7 8 9,
+	0	 4 5 6,
+	0	 1 2 3 7 8 9,
+;
+END; [Splits]
+

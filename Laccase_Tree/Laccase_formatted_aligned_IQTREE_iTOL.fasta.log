@@ -1,0 +1,300 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta -m MFP -B 1000 -alrt 1000 -T AUTO
+Seed:    274617 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 14:13:07 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta ... Fasta format detected
+Reading fasta file: done in 0.00231791 secs using 72.78% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00183392 secs using 70.56% CPU
+Alignment has 140 sequences with 646 columns, 560 distinct patterns
+382 parsimony-informative, 91 singleton sites, 173 constant sites
+                                                                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000114202 secs using 162.9% CPU
+   1  Psychrobacter_sp._ANT206|WP_483284391.1|copper_resistance_system_multicopper_oxidase                  12.07%    passed     99.99%
+   2  uncultured_Psychrobacter_sp._1|WP_298906696.1|copper_resistance_system_multicopper_oxidase            11.61%    passed    100.00%
+   3  Psychrobacter_maritimus_1|WP_201628412.1|copper_resistance_system_multicopper_oxidase                 11.61%    passed    100.00%
+   4  Psychrobacter_maritimus_2|WP_372828779.1|copper_resistance_system_multicopper_oxidase                 12.07%    passed    100.00%
+   5  Psychrobacter_sp._Ps6|WP_238036692.1|copper_resistance_system_multicopper_oxidase                     12.07%    passed    100.00%
+   6  Psychrobacter_sp._JCM_18901_1|WP_464753840.1|copper_resistance_system_multicopper_oxidase             12.07%    passed    100.00%
+   7  Psychrobacter_sp._1|WP_372843729.1|copper_resistance_system_multicopper_oxidase                       12.07%    passed    100.00%
+   8  Psychrobacter_sp._16-MNA-CIBAN-0192|WP_352339194.1|copper_resistance_system_multicopper_oxidase       12.07%    passed    100.00%
+   9  Psychrobacter_sp._Arc29|WP_371532333.1|copper_resistance_system_multicopper_oxidase                   12.07%    passed     99.99%
+  10  Psychrobacter_sp._M9-54-1|WP_200662746.1|copper_resistance_system_multicopper_oxidase                 12.07%    passed    100.00%
+  11  Psychrobacter_sp._NG27|WP_198327676.1|copper_resistance_system_multicopper_oxidase                    12.07%    passed    100.00%
+  12  Psychrobacter_pacificensis_1|WP_223332682.1|copper_resistance_system_multicopper_oxidase              12.07%    passed    100.00%
+  13  Psychrobacter_pacificensis_2|WP_277078041.1|copper_resistance_system_multicopper_oxidase              12.07%    passed    100.00%
+  14  Psychrobacter_sp._SWN149|WP_265090687.1|copper_resistance_system_multicopper_oxidase                  12.23%    passed    100.00%
+  15  Psychrobacter_piscatorii|WP_058025816.1|copper_resistance_system_multicopper_oxidase                  11.76%    passed    100.00%
+  16  Psychrobacter_sp._NG254|WP_320154178.1|copper_resistance_system_multicopper_oxidase                   12.38%    passed    100.00%
+  17  Psychrobacter_immobilis_1|WP_201555270.1|copper_resistance_system_multicopper_oxidase                 12.07%    passed    100.00%
+  18  Psychrobacter_celer_1|WP_455705530.1|copper_resistance_system_multicopper_oxidase                     12.07%    passed    100.00%
+  19  Psychrobacter_maritimus_3|WP_201620353.1|copper_resistance_system_multicopper_oxidase                 12.07%    passed    100.00%
+  20  uncultured_Psychrobacter_sp._2|WP_289000163.1|copper_resistance_system_multicopper_oxidase            12.07%    passed    100.00%
+  21  Psychrobacter_sp._M4_1|WP_472781948.1|copper_resistance_system_multicopper_oxidase                    12.23%    passed    100.00%
+  22  Psychrobacter_sp._H7-1|WP_201545234.1|copper_resistance_system_multicopper_oxidase                    12.07%    passed    100.00%
+  23  uncultured_Psychrobacter_sp._3|WP_289047145.1|copper_resistance_system_multicopper_oxidase            12.07%    passed    100.00%
+  24  Psychrobacter_immobilis_2|WP_201604737.1|copper_resistance_system_multicopper_oxidase                 12.07%    passed    100.00%
+  25  Psychrobacter_nivimaris_1|WP_160022867.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  26  Psychrobacter_sp._ER1|WP_420230577.1|copper_resistance_system_multicopper_oxidase                     12.38%    passed    100.00%
+  27  Psychrobacter_sp._Pi2-52|WP_277350418.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  28  Psychrobacter_sp._P11G3_1|WP_057760058.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  29  uncultured_Psychrobacter_sp._4|WP_298810856.1|copper_resistance_system_multicopper_oxidase            12.38%    passed    100.00%
+  30  Psychrobacter_sp._SZ93C1|WP_197102965.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  31  Psychrobacter_sp._R86515|WP_379544292.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  32  Psychrobacter_sp._NZS113|WP_320158565.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  33  Psychrobacter_nivimaris_2|WP_320157866.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  34  Psychrobacter_sp._APC_3281|WP_290177258.1|copper_resistance_system_multicopper_oxidase                12.38%    passed    100.00%
+  35  uncultured_Psychrobacter_sp._5|WP_339343431.1|copper_resistance_system_multicopper_oxidase            12.23%    passed    100.00%
+  36  Psychrobacter_sp._JCM_18901_2|WP_464754084.1|copper_resistance_system_multicopper_oxidase             12.38%    passed    100.00%
+  37  unclassified_Psychrobacter_1|WP_320158633.1|copper_resistance_system_multicopper_oxidase              12.38%    passed    100.00%
+  38  Psychrobacter_sp._Pi2-1|WP_320157573.1|copper_resistance_system_multicopper_oxidase                   12.38%    passed    100.00%
+  39  Psychrobacter_sp._UBA3480_1|WP_296206776.1|copper_resistance_system_multicopper_oxidase               12.38%    passed    100.00%
+  40  Psychrobacter_sp._TB55-MNA-CIBAN-0194|WP_352259758.1|copper_resistance_system_multicopper_oxidase     12.38%    passed    100.00%
+  41  Psychrobacter_proteolyticus_1|WP_425355847.1|copper_resistance_system_multicopper_oxidase             12.38%    passed    100.00%
+  42  Psychrobacter_glaciei_1|WP_474738338.1|copper_resistance_system_multicopper_oxidase                   12.38%    passed    100.00%
+  43  unclassified_Psychrobacter_2|WP_350655890.1|copper_resistance_system_multicopper_oxidase              12.23%    passed    100.00%
+  44  Psychrobacter_sp._2|WP_474726537.1|copper_resistance_system_multicopper_oxidase                       12.38%    passed    100.00%
+  45  Psychrobacter_sp._MES7-P7E|WP_102094145.1|copper_resistance_system_multicopper_oxidase                12.38%    passed    100.00%
+  46  Psychrobacter_immobilis_3|WP_320157998.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  47  Psychrobacter_sp._APC_3279|WP_290176533.1|copper_resistance_system_multicopper_oxidase                12.38%    passed    100.00%
+  48  Psychrobacter_sp._UBA3480_2|WP_296211063.1|copper_resistance_system_multicopper_oxidase               12.38%    passed    100.00%
+  49  Psychrobacter_noctis|WP_224737936.1|copper_resistance_system_multicopper_oxidase                      12.38%    passed    100.00%
+  50  Psychrobacter_sp._P11G5|WP_068034901.1|copper_resistance_system_multicopper_oxidase                   12.23%    passed    100.00%
+  51  Psychrobacter_sp._Ps2|WP_269117530.1|copper_resistance_system_multicopper_oxidase                     12.38%    passed    100.00%
+  52  Psychrobacter_sp._BI730|WP_218870164.1|copper_resistance_system_multicopper_oxidase                   12.38%    passed    100.00%
+  53  Psychrobacter_sp._P2G3|WP_068326517.1|copper_resistance_system_multicopper_oxidase                    12.23%    passed    100.00%
+  54  Psychrobacter_sp._TPE_89C|WP_465183798.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  55  Psychrobacter_sp._JCM_18900_1|WP_201569653.1|copper_resistance_system_multicopper_oxidase             12.38%    passed    100.00%
+  56  Psychrobacter_sp._JCM_18900_2|WP_201566452.1|copper_resistance_system_multicopper_oxidase             12.38%    passed    100.00%
+  57  Psychrobacter_sp._P11G3_2|WP_057758566.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  58  Psychrobacter_proteolyticus_2|WP_347162359.1|copper_resistance_system_multicopper_oxidase             12.38%    passed    100.00%
+  59  Psychrobacter_fjordensis|WP_201551533.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  60  Psychrobacter_sp._C_20.9|WP_075107101.1|copper_resistance_system_multicopper_oxidase                  12.38%    passed    100.00%
+  61  Psychrobacter_sp._NG25|WP_320108710.1|copper_resistance_system_multicopper_oxidase                    12.38%    passed    100.00%
+  62  uncultured_Psychrobacter_sp._6|WP_186475538.1|copper_resistance_system_multicopper_oxidase            12.23%    passed    100.00%
+  63  Psychrobacter_sp._CAL346-MNA-CIBAN-0220|WP_350560759.1|copper_resistance_system_multicopper_oxidase   12.54%    passed    100.00%
+  64  Psychrobacter_sp._Pi2-51_1|WP_320157780.1|copper_resistance_system_multicopper_oxidase                12.38%    passed    100.00%
+  65  uncultured_Psychrobacter_sp._7|WP_299185249.1|copper_resistance_system_multicopper_oxidase            12.23%    passed    100.00%
+  66  Psychrobacter_sp._K31L|WP_323128914.1|copper_resistance_system_multicopper_oxidase                    12.38%    passed    100.00%
+  67  Psychrobacter_1|WP_413190037.1|copper_resistance_system_multicopper_oxidase                           12.38%    passed    100.00%
+  68  uncultured_Psychrobacter_sp._8|WP_367103962.1|copper_resistance_system_multicopper_oxidase            12.23%    passed    100.00%
+  69  uncultured_Psychrobacter_sp._9|WP_289116025.1|copper_resistance_system_multicopper_oxidase            14.09%    passed    100.00%
+  70  Psychrobacter_celer_2|WP_198336790.1|copper_resistance_system_multicopper_oxidase                     12.54%    passed    100.00%
+  71  uncultured_Psychrobacter_sp._10|WP_367109097.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+  72  Psychrobacter_glaciei_2|WP_275691788.1|copper_resistance_system_multicopper_oxidase                   12.38%    passed    100.00%
+  73  uncultured_Psychrobacter_sp._11|WP_367106850.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+  74  uncultured_Psychrobacter_sp._12|WP_289116019.1|copper_resistance_system_multicopper_oxidase           12.54%    passed    100.00%
+  75  Psychrobacter_pacificensis_3|WP_223334656.1|copper_resistance_system_multicopper_oxidase              12.54%    passed    100.00%
+  76  Psychrobacter_celer_3|WP_334222014.1|copper_resistance_system_multicopper_oxidase                     12.38%    passed    100.00%
+  77  Psychrobacter_glaciei_3|WP_240216656.1|copper_resistance_system_multicopper_oxidase                   12.54%    passed    100.00%
+  78  unclassified_Psychrobacter_3|WP_025645679.1|copper_resistance_system_multicopper_oxidase              12.54%    passed    100.00%
+  79  unclassified_Psychrobacter_4|WP_025653160.1|copper_resistance_system_multicopper_oxidase              12.23%    passed    100.00%
+  80  Psychrobacter_pacificensis_4|WP_430285161.1|copper_resistance_system_multicopper_oxidase              12.38%    passed    100.00%
+  81  uncultured_Psychrobacter_sp._13|WP_367111693.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+  82  Psychrobacter_sp._M4_2|WP_472781992.1|copper_resistance_system_multicopper_oxidase                    12.23%    passed     99.99%
+  83  Psychrobacter_sp._DD43|WP_201551691.1|copper_resistance_system_multicopper_oxidase                    12.54%    passed    100.00%
+  84  Psychrobacter_sp._Pi2-51_2|WP_201593649.1|copper_resistance_system_multicopper_oxidase                12.54%    passed    100.00%
+  85  Psychrobacter_sp._bablab_jr012|WP_228284712.1|copper_resistance_system_multicopper_oxidase            12.38%    passed    100.00%
+  86  Psychrobacter_okhotskensis|WP_276529530.1|copper_resistance_system_multicopper_oxidase                12.23%    passed    100.00%
+  87  Psychrobacter_pacificensis_5|WP_212564402.1|copper_resistance_system_multicopper_oxidase              12.54%    passed    100.00%
+  88  Psychrobacter_immobilis_4|WP_201582213.1|copper_resistance_system_multicopper_oxidase                 12.23%    passed    100.00%
+  89  Psychrobacter_2|WP_201577598.1|copper_resistance_system_multicopper_oxidase                           12.23%    passed    100.00%
+  90  Psychrobacter_sp._Cmf_22.2|WP_075103633.1|copper_resistance_system_multicopper_oxidase                12.23%    passed    100.00%
+  91  Psychrobacter_immobilis_5|WP_201567718.1|copper_resistance_system_multicopper_oxidase                 12.54%    passed    100.00%
+  92  uncultured_Psychrobacter_sp._14|WP_299069681.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+  93  uncultured_Psychrobacter_sp._15|WP_348654209.1|copper_resistance_system_multicopper_oxidase           12.54%    passed    100.00%
+  94  Psychrobacter_nivimaris_3|WP_201572231.1|copper_resistance_system_multicopper_oxidase                 12.38%    passed    100.00%
+  95  Psychrobacter_3|WP_284719438.1|copper_resistance_system_multicopper_oxidase                           12.54%    passed    100.00%
+  96  Psychrobacter_4|WP_298980165.1|copper_resistance_system_multicopper_oxidase                           12.54%    passed    100.00%
+  97  Psychrobacter_submarinus_1|WP_201600875.1|copper_resistance_system_multicopper_oxidase                12.54%    passed    100.00%
+  98  Psychrobacter_sp._GW64-MNA-CIBAN-0177|WP_352287807.1|copper_resistance_system_multicopper_oxidase     12.23%    passed    100.00%
+  99  uncultured_Psychrobacter_sp._16|WP_300406665.1|copper_resistance_system_multicopper_oxidase           12.54%    passed    100.00%
+ 100  Psychrobacter_pacificensis_6|WP_474735469.1|copper_resistance_system_multicopper_oxidase              12.54%    passed    100.00%
+ 101  uncultured_Psychrobacter_sp._17|WP_299330080.1|copper_resistance_system_multicopper_oxidase           12.54%    passed    100.00%
+ 102  Psychrobacter_sp._DM4|WP_435979993.1|copper_resistance_system_multicopper_oxidase                     12.38%    passed    100.00%
+ 103  Psychrobacter_sp._UBA3068|WP_286740907.1|copper_resistance_system_multicopper_oxidase                 12.54%    passed    100.00%
+ 104  unclassified_Psychrobacter_5|WP_305899991.1|copper_resistance_system_multicopper_oxidase              12.38%    passed    100.00%
+ 105  Psychrobacter_sp._DM8|WP_435949448.1|copper_resistance_system_multicopper_oxidase                     12.54%    passed    100.00%
+ 106  uncultured_Psychrobacter_sp._18|WP_298974489.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+ 107  uncultured_Psychrobacter_sp._19|WP_298739300.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+ 108  Psychrobacter_submarinus_2|WP_201601002.1|copper_resistance_system_multicopper_oxidase                12.23%    passed    100.00%
+ 109  Psychrobacter_celer_4|WP_455706373.1|copper_resistance_system_multicopper_oxidase                     12.23%    passed    100.00%
+ 110  Psychrobacter_sp._CAM01|WP_317053546.1|copper_resistance_system_multicopper_oxidase                   12.23%    passed    100.00%
+ 111  uncultured_Psychrobacter_sp._20|WP_299330535.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+ 112  Psychrobacter_submarinus_3|WP_438950592.1|copper_resistance_system_multicopper_oxidase                12.54%    passed    100.00%
+ 113  Psychrobacter_sp._VH5|WP_430737341.1|copper_resistance_system_multicopper_oxidase                     12.23%    passed    100.00%
+ 114  Psychrobacter_sp._AH5|WP_353104189.1|copper_resistance_system_multicopper_oxidase                     12.69%    passed    100.00%
+ 115  uncultured_Psychrobacter_sp._21|WP_288996651.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+ 116  uncultured_Psychrobacter_sp._22|WP_288999309.1|copper_resistance_system_multicopper_oxidase           12.23%    passed    100.00%
+ 117  Psychrobacter_sp._Ps3|WP_238062109.1|copper_resistance_system_multicopper_oxidase                     12.23%    passed    100.00%
+ 118  Psychrobacter_celer_5|WP_198336469.1|copper_resistance_system_multicopper_oxidase                     12.23%    passed    100.00%
+ 119  Psychrobacter_sp._A3|WP_274631640.1|copper_resistance_system_multicopper_oxidase                      12.23%    passed    100.00%
+ 120  unclassified_Psychrobacter_6|WP_025647269.1|copper_resistance_system_multicopper_oxidase              12.23%    passed    100.00%
+ 121  Psychrobacter_sp._WY6|WP_284143884.1|multicopper_oxidase_domain-containing_protein                    28.64%    passed     99.98%
+ 122  Psychrobacter_sp._CX14|WP_486543076.1|copper_resistance_system_multicopper_oxidase                    13.78%    passed     99.81%
+ 123  Psychrobacter_sp._CX16|WP_486552851.1|copper_resistance_system_multicopper_oxidase                    13.78%    passed     99.74%
+ 124  Psychrobacter_sp._CX97|WP_486529742.1|copper_resistance_system_multicopper_oxidase                    11.92%    passed     99.98%
+ 125  Psychrobacter_sp._CX5|WP_491185048.1|copper_resistance_system_multicopper_oxidase                     12.54%    passed     99.99%
+ 126  Psychrobacter_sp._CX90|WP_486550632.1|copper_resistance_system_multicopper_oxidase                    11.92%    passed    100.00%
+ 127  Psychrobacter_pocilloporae|WP_284719828.1|multicopper_oxidase_domain-containing_protein               38.08%    passed     93.06%
+ 128  Psychrobacter_sp._ENNN9_III|WP_319822887.1|copper_resistance_system_multicopper_oxidase               29.88%    passed     98.16%
+ 129  Paraperlucidibaca_sp.|WP_487990687.1|copper_resistance_system_multicopper_oxidase                     15.02%    passed     69.52%
+ 130  Thiobacillus_sp.|WP_296821200.1|copper_resistance_system_multicopper_oxidase                          13.16%    failed      0.76%
+ 131  Ketobacter_alkanivorans|WP_101892447.1|copper_resistance_system_multicopper_oxidase                    6.50%    failed      1.20%
+ 132  Methylophaga_sp._OBS4|WP_266326050.1|copper_resistance_system_multicopper_oxidase                     10.37%    passed     19.47%
+ 133  Vibrio_alginolyticus|WP_269128784.1|copper_resistance_system_multicopper_oxidase                       9.29%    failed      0.06%
+ 134  Sediminihaliea_albiluteola|WP_182169047.1|copper_resistance_system_multicopper_oxidase                 6.81%    failed      4.29%
+ 135  Rhodanobacter_sp._G2-10|WP_473682845.1|copper_resistance_system_multicopper_oxidase                    9.75%    failed      0.00%
+ 136  Oleiagrimonas_sp._MCCC_1A03011|WP_113065197.1|copper_resistance_system_multicopper_oxidase            10.84%    failed      0.00%
+ 137  Gallaecimonas_kandeliae|WP_301495760.1|copper_resistance_system_multicopper_oxidase                    9.75%    failed      0.52%
+ 138  Thalassolituus_oleivorans|WP_225666578.1|copper_resistance_system_multicopper_oxidase                  7.28%    passed     16.90%
+ 139  unclassified_Bermanella|WP_396586513.1|copper_resistance_system_multicopper_oxidase                    7.28%    passed     20.02%
+ 140  Methylophaga_sp._OBS3|WP_266278385.1|copper_resistance_system_multicopper_oxidase                     11.46%    passed     15.64%
+****  TOTAL                                                                                                 12.55%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000354052 secs using 103.9% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.045 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 8.939 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -36734
+Threads: 2 / Time: 8.349 sec / Speedup: 1.071 / Efficiency: 54% / LogL: -36734
+Threads: 3 / Time: 6.530 sec / Speedup: 1.369 / Efficiency: 46% / LogL: -36734
+Determining AUTO threadcount: done in 23.8222 secs using 137.9% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -18381.286
+Optimal log-likelihood: -18381.285
+Proportion of invariable sites: 0.123
+Gamma shape alpha: 0.770
+Parameters optimization took 1 rounds (0.742 sec)
+Time for fast ML tree search: 6.060 seconds
+
+NOTE: ModelFinder requires 127 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 646 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           WAG+F+I+R4
+Corrected Akaike Information Criterion: WAG+F+I+R4
+Bayesian Information Criterion:         WAG+F+I+R4
+Best-fit model: WAG+F+I+R4 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.model.gz
+CPU time for ModelFinder: 1010.539 seconds (0h:16m:50s)
+Wall-clock time for ModelFinder: 675.300 seconds (0h:11m:15s)
+Generating 1000 samples for ultrafast bootstrap (seed: 274617)...
+
+NOTE: 52 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18259.832
+2. Current log-likelihood: -18255.176
+3. Current log-likelihood: -18254.985
+Optimal log-likelihood: -18254.933
+Proportion of invariable sites: 0.177
+Site proportion and rates:  (0.414,0.324) (0.217,1.224) (0.158,2.707) (0.034,5.148)
+Parameters optimization took 3 rounds (5.863 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 4.12697 secs using 195.1% CPU
+Computing ML distances took 4.127805 sec (of wall-clock time) 8.053711 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000381947 secs using 225.7% CPU
+Constructing RapidNJ tree: done in 0.00673604 secs using 131% CPU
+Computing RapidNJ tree took 0.007184 sec (of wall-clock time) 0.009766 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -18444.161
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.642 second
+Computing log-likelihood of 98 initial trees ... 24.385 seconds
+Current best score: -18253.616
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18200.629
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -18200.210
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -18198.735
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -18185.861
+Iteration 10 / LogL: -18201.823 / Time: 0h:13m:24s
+Iteration 20 / LogL: -18212.630 / Time: 0h:14m:45s
+Finish initializing candidate tree set (20)
+Current best tree score: -18185.861 / CPU time: 197.586
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -18177.622
+Iteration 30 / LogL: -18202.229 / Time: 0h:16m:2s (0h:15m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -18176.930
+Iteration 40 / LogL: -18197.319 / Time: 0h:17m:13s (0h:14m:4s left)
+Iteration 50 / LogL: -18180.106 / Time: 0h:18m:23s (0h:11m:57s left)
+Log-likelihood cutoff on original alignment: -18266.442
+Iteration 60 / LogL: -18236.703 / Time: 0h:19m:42s (0h:10m:19s left)
+Iteration 70 / LogL: -18185.307 / Time: 0h:20m:56s (0h:8m:42s left)
+Iteration 80 / LogL: -18209.277 / Time: 0h:22m:6s (0h:7m:8s left)
+Iteration 90 / LogL: -18206.188 / Time: 0h:23m:18s (0h:5m:41s left)
+Iteration 100 / LogL: -18209.974 / Time: 0h:24m:30s (0h:4m:17s left)
+Log-likelihood cutoff on original alignment: -18266.442
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -18196.129 / Time: 0h:25m:46s (0h:11m:58s left)
+Iteration 120 / LogL: -18184.844 / Time: 0h:27m:4s (0h:10m:38s left)
+Iteration 130 / LogL: -18210.526 / Time: 0h:28m:31s (0h:9m:22s left)
+TREE SEARCH COMPLETED AFTER 133 ITERATIONS / Time: 0h:28m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18176.930
+Optimal log-likelihood: -18176.928
+Proportion of invariable sites: 0.179
+Site proportion and rates:  (0.421,0.332) (0.223,1.286) (0.146,2.800) (0.031,5.341)
+Parameters optimization took 1 rounds (1.427 sec)
+BEST SCORE FOUND : -18176.928
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.691 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.splits.nex
+Total tree length: 7.269
+
+Total number of iterations: 133
+CPU time used for tree search: 1543.598 sec (0h:25m:43s)
+Wall-clock time used for tree search: 1046.693 sec (0h:17m:26s)
+Total CPU time used: 2579.731 sec (0h:42m:59s)
+Total wall-clock time used: 1737.850 sec (0h:28m:57s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.splits.nex...
+140 taxa and 1081 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.contree
+Log-likelihood of consensus tree: -18178.595
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/Chloe_Phylogeny/Laccase_formatted_aligned_IQTREE_iTOL.fasta.log
+
+Date and Time: Tue Aug 18 14:42:06 2026

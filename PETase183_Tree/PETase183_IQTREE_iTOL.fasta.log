@@ -1,0 +1,243 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta -m MFP -B 1000 -alrt 1000 -T AUTO
+Seed:    674848 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 20:01:07 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta ... Fasta format detected
+Reading fasta file: done in 0.000967979 secs using 66.22% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000989199 secs using 58.33% CPU
+Alignment has 83 sequences with 373 columns, 343 distinct patterns
+267 parsimony-informative, 36 singleton sites, 70 constant sites
+                                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.38962e-05 secs using 109.6% CPU
+   1  Marinobacter_sp._OP_3.4_1|WP_328185892.1|alpha/beta_hydrolase_family_protein                         17.69%    passed     98.38%
+   2  Marinobacter_segnicrescens|WP_417547160.1|alpha/beta_hydrolase_family_protein                        17.43%    passed     98.58%
+   3  Marinobacter_bryozoorum|WP_248232622.1|alpha/beta_hydrolase_family_protein                           17.43%    passed     92.59%
+   4  uncultured_Marinobacter_sp._1|WP_339802429.1|alpha/beta_hydrolase_family_protein                     17.43%    passed     93.28%
+   5  Halopseudomonas_sp._1|WP_335616960.1|alpha/beta_hydrolase_family_protein                             19.03%    passed     98.56%
+   6  Pseudomonas_nanhaiensis_1|WP_223655416.1|alpha/beta_hydrolase_family_protein                         19.57%    passed     99.33%
+   7  Halopseudomonas_sabulinigri_1|WP_476402585.1|alpha/beta_hydrolase_family_protein                     18.23%    passed     99.99%
+   8  Halopseudomonas_sp._2|WP_335610197.1|alpha/beta_hydrolase_family_protein                             18.23%    passed     99.93%
+   9  Halopseudomonas_sp._3|WP_415055749.1|alpha/beta_hydrolase_family_protein                             16.89%    passed     95.83%
+  10  Halopseudomonas_sp._4|WP_335616959.1|alpha/beta_hydrolase_family_protein                             18.23%    passed     99.99%
+  11  Pseudomonas_sp._gcc21_1|WP_169407362.1|alpha/beta_hydrolase_family_protein                           19.57%    passed     99.16%
+  12  Pseudomonas_1|WP_150299537.1|alpha/beta_hydrolase_family_protein                                     19.57%    passed     98.14%
+  13  Pseudomonas_sp.|WP_425221518.1|alpha/beta_hydrolase_family_protein                                   18.77%    passed     99.94%
+  14  Marinobacter_sp._OP_3.4_2|WP_328185870.1|alpha/beta_hydrolase_family_protein                         17.16%    passed     79.44%
+  15  Pseudomonas_sp._gcc21_2|WP_169407363.1|alpha/beta_hydrolase_family_protein                           19.57%    passed     95.32%
+  16  Halopseudomonas_sp._5|WP_341708199.1|alpha/beta_hydrolase_family_protein                             18.77%    passed     99.82%
+  17  Halopseudomonas_sabulinigri_2|WP_353389325.1|alpha/beta_hydrolase_family_protein                     18.77%    passed     95.10%
+  18  Halopseudomonas_sp._6|WP_335610199.1|alpha/beta_hydrolase_family_protein                             18.77%    passed     97.76%
+  19  Pseudomonas_sp._GW-45_1|WP_483324069.1|alpha/beta_hydrolase_family_protein                           19.30%    passed     98.21%
+  20  Halopseudomonas_oceani|WP_496961921.1|poly_ethylene_terephthalate_hydrolase_family_protein           18.77%    passed     99.09%
+  21  Pseudomonas_sp._GW-45_2|WP_483324068.1|alpha/beta_hydrolase_family_protein                           18.23%    passed     99.71%
+  22  Pseudomonas_abyssi|WP_425056760.1|alpha/beta_hydrolase_family_protein                                18.77%    passed     99.60%
+  23  Halopseudomonas_pachastrellae_1|WP_432569504.1|alpha/beta_hydrolase_family_protein                   18.23%    passed    100.00%
+  24  Halopseudomonas_pachastrellae_2|WP_432569505.1|alpha/beta_hydrolase_family_protein                   18.50%    passed     99.97%
+  25  Halopseudomonas_sp._7|WP_335605360.1|alpha/beta_hydrolase_family_protein                             17.43%    passed     99.33%
+  26  Pseudomonas_sp._gcc21_3|WP_169406150.1|alpha/beta_hydrolase_family_protein                           18.77%    passed     98.36%
+  27  Pseudomonas_nanhaiensis_2|WP_223655417.1|alpha/beta_hydrolase_family_protein                         19.03%    passed     99.86%
+  28  Pseudomonas_sp._GW-45_3|WP_483324067.1|alpha/beta_hydrolase_family_protein                           19.57%    passed     99.11%
+  29  Pseudomonas_2|WP_118131888.1|alpha/beta_hydrolase_family_protein                                     18.23%    passed    100.00%
+  30  uncultured_Marinobacter_sp._2|WP_339802426.1|alpha/beta_hydrolase_family_protein                     16.35%    passed     97.57%
+  31  Halopseudomonas_sp._8|WP_373184602.1|alpha/beta_hydrolase_family_protein                             17.43%    passed     99.76%
+  32  Halopseudomonas_sp._4NH20-0008_1|WP_487154109.1|alpha/beta_hydrolase_family_protein                  17.43%    passed     99.97%
+  33  Pseudomonas_3|WP_123888242.1|alpha/beta_hydrolase_family_protein                                     18.23%    passed     99.72%
+  34  Halopseudomonas_sp._4NH20-0008_2|WP_487155282.1|alpha/beta_hydrolase_family_protein                  17.16%    passed     88.51%
+  35  uncultured_Pseudomonas_sp.|WP_339666415.1|alpha/beta_hydrolase_family_protein                        18.23%    passed     99.79%
+  36  Halopseudomonas_sp._9|WP_335610198.1|dienelactone_hydrolase_family_protein                           17.69%    passed     97.67%
+  37  Halopseudomonas_sp._4NH20-0008_3|WP_487156170.1|alpha/beta_hydrolase_family_protein                  17.43%    passed     99.01%
+  38  Pseudomonas_4|WP_150300936.1|alpha/beta_hydrolase_family_protein                                     18.77%    passed     99.97%
+  39  Halopseudomonas_sp._10|WP_373185656.1|alpha/beta_hydrolase_family_protein                            17.96%    passed     98.94%
+  40  Halopseudomonas_sp._T1L2|WP_464382426.1|alpha/beta_hydrolase_family_protein                          18.50%    passed     99.99%
+  41  Halopseudomonas_aestusnigri_1|WP_285677831.1|alpha/beta_hydrolase_family_protein                     18.50%    passed     99.92%
+  42  Halopseudomonas_aestusnigri_2|WP_338212404.1|alpha/beta_hydrolase_family_protein                     18.50%    passed     99.85%
+  43  Halopseudomonas_sp._11|WP_335605499.1|alpha/beta_hydrolase_family_protein                            16.89%    passed     97.70%
+  44  uncultured_Halopseudomonas_sp._1|WP_339843917.1|alpha/beta_hydrolase_family_protein                  17.43%    passed     94.79%
+  45  uncultured_Halopseudomonas_sp._2|WP_339842536.1|alpha/beta_hydrolase_family_protein                  17.16%    passed     98.12%
+  46  uncultured_Halopseudomonas_sp._3|WP_339843916.1|alpha/beta_hydrolase_family_protein                  15.82%    passed     93.50%
+  47  Marinobacter_nanhaiticus|WP_085988667.1|alpha/beta_hydrolase_family_protein                          20.91%    passed     98.50%
+  48  Allohahella_marinimesophila|WP_344804818.1|alpha/beta_hydrolase_family_protein                       16.89%    passed     97.29%
+  49  unclassified_Gilvimarinus|WP_445617810.1|dienelactone_hydrolase_family_protein                       18.23%    passed     41.76%
+  50  Aurantivibrio_infirmus|WP_460225302.1|alpha/beta_hydrolase_family_protein                            17.16%    passed     78.64%
+  51  Allohahella_sp._A8|WP_416398726.1|alpha/beta_hydrolase_family_protein                                17.43%    passed     98.16%
+  52  Ketobacter_sp.|WP_290577639.1|alpha/beta_hydrolase_family_protein                                    16.35%    passed     83.98%
+  53  Ketobacter_alkanivorans|WP_101893885.1|alpha/beta_hydrolase_family_protein                           15.82%    passed     99.87%
+  54  Pseudomaricurvus_sp.|WP_439133283.1|alpha/beta_hydrolase_family_protein                              18.50%    passed     87.02%
+  55  unclassified_Ketobacter|WP_290594301.1|dienelactone_hydrolase_family_protein                         22.25%    passed     72.01%
+  56  Pseudomonas_sp._GOM6|WP_277688238.1|alpha/beta_hydrolase_family_protein                              20.64%    passed     48.40%
+  57  Vibrio|WP_139344129.1|alpha/beta_hydrolase_family_protein                                            20.38%    passed     53.76%
+  58  Oceaniserpentilla_sp._4NH20-0058_1|WP_353348434.1|alpha/beta_hydrolase_family_protein                16.09%    passed     58.06%
+  59  Stutzerimonas_stutzeri|WP_037003877.1|alpha/beta_hydrolase_family_protein                            20.11%    passed     82.85%
+  60  Stutzerimonas_chloritidismutans|WP_342405044.1|alpha/beta_hydrolase_family_protein                   20.11%    passed     88.22%
+  61  Oceaniserpentilla_sp._4NH20-0058_2|WP_353348446.1|alpha/beta_hydrolase_family_protein                16.35%    passed     46.75%
+  62  Vibrio_gazogenes|WP_021018894.1|alpha/beta_hydrolase_family_protein                                  20.38%    passed     57.23%
+  63  Oceaniserpentilla_sp._4NH20-0058_3|WP_353352583.1|alpha/beta_hydrolase_family_protein                15.82%    passed     37.91%
+  64  Pseudomonas_sp._DNDY-54|WP_222911733.1|alpha/beta_hydrolase_family_protein                           20.11%    passed     90.90%
+  65  Shewanella_surugensis|WP_248941904.1|alpha/beta_hydrolase_family_protein                             17.16%    passed     90.17%
+  66  uncultured_Shewanella_sp._1|WP_299011092.1|poly_ethylene_terephthalate_hydrolase_family_protein      17.16%    passed     97.63%
+  67  Glaciecola_sp._HA4-3|WP_472617452.1|alpha/beta_hydrolase_family_protein                              16.89%    passed     89.69%
+  68  Alteromonas_sp._S167|WP_334015429.1|alpha/beta_hydrolase_family_protein                              16.89%    passed     92.32%
+  69  uncultured_Shewanella_sp._2|WP_298772618.1|poly_ethylene_terephthalate_hydrolase_family_protein      16.62%    passed     96.64%
+  70  uncultured_Shewanella_sp._3|WP_299491006.1|poly_ethylene_terephthalate_hydrolase_family_protein      16.89%    passed     96.87%
+  71  Arenicella_sp._4NH20-0111|WP_353410588.1|poly_ethylene_terephthalate_hydrolase_family_protein        15.82%    passed     49.59%
+  72  Actinophytocola_sediminis|WP_460403762.1|alpha/beta_hydrolase_family_protein                         21.98%    passed     80.16%
+  73  Aurantivibrio_plasticivorans_1|WP_460238364.1|alpha/beta_hydrolase_family_protein                    21.18%    passed     75.59%
+  74  Aurantivibrio_plasticivorans_2|WP_460231427.1|alpha/beta_hydrolase_family_protein                    19.84%    passed     57.16%
+  75  Streptomyces_sp._63XJN7_1_ISO-PGPR-S23-121|WP_475536341.1|bis_hydroxyethyl_terephthalate_hydrolase   18.77%    failed      4.44%
+  76  Actinomadura_sp._NAK00032|WP_254715825.1|bis_hydroxyethyl_terephthalate_hydrolase                    24.66%    passed      9.15%
+  77  Streptomyces_sp._NPDC006997|WP_360218589.1|bis_hydroxyethyl_terephthalate_hydrolase                  16.09%    failed      2.01%
+  78  Aurantivibrio_plasticivorans_3|WP_464107829.1|alpha/beta_hydrolase_family_protein                    18.23%    passed     74.72%
+  79  Streptomonospora_sediminis|WP_461003215.1|alpha/beta_hydrolase_family_protein                        14.48%    failed      0.14%
+  80  Streptomyces_sp._H23|WP_134651899.1|bis_hydroxyethyl_terephthalate_hydrolase                         16.89%    passed     14.37%
+  81  Actinoplanes_sp._M2I2|WP_250008156.1|alpha/beta_hydrolase_family_protein                             25.74%    failed      4.84%
+  82  Streptomyces_tendae|WP_282087093.1|bis_hydroxyethyl_terephthalate_hydrolase                          16.89%    passed     12.02%
+  83  Aurantivibrio_plasticivorans_4|WP_464107832.1|alpha/beta_hydrolase_family_protein                    17.43%    passed     17.05%
+****  TOTAL                                                                                                18.30%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000226021 secs using 75.66% CPU
+
+Creating fast initial parsimony tree by random order stepwise addition...
+1.564 seconds, parsimony score: 3374 (based on 303 sites)
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 8.038 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -30054
+Threads: 2 / Time: 5.795 sec / Speedup: 1.387 / Efficiency: 69% / LogL: -30054
+Threads: 3 / Time: 8.561 sec / Speedup: 0.939 / Efficiency: 31% / LogL: -30054
+Determining AUTO threadcount: done in 22.3954 secs using 138.9% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -18489.225
+Optimal log-likelihood: -18489.162
+Proportion of invariable sites: 0.089
+Gamma shape alpha: 1.006
+Parameters optimization took 1 rounds (0.287 sec)
+Time for fast ML tree search: 2.847 seconds
+
+NOTE: ModelFinder requires 47 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 373 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           WAG+F+I+G4
+Corrected Akaike Information Criterion: WAG+F+I+G4
+Bayesian Information Criterion:         WAG+F+I+G4
+Best-fit model: WAG+F+I+G4 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.model.gz
+CPU time for ModelFinder: 223.174 seconds (0h:3m:43s)
+Wall-clock time for ModelFinder: 153.153 seconds (0h:2m:33s)
+Generating 1000 samples for ultrafast bootstrap (seed: 674848)...
+
+NOTE: 19 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.060 / Estimate: 0.000, 0.760 / LogL: -18319.040
+Init pinv, alpha: 0.021, 1.060 / Estimate: 0.087, 1.015 / LogL: -18308.492
+Init pinv, alpha: 0.042, 1.060 / Estimate: 0.088, 1.016 / LogL: -18308.486
+Init pinv, alpha: 0.063, 1.060 / Estimate: 0.087, 1.015 / LogL: -18308.492
+Init pinv, alpha: 0.083, 1.060 / Estimate: 0.090, 1.030 / LogL: -18308.458
+Init pinv, alpha: 0.104, 1.060 / Estimate: 0.095, 1.050 / LogL: -18308.473
+Init pinv, alpha: 0.125, 1.060 / Estimate: 0.095, 1.051 / LogL: -18308.475
+Init pinv, alpha: 0.146, 1.060 / Estimate: 0.096, 1.055 / LogL: -18308.488
+Init pinv, alpha: 0.167, 1.060 / Estimate: 0.094, 1.048 / LogL: -18308.469
+Init pinv, alpha: 0.188, 1.060 / Estimate: 0.095, 1.050 / LogL: -18308.474
+Optimal pinv,alpha: 0.090, 1.030 / LogL: -18308.458
+
+Parameters optimization took 13.433 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.42693 secs using 198.6% CPU
+Computing ML distances took 1.427387 sec (of wall-clock time) 2.833964 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000194073 secs using 205.6% CPU
+Constructing RapidNJ tree: done in 0.00504613 secs using 71.64% CPU
+Computing RapidNJ tree took 0.005314 sec (of wall-clock time) 0.004069 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -18381.267
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.687 second
+Computing log-likelihood of 98 initial trees ... 9.061 seconds
+Current best score: -18308.458
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18295.997
+Iteration 10 / LogL: -18301.332 / Time: 0h:3m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -18294.811
+Iteration 20 / LogL: -18315.180 / Time: 0h:3m:23s
+Finish initializing candidate tree set (19)
+Current best tree score: -18294.811 / CPU time: 35.367
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -18294.136
+Iteration 30 / LogL: -18298.936 / Time: 0h:3m:43s (0h:3m:56s left)
+Iteration 40 / LogL: -18345.490 / Time: 0h:3m:59s (0h:3m:13s left)
+Iteration 50 / LogL: -18295.912 / Time: 0h:4m:17s (0h:2m:45s left)
+Log-likelihood cutoff on original alignment: -18359.202
+Iteration 60 / LogL: -18313.269 / Time: 0h:4m:34s (0h:2m:19s left)
+Iteration 70 / LogL: -18303.541 / Time: 0h:4m:51s (0h:1m:56s left)
+Iteration 80 / LogL: -18294.230 / Time: 0h:5m:11s (0h:1m:36s left)
+Iteration 90 / LogL: -18294.488 / Time: 0h:5m:30s (0h:1m:15s left)
+Iteration 100 / LogL: -18297.876 / Time: 0h:5m:47s (0h:0m:55s left)
+Log-likelihood cutoff on original alignment: -18359.202
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -18297.493 / Time: 0h:6m:4s (0h:2m:54s left)
+Iteration 120 / LogL: -18294.629 / Time: 0h:6m:21s (0h:2m:33s left)
+TREE SEARCH COMPLETED AFTER 129 ITERATIONS / Time: 0h:6m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18294.136
+Optimal log-likelihood: -18294.136
+Proportion of invariable sites: 0.094
+Gamma shape alpha: 1.073
+Parameters optimization took 1 rounds (0.259 sec)
+BEST SCORE FOUND : -18294.136
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.698 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.splits.nex
+Total tree length: 15.002
+
+Total number of iterations: 129
+CPU time used for tree search: 318.436 sec (0h:5m:18s)
+Wall-clock time used for tree search: 230.685 sec (0h:3m:50s)
+Total CPU time used: 566.903 sec (0h:9m:26s)
+Total wall-clock time used: 400.260 sec (0h:6m:40s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.splits.nex...
+83 taxa and 397 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.contree
+Log-likelihood of consensus tree: -18300.331
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/PETase183_IQTREE_iTOL.fasta.log
+
+Date and Time: Tue Aug 18 20:07:48 2026

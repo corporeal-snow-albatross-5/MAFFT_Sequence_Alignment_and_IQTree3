@@ -1,0 +1,158 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta -m MFP -B 1000 -alrt 1000 -T AUTO
+Seed:    358579 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 19:58:47 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta ... Fasta format detected
+Reading fasta file: done in 0.00030303 secs using 41.91% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000659943 secs using 43.79% CPU
+Alignment has 14 sequences with 465 columns, 281 distinct patterns
+207 parsimony-informative, 50 singleton sites, 208 constant sites
+                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.72069e-05 secs using 59.31% CPU
+   1  Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase              4.09%    passed    100.00%
+   2  Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase              4.09%    passed    100.00%
+   3  Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase             1.29%    passed    100.00%
+   4  Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase             3.66%    passed     99.52%
+   5  Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase              3.87%    passed    100.00%
+   6  Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase            3.44%    passed     99.25%
+   7  Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase          4.30%    passed     99.62%
+   8  Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase           3.87%    passed     95.80%
+   9  Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase                  4.30%    passed     85.65%
+  10  Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase             3.44%    passed     99.91%
+  11  Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase        3.44%    passed     87.06%
+  12  Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase     3.44%    passed     94.86%
+  13  unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase        3.44%    passed     86.37%
+  14  Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase    3.87%    passed     97.02%
+****  TOTAL                                                                        3.61%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 4.72069e-05 secs using 76.26% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+78 trees examined
+Threads: 1 / Time: 8.075 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -6524
+Threads: 2 / Time: 6.521 sec / Speedup: 1.238 / Efficiency: 62% / LogL: -6524
+Threads: 3 / Time: 5.857 sec / Speedup: 1.379 / Efficiency: 46% / LogL: -6524
+Determining AUTO threadcount: done in 20.4576 secs using 130.8% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4824.339
+Optimal log-likelihood: -4824.336
+Proportion of invariable sites: 0.215
+Gamma shape alpha: 1.319
+Parameters optimization took 1 rounds (0.032 sec)
+Time for fast ML tree search: 0.215 seconds
+
+NOTE: ModelFinder requires 7 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 465 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           CPREV+I+G4
+Corrected Akaike Information Criterion: CPREV+I+G4
+Bayesian Information Criterion:         CPREV+G4
+Best-fit model: CPREV+G4 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.model.gz
+CPU time for ModelFinder: 41.234 seconds (0h:0m:41s)
+Wall-clock time for ModelFinder: 30.214 seconds (0h:0m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 358579)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4813.434
+2. Current log-likelihood: -4813.312
+Optimal log-likelihood: -4813.312
+Gamma shape alpha: 0.783
+Parameters optimization took 2 rounds (0.046 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0728662 secs using 199.4% CPU
+Computing ML distances took 0.073180 sec (of wall-clock time) 0.145335 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.29289e-05 secs using 136% CPU
+Constructing RapidNJ tree: done in 0.00052309 secs using 46.84% CPU
+Computing RapidNJ tree took 0.000637 sec (of wall-clock time) 0.000354 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4828.627
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.100 second
+Computing log-likelihood of 98 initial trees ... 0.969 seconds
+Current best score: -4813.312
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4813.312
+Iteration 10 / LogL: -4813.314 / Time: 0h:0m:32s
+Iteration 20 / LogL: -4813.317 / Time: 0h:0m:34s
+Finish initializing candidate tree set (1)
+Current best tree score: -4813.312 / CPU time: 3.641
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4847.818 / Time: 0h:0m:35s (0h:0m:12s left)
+Iteration 40 / LogL: -4813.327 / Time: 0h:0m:36s (0h:0m:9s left)
+Iteration 50 / LogL: -4868.728 / Time: 0h:0m:37s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -4839.946
+Iteration 60 / LogL: -4847.911 / Time: 0h:0m:39s (0h:0m:6s left)
+Iteration 70 / LogL: -4830.409 / Time: 0h:0m:40s (0h:0m:4s left)
+Iteration 80 / LogL: -4813.317 / Time: 0h:0m:42s (0h:0m:3s left)
+Iteration 90 / LogL: -4813.323 / Time: 0h:0m:44s (0h:0m:1s left)
+Iteration 100 / LogL: -4813.493 / Time: 0h:0m:45s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -4838.655
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4813.312
+Optimal log-likelihood: -4813.312
+Gamma shape alpha: 0.783
+Parameters optimization took 1 rounds (0.026 sec)
+BEST SCORE FOUND : -4813.312
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.089 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.splits.nex
+Total tree length: 1.810
+
+Total number of iterations: 102
+CPU time used for tree search: 20.764 sec (0h:0m:20s)
+Wall-clock time used for tree search: 15.617 sec (0h:0m:15s)
+Total CPU time used: 62.516 sec (0h:1m:2s)
+Total wall-clock time used: 46.172 sec (0h:0m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.splits.nex...
+14 taxa and 45 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.contree
+Log-likelihood of consensus tree: -4813.312
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.log
+
+Date and Time: Tue Aug 18 19:59:33 2026

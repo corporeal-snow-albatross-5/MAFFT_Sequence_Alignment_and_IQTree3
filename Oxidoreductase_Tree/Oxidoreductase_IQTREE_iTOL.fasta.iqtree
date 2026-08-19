@@ -1,0 +1,311 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 358579
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 14 sequences with 465 amino-acid sites
+Number of constant sites: 208 (= 44.7312% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 208 (= 44.7312% of all sites)
+Number of parsimony informative sites: 207
+Number of distinct site patterns: 281
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: CPREV+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+CPREV+G4          -4813.312    9678.624 +    0.361    9681.829 +     0.39    9786.317 +    0.817
+CPREV+I+G4        -4811.739    9677.478 +    0.639    9680.938 +     0.61    9789.313 +    0.183
+LG+G4             -4825.366    9702.733 -  2.1e-06    9705.938 - 2.27e-06    9810.426 - 4.76e-06
+LG+I+G4           -4824.334    9702.668 - 2.17e-06    9706.128 - 2.07e-06    9814.503 - 6.19e-07
+LG+I+R2           -4824.830    9705.660 - 4.86e-07    9709.385 - 4.05e-07    9821.637 - 1.75e-08
+LG+R2             -4828.176    9710.351 - 4.65e-08    9713.811 - 4.43e-08    9822.186 - 1.33e-08
+Q.PFAM+G4         -4833.249    9718.497 - 7.92e-10    9721.703 - 8.57e-10    9826.190 - 1.79e-09
+WAG+G4            -4834.632    9721.264 - 1.98e-10    9724.470 - 2.15e-10    9828.957 -  4.5e-10
+WAG+I+G4          -4832.239    9718.479 - 7.99e-10    9721.939 - 7.62e-10    9830.314 - 2.28e-10
+Q.PFAM+I+G4       -4832.354    9718.707 - 7.13e-10    9722.167 -  6.8e-10    9830.542 - 2.04e-10
+LG+R3             -4826.249    9710.497 - 4.32e-08    9714.497 - 3.15e-08    9830.616 - 1.96e-10
+LG+I+R3           -4824.285    9708.571 - 1.13e-07    9712.857 - 7.15e-08    9832.832 - 6.48e-11
+JTTDCMUT+G4       -4838.278    9728.556 - 5.18e-12    9731.761 - 5.61e-12    9836.249 - 1.17e-11
+JTTDCMUT+I+G4     -4836.549    9727.097 - 1.07e-11    9730.557 - 1.02e-11    9838.932 - 3.07e-12
+JTT+G4            -4839.799    9731.597 - 1.13e-12    9734.803 - 1.23e-12    9839.290 - 2.57e-12
+JTT+I+G4          -4838.068    9730.136 - 2.35e-12    9733.596 - 2.24e-12    9841.971 - 6.72e-13
+VT+G4             -4842.881    9737.762 - 5.19e-14    9740.967 - 5.62e-14    9845.455 - 1.18e-13
+VT+I+G4           -4841.065    9736.129 - 1.17e-13    9739.589 - 1.12e-13    9847.964 - 3.36e-14
+Q.PLANT+G4        -4845.756    9743.511 - 2.93e-15    9746.717 - 3.17e-15    9851.204 - 6.64e-15
+Q.PLANT+I+G4      -4844.359    9742.717 - 4.36e-15    9746.177 - 4.15e-15    9854.552 - 1.25e-15
+Q.YEAST+G4        -4849.625    9751.249 - 6.12e-17    9754.455 - 6.62e-17    9858.942 - 1.39e-16
+LG+I              -4849.656    9751.311 - 5.93e-17    9754.517 - 6.42e-17    9859.004 - 1.34e-16
+Q.YEAST+I+G4      -4848.594    9751.187 - 6.31e-17    9754.647 - 6.02e-17    9863.022 -  1.8e-17
+Q.INSECT+G4       -4858.088    9768.176 - 1.29e-20    9771.382 -  1.4e-20    9875.869 - 2.93e-20
+Q.INSECT+I+G4     -4857.296    9768.593 - 1.05e-20    9772.053 - 9.99e-21    9880.428 - 2.99e-21
+RTREV+G4          -4862.199    9776.399 - 2.12e-22    9779.604 - 2.29e-22    9884.092 -  4.8e-22
+RTREV+I+G4        -4861.589    9777.177 - 1.43e-22    9780.637 - 1.37e-22    9889.012 -  4.1e-23
+CPREV+F+G4        -4807.556    9705.113 - 6.38e-07    9714.993 - 2.45e-08    9891.504 - 1.18e-23
+CPREV+F+I+G4      -4805.451    9702.903 - 1.93e-06    9713.247 - 5.88e-08    9893.437 - 4.48e-24
+LG+F+G4           -4826.668    9743.336 -  3.2e-15    9753.216 - 1.23e-16    9929.727 -  5.9e-32
+BLOSUM62+G4       -4885.592    9823.184 - 1.47e-32    9826.390 - 1.59e-32    9930.877 - 3.32e-32
+WAG+F+G4          -4827.316    9744.633 - 1.67e-15    9754.513 - 6.43e-17    9931.025 - 3.09e-32
+WAG+F+I+G4        -4824.976    9741.953 - 6.39e-15    9752.297 - 1.95e-16    9932.486 - 1.49e-32
+LG+F+I+G4         -4825.495    9742.990 -  3.8e-15    9753.334 - 1.16e-16    9933.524 - 8.85e-33
+BLOSUM62+I+G4     -4884.333    9822.665 -  1.9e-32    9826.125 - 1.81e-32    9934.500 - 5.43e-33
+Q.MAMMAL+G4       -4887.886    9827.771 - 1.48e-33    9830.977 -  1.6e-33    9935.464 - 3.35e-33
+Q.PFAM+F+G4       -4830.106    9750.212 - 1.03e-16    9760.093 - 3.95e-18    9936.604 -  1.9e-33
+Q.MAMMAL+I+G4     -4886.263    9826.526 - 2.76e-33    9829.986 - 2.63e-33    9938.361 - 7.88e-34
+Q.PFAM+F+I+G4     -4829.216    9750.431 - 9.21e-17    9760.776 - 2.81e-18    9940.965 - 2.14e-34
+PMB+G4            -4893.500    9838.999 - 5.39e-36    9842.204 - 5.84e-36    9946.692 - 1.22e-35
+PMB+I+G4          -4892.198    9838.397 - 7.29e-36    9841.857 - 6.95e-36    9950.232 - 2.08e-36
+Q.PLANT+F+G4      -4838.281    9766.561 - 2.89e-20    9776.442 - 1.11e-21    9952.953 - 5.34e-37
+Q.PLANT+F+I+G4    -4836.839    9765.677 -  4.5e-20    9776.022 - 1.37e-21    9956.211 - 1.05e-37
+DAYHOFF+G4        -4898.936    9849.872 - 2.35e-38    9853.077 - 2.54e-38    9957.565 - 5.33e-38
+DCMUT+G4          -4899.049    9850.099 -  2.1e-38    9853.304 - 2.27e-38    9957.792 - 4.75e-38
+DAYHOFF+I+G4      -4896.000    9846.000 - 1.63e-37    9849.460 - 1.55e-37    9957.835 - 4.65e-38
+DCMUT+I+G4        -4896.139    9846.278 - 1.42e-37    9849.738 - 1.35e-37    9958.113 - 4.05e-38
+JTTDCMUT+F+G4     -4841.122    9772.243 - 1.69e-21    9782.124 -  6.5e-23    9958.635 - 3.12e-38
+JTTDCMUT+F+I+G4   -4839.414    9770.828 - 3.43e-21    9781.173 - 1.05e-22    9961.362 - 7.98e-39
+JTT+F+G4          -4842.649    9775.297 - 3.67e-22    9785.178 - 1.41e-23    9961.689 - 6.77e-39
+Q.BIRD+G4         -4901.095    9854.190 - 2.71e-39    9857.396 - 2.94e-39    9961.883 - 6.15e-39
+Q.BIRD+I+G4       -4899.166    9852.332 - 6.87e-39    9855.792 - 6.55e-39    9964.167 - 1.96e-39
+JTT+F+I+G4        -4840.929    9773.858 - 7.54e-22    9784.203 -  2.3e-23    9964.392 - 1.75e-39
+FLU+G4            -4903.323    9858.646 - 2.92e-40    9861.851 - 3.16e-40    9966.338 - 6.62e-40
+FLU+I+G4          -4900.852    9855.703 - 1.27e-39    9859.163 - 1.21e-39    9967.538 - 3.64e-40
+HIVB+G4           -4905.312    9862.623 -    4e-41    9865.829 - 4.33e-41    9970.316 - 9.07e-41
+VT+F+G4           -4847.867    9785.734 - 1.99e-24    9795.614 - 7.65e-26    9972.125 - 3.67e-41
+HIVB+I+G4         -4903.466    9860.933 - 9.31e-41    9864.393 - 8.88e-41    9972.768 - 2.66e-41
+VT+F+I+G4         -4845.938    9783.876 - 5.03e-24    9794.220 - 1.54e-25    9974.409 - 1.17e-41
+RTREV+F+G4        -4850.744    9791.489 - 1.12e-25    9801.370 -  4.3e-27    9977.881 - 2.06e-42
+Q.YEAST+F+G4      -4852.541    9795.081 - 1.86e-26    9804.962 - 7.14e-28    9981.473 - 3.43e-43
+RTREV+F+I+G4      -4849.906    9791.812 - 9.52e-26    9802.157 -  2.9e-27    9982.346 - 2.21e-43
+Q.YEAST+F+I+G4    -4851.363    9794.726 - 2.22e-26    9805.070 - 6.76e-28    9985.259 - 5.16e-44
+MTREV+F+G4        -4865.705    9821.411 - 3.56e-32    9831.291 - 1.37e-33   10007.802 - 6.57e-49
+MTREV+F+I+G4      -4864.828    9821.655 - 3.15e-32    9832.000 -  9.6e-34   10012.189 - 7.33e-50
+Q.INSECT+F+G4     -4868.045    9826.089 - 3.43e-33    9835.970 - 1.32e-34   10012.481 - 6.33e-50
+Q.INSECT+F+I+G4   -4867.099    9826.197 - 3.25e-33    9836.542 - 9.91e-35   10016.731 - 7.56e-51
+MTINV+F+G4        -4872.926    9835.853 -  2.6e-35    9845.733 -    1e-36   10022.244 -  4.8e-52
+MTINV+F+I+G4      -4872.126    9836.251 - 2.13e-35    9846.596 -  6.5e-37   10026.785 - 4.96e-53
+BLOSUM62+F+G4     -4881.624    9853.248 - 4.34e-39    9863.129 - 1.67e-40   10039.640 - 8.02e-56
+MTMET+F+G4        -4882.499    9854.997 - 1.81e-39    9864.878 - 6.97e-41   10041.389 - 3.34e-56
+BLOSUM62+F+I+G4   -4879.972    9851.944 - 8.34e-39    9862.289 - 2.54e-40   10042.478 - 1.94e-56
+MTMET+F+I+G4      -4881.731    9855.462 - 1.44e-39    9865.807 - 4.38e-41   10045.996 - 3.34e-57
+Q.MAMMAL+F+G4     -4888.073    9866.147 - 6.87e-42    9876.028 - 2.64e-43   10052.539 - 1.27e-58
+MTZOA+F+G4        -4888.114    9866.229 - 6.59e-42    9876.110 - 2.54e-43   10052.621 - 1.22e-58
+Q.MAMMAL+F+I+G4   -4886.903    9865.805 - 8.15e-42    9876.150 - 2.49e-43   10056.339 -  1.9e-59
+MTZOA+F+I+G4      -4887.530    9867.060 - 4.35e-42    9877.405 - 1.33e-43   10057.594 - 1.01e-59
+PMB+F+G4          -4890.680    9871.360 - 5.07e-43    9881.241 - 1.95e-44   10057.752 - 9.35e-60
+PMB+F+I+G4        -4889.146    9870.292 - 8.64e-43    9880.637 - 2.64e-44   10060.826 - 2.01e-60
+DAYHOFF+F+G4      -4892.442    9874.884 -  8.7e-44    9884.764 - 3.35e-45   10061.275 - 1.61e-60
+DCMUT+F+G4        -4892.582    9875.164 - 7.56e-44    9885.045 - 2.91e-45   10061.556 -  1.4e-60
+DAYHOFF+F+I+G4    -4889.733    9871.467 - 4.81e-43    9881.811 - 1.47e-44   10062.000 - 1.12e-60
+DCMUT+F+I+G4      -4889.890    9871.781 - 4.11e-43    9882.125 - 1.25e-44   10062.314 - 9.55e-61
+LG                -4956.606    9963.212 - 5.75e-63    9966.173 - 7.03e-63   10066.763 - 1.03e-61
+Q.BIRD+F+G4       -4902.700    9895.400 - 3.05e-48    9905.281 - 1.17e-49   10081.792 - 5.63e-65
+Q.BIRD+F+I+G4     -4901.118    9894.235 - 5.46e-48    9904.580 - 1.67e-49   10084.769 - 1.27e-65
+FLU+F+G4          -4906.315    9902.630 - 8.22e-50    9912.510 - 3.16e-51   10089.021 - 1.52e-66
+FLU+F+I+G4        -4904.199    9900.398 - 2.51e-49    9910.742 - 7.65e-51   10090.931 - 5.84e-67
+HIVB+F+G4         -4908.258    9906.517 - 1.18e-50    9916.397 - 4.53e-52   10092.908 - 2.17e-67
+HIVB+F+I+G4       -4906.155    9904.310 - 3.55e-50    9914.655 - 1.08e-51   10094.844 - 8.25e-68
+MTVER+F+G4        -4915.216    9920.431 - 1.12e-53    9930.312 - 4.31e-55   10106.823 - 2.07e-70
+MTVER+F+I+G4      -4913.968    9919.936 - 1.43e-53    9930.280 - 4.38e-55   10110.469 - 3.34e-71
+MTMAM+F+G4        -4946.554    9983.109 - 2.75e-67    9992.989 - 1.06e-68   10169.500 - 5.07e-84
+FLAVI+G4          -5005.155   10062.309 - 1.74e-84   10065.514 - 1.89e-84   10170.002 - 3.95e-84
+FLAVI+I+G4        -5003.266   10060.533 - 4.23e-84   10063.993 - 4.03e-84   10172.368 - 1.21e-84
+MTMAM+F+I+G4      -4945.741    9983.482 - 2.28e-67    9993.827 - 6.95e-69   10174.016 -  5.3e-85
+MTART+F+G4        -4955.369   10000.739 - 4.08e-71   10010.619 - 1.57e-72   10187.130 - 7.53e-88
+HIVW+I+G4         -5012.944   10079.889 - 2.65e-88   10083.349 - 2.53e-88   10191.724 - 7.57e-89
+MTART+F+I+G4      -4954.700   10001.400 - 2.93e-71   10011.745 - 8.94e-73   10191.934 - 6.82e-89
+HIVW+G4           -5018.268   10088.535 - 3.51e-90   10091.741 - 3.81e-90   10196.228 - 7.97e-90
+FLAVI+F+G4        -4979.473   10048.946 - 1.39e-81   10058.827 - 5.34e-83   10235.338 - 2.56e-98
+FLAVI+F+I+G4      -4977.233   10046.466 -  4.8e-81   10056.810 - 1.46e-82   10236.999 - 1.12e-98
+HIVW+F+I+G4       -5001.591   10095.182 - 1.27e-91   10105.527 - 3.86e-93   10285.716 - 2.95e-109
+HIVW+F+G4         -5007.381   10104.761 - 1.05e-93   10114.642 - 4.05e-95   10291.153 - 1.94e-110
+MTZOA+G4          -5078.707   10209.413 - 1.98e-116   10212.619 - 2.15e-116   10317.106 - 4.5e-116
+MTMET+G4          -5082.499   10216.998 - 4.47e-118   10220.203 - 4.84e-118   10324.691 - 1.01e-117
+MTZOA+I+G4        -5079.552   10213.103 - 3.14e-117   10216.563 - 2.99e-117   10324.938 - 8.96e-118
+MTMET+I+G4        -5082.626   10219.252 - 1.45e-118   10222.712 - 1.38e-118   10331.087 - 4.14e-119
+MTREV+G4          -5089.951   10231.902 - 2.6e-121   10235.107 - 2.81e-121   10339.595 - 5.88e-121
+MTREV+I+G4        -5090.665   10235.330 - 4.68e-122   10238.790 - 4.46e-122   10347.165 - 1.34e-122
+MTVER+G4          -5115.405   10282.809 - 2.29e-132   10286.015 - 2.48e-132   10390.502 - 5.19e-132
+MTVER+I+G4        -5115.411   10284.821 - 8.37e-133   10288.281 - 7.98e-133   10396.656 - 2.39e-133
+MTINV+G4          -5126.892   10305.784 - 2.35e-137   10308.989 - 2.54e-137   10413.477 - 5.32e-137
+MTINV+I+G4        -5126.815   10307.631 - 9.33e-138   10311.091 - 8.9e-138   10419.466 - 2.67e-138
+MTMAM+G4          -5165.901   10383.801 - 2.69e-154   10387.007 - 2.91e-154   10491.494 - 6.09e-154
+MTMAM+I+G4        -5167.219   10388.437 - 2.65e-155   10391.897 - 2.52e-155   10500.272 - 7.57e-156
+MTART+G4          -5179.881   10411.762 - 2.28e-160   10414.967 - 2.47e-160   10519.455 - 5.17e-160
+MTART+I+G4        -5181.144   10416.288 - 2.37e-161   10419.748 - 2.26e-161   10528.123 - 6.78e-162
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: CPREV+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7834
+
+ Category  Relative_rate  Proportion
+  1         0.0920         0.2500
+  2         0.4004         0.2500
+  3         0.9523         0.2500
+  4         2.5553         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4813.3116 (s.e. 163.7404)
+Unconstrained log-likelihood (without tree): -2352.3672
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 9678.6231
+Corrected Akaike information criterion (AICc) score: 9681.8286
+Bayesian information criterion (BIC) score: 9786.3161
+
+Total tree length (sum of branch lengths): 1.8098
+Sum of internal branch lengths: 0.8070 (44.5895% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0022) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase
+|
+|  +**Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase
++**| (73.1/60)
+|  +--Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase
+|
+|         +----Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase
+|      +--| (24/45)
+|      |  |              +----Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase
+|      |  |           +--| (68.6/73)
+|      |  |           |  +--------Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase
+|      |  |   +-------| (99.9/100)
+|      |  |   |       +--------Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase
+|      |  +---| (97.8/91)
+|      |      |               +----------------Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase
+|      |      +---------------| (99.9/100)
+|      |                      |                           +**Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase
+|      |                      |                        +--| (75.9/86)
+|      |                      |                        |  +--unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase
+|      |                      |           +------------| (100/100)
+|      |                      |           |            +--Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase
+|      |                      +-----------| (100/100)
+|      |                                  +---------------Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase
+|   +--| (86/68)
+|   |  +-------Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase
++---| (99.7/100)
+    +---------Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase
+
+Tree in newick format:
+
+(Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase:0.0000010439,(Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase:0.0021250297,Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase:0.0042828898)73.1/60:0.0021416966,(((Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase:0.0674160937,(((Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase:0.0655310018,Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase:0.1172303212)68.6/73:0.0229916819,Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase:0.1167261417)99.9/100:0.0951611018,(Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase:0.2065540637,(((Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase:0.0021450710,unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase:0.0042970266)75.9/86:0.0024249851,Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase:0.0040457741)100/100:0.1657327232,Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase:0.1927364201)100/100:0.1496010657)99.9/100:0.1960825325)97.8/91:0.0535659705)24/45:0.0249258500,Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase:0.0987617994)86/68:0.0360506447,Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase:0.1209788364)99.7/100:0.0583140038);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4813.311997
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase
+|
+|  +--Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase
++--| (60)
+|  +--Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase
+|
+|         +----Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase
+|      +--| (45)
+|      |  |              +----Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase
+|      |  |           +--| (73)
+|      |  |           |  +--------Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase
+|      |  |   +-------| (100)
+|      |  |   |       +--------Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase
+|      |  +---| (91)
+|      |      |               +----------------Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase
+|      |      +---------------| (100)
+|      |                      |                           +--Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase
+|      |                      |                        +--| (86)
+|      |                      |                        |  +--unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase
+|      |                      |           +------------| (100)
+|      |                      |           |            +--Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase
+|      |                      +-----------| (100)
+|      |                                  +---------------Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase
+|   +--| (68)
+|   |  +-------Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase
++---| (100)
+    +---------Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase
+
+
+Consensus tree in newick format: 
+
+(Priestia_megaterium_1|WP_421545704.1|FAD-binding_oxidoreductase:0.0000020523,(Priestia_sp._ABM2_011|WP_475237385.1|FAD-binding_oxidoreductase:0.0021250081,Priestia_aryabhattai_1|WP_052191922.1|FAD-binding_oxidoreductase:0.0042828990)60:0.0021416171,(((Priestia_aryabhattai_2|WP_033578324.1|FAD-binding_oxidoreductase:0.0674228606,(((Fictibacillus_nanhaiensis|WP_222462542.1|FAD-binding_oxidoreductase:0.0655317631,Fictibacillus_halophilus|WP_226537327.1|FAD-binding_oxidoreductase:0.1172453185)73:0.0229945161,Bacillus_mycoides|WP_060751247.1|FAD-binding_oxidoreductase:0.1167398525)100:0.0951706720,(Peribacillus_sp._R9-11|WP_309558911.1|FAD-binding_oxidoreductase:0.2065820305,(((Anaerobacillus_sp._ABD4_527|WP_474847631.1|FAD-binding_oxidoreductase:0.0021452355,unclassified_Anaerobacillus|WP_474833637.1|FAD-binding_oxidoreductase:0.0042985564)86:0.0024243273,Alkalihalobacillus_sp._CinArs1|WP_270180266.1|FAD-binding_oxidoreductase:0.0040473841)100:0.1657285054,Pseudalkalibacillus_nanhaiensis|WP_349409165.1|FAD-binding_oxidoreductase:0.1928025319)100:0.1496196214)100:0.1961218169)91:0.0535682609)45:0.0249255952,Bacillus_sp._CCB-MMP212|WP_242805859.1|FAD-binding_oxidoreductase:0.0987694562)68:0.0360504495,Priestia_megaterium_2|WP_264134298.1|FAD-binding_oxidoreductase:0.1209850227)100:0.0583172657);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta.treefile -m "CPREV+G4{0.783429}" --length 465
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Oxidoreductase_IQTREE_iTOL.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Aug 18 19:59:33 2026
+Total CPU time used: 62.516023 seconds (0h:1m:2s)
+Total wall-clock time used: 46.21539521 seconds (0h:0m:46s)
+

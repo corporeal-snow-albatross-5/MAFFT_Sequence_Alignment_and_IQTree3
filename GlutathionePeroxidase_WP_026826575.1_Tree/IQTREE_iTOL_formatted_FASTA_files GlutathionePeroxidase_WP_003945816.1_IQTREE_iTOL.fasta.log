@@ -1,0 +1,15 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/IQTREE_iTOL_formatted_FASTA_files GlutathionePeroxidase_WP_003945816.1_IQTREE_iTOL.fasta
+Seed:    320751 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 18:22:06 2026
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/IQTREE_iTOL_formatted_FASTA_files GlutathionePeroxidase_WP_003945816.1_IQTREE_iTOL.fasta ... ERROR: File not found /Users/sabrinaelkassas/Downloads/IQTREE_iTOL_formatted_FASTA_files GlutathionePeroxidase_WP_003945816.1_IQTREE_iTOL.fasta

@@ -1,0 +1,210 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta -m MFP -B 1000 -alrt 1000 -T AUTO --redo-tree
+Seed:    917669 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 19:54:37 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta ... Fasta format detected
+Reading fasta file: done in 0.000398874 secs using 52.15% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000472069 secs using 38.77% CPU
+Alignment has 45 sequences with 169 columns, 144 distinct patterns
+110 parsimony-informative, 16 singleton sites, 43 constant sites
+                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.50611e-05 secs using 77.67% CPU
+   1  unclassified_Exiguobacterium_1|WP_214739526.1|glutathione_peroxidase         7.10%    passed    100.00%
+   2  Exiguobacterium_sp._RM11|WP_499824088.1|glutathione_peroxidase               7.10%    passed    100.00%
+   3  Exiguobacterium_sp._s189|WP_214747832.1|glutathione_peroxidase               7.10%    passed    100.00%
+   4  Exiguobacterium|WP_215244196.1|glutathione_peroxidase                        6.51%    passed    100.00%
+   5  unclassified_Exiguobacterium_2|WP_214794421.1|glutathione_peroxidase         7.10%    passed    100.00%
+   6  Exiguobacterium_sp._CH10|WP_214875247.1|glutathione_peroxidase               7.10%    passed    100.00%
+   7  Exiguobacterium_qingdaonense|WP_215142194.1|glutathione_peroxidase           7.10%    passed    100.00%
+   8  Exiguobacterium_algae|WP_214827836.1|glutathione_peroxidase                  7.10%    passed     99.89%
+   9  Exiguobacterium_sp._s146|WP_214762277.1|glutathione_peroxidase               7.10%    passed     99.96%
+  10  Litorivivens_sp._1|WP_372779777.1|glutathione_peroxidase                     5.92%    passed    100.00%
+  11  Litorivivens_sp._2|WP_486772909.1|glutathione_peroxidase                     5.92%    passed     99.99%
+  12  unclassified_Ketobacter|WP_290592511.1|glutathione_peroxidase                5.33%    passed     99.95%
+  13  Litorivivens_sp._3|WP_372748028.1|glutathione_peroxidase                     5.92%    passed    100.00%
+  14  Exobacillus_caeni|WP_138127256.1|glutathione_peroxidase                      7.10%    passed     98.04%
+  15  Ketobacter_alkanivorans|WP_101892728.1|glutathione_peroxidase                5.33%    passed     99.71%
+  16  Paenibacillus_durus|WP_042205621.1|glutathione_peroxidase                    5.92%    passed     99.65%
+  17  Aeribacillus_alveayuensis|WP_044748373.1|glutathione_peroxidase              5.33%    passed     99.96%
+  18  Geobacillus_thermodenitrificans|WP_108437753.1|glutathione_peroxidase        6.51%    passed     76.83%
+  19  Ketobacter_sp.|WP_290579410.1|glutathione_peroxidase                         5.33%    passed     99.19%
+  20  Fictibacillus_nanhaiensis_1|WP_423419467.1|glutathione_peroxidase            6.51%    passed    100.00%
+  21  Paenibacillus_donghaensis|WP_087913571.1|glutathione_peroxidase              5.92%    passed     98.92%
+  22  Oceanicoccus_sagamiensis|WP_085758778.1|glutathione_peroxidase               4.73%    passed     99.52%
+  23  Parahalioglobus_pacificus|WP_189478192.1|glutathione_peroxidase              4.73%    passed     97.02%
+  24  Fictibacillus_nanhaiensis_2|WP_222463053.1|glutathione_peroxidase            6.51%    passed     99.89%
+  25  Shewanella_amazonensis|WP_011759196.1|glutathione_peroxidase                 2.96%    passed     96.55%
+  26  Cytobacillus_spongiae|WP_233806466.1|glutathione_peroxidase                  6.51%    passed     99.92%
+  27  Shewanella_litorisediminis|WP_203326402.1|glutathione_peroxidase             2.96%    passed     87.80%
+  28  Niallia_circulans|WP_303983512.1|glutathione_peroxidase                      5.92%    passed     96.87%
+  29  Hydrogenophaga_sp.|WP_291017879.1|glutathione_peroxidase                     4.73%    passed     41.07%
+  30  Candidatus_Litorirhabdus_singularis|WP_279243352.1|glutathione_peroxidase    4.14%    passed     98.07%
+  31  Metabacillus_sediminis|WP_338776667.1|glutathione_peroxidase                 2.37%    passed     91.22%
+  32  Metabacillus_indicus|WP_342822418.1|glutathione_peroxidase                   5.33%    passed     99.93%
+  33  Metabacillus_flavus|WP_211558611.1|glutathione_peroxidase                    1.18%    passed     88.28%
+  34  Candidatus_Nitrospira_neomarina|WP_312748170.1|glutathione_peroxidase        1.78%    passed     99.49%
+  35  Kordiimonas_lipolytica|WP_068153195.1|glutathione_peroxidase                 5.92%    passed     99.54%
+  36  Hahella_sp._NS-SX17|WP_486329016.1|glutathione_peroxidase                    5.92%    passed     99.99%
+  37  Flagellimonas_sediminis|WP_163636080.1|glutathione_peroxidase                7.10%    passed     96.50%
+  38  Hahella_aquimaris|WP_305904215.1|glutathione_peroxidase                      5.92%    passed    100.00%
+  39  Acidovorax_sp.|WP_490404818.1|glutathione_peroxidase                         3.55%    passed     58.28%
+  40  Seongchinamella_unica|WP_133213762.1|glutathione_peroxidase                  4.73%    passed     99.80%
+  41  Acidovorax_sp._M14|WP_422848402.1|glutathione_peroxidase                     3.55%    passed     73.81%
+  42  Paracidovorax_sp._MALMAid1276|WP_421563200.1|glutathione_peroxidase          4.73%    passed     65.85%
+  43  Parendozoicomonas_callyspongiae|WP_249700801.1|glutathione_peroxidase        1.78%    passed     99.16%
+  44  Maricaulis_parjimensis|WP_203293554.1|glutathione_peroxidase                 5.92%    passed    100.00%
+  45  Parendozoicomonas_sp._Alg238-R29|WP_281647015.1|glutathione_peroxidase       4.14%    passed     99.90%
+****  TOTAL                                                                        5.36%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000108957 secs using 61.49% CPU
+
+NOTE: Restoring information from model checkpoint file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+59 trees examined
+Threads: 1 / Time: 8.078 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -7433
+Threads: 2 / Time: 6.775 sec / Speedup: 1.192 / Efficiency: 60% / LogL: -7433
+Threads: 3 / Time: 6.046 sec / Speedup: 1.336 / Efficiency: 45% / LogL: -7433
+Determining AUTO threadcount: done in 20.9003 secs using 125.5% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+CHECKPOINT: Tree restored, LogL: -5468.592
+NOTE: ModelFinder requires 11 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 169 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           LG+I+G4
+Corrected Akaike Information Criterion: LG+I+G4
+Bayesian Information Criterion:         LG+I+G4
+Best-fit model: LG+I+G4 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.model.gz
+CPU time for ModelFinder: 26.263 seconds (0h:0m:26s)
+Wall-clock time for ModelFinder: 20.943 seconds (0h:0m:20s)
+Generating 1000 samples for ultrafast bootstrap (seed: 917669)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.660 / Estimate: 0.000, 0.628 / LogL: -5468.048
+Init pinv, alpha: 0.028, 1.660 / Estimate: 0.204, 1.290 / LogL: -5458.778
+Init pinv, alpha: 0.057, 1.660 / Estimate: 0.204, 1.287 / LogL: -5458.781
+Init pinv, alpha: 0.085, 1.660 / Estimate: 0.203, 1.280 / LogL: -5458.790
+Init pinv, alpha: 0.113, 1.660 / Estimate: 0.204, 1.288 / LogL: -5458.779
+Init pinv, alpha: 0.141, 1.660 / Estimate: 0.202, 1.276 / LogL: -5458.792
+Init pinv, alpha: 0.170, 1.660 / Estimate: 0.205, 1.304 / LogL: -5458.765
+Init pinv, alpha: 0.198, 1.660 / Estimate: 0.208, 1.321 / LogL: -5458.760
+Init pinv, alpha: 0.226, 1.660 / Estimate: 0.210, 1.345 / LogL: -5458.767
+Init pinv, alpha: 0.254, 1.660 / Estimate: 0.210, 1.344 / LogL: -5458.767
+Optimal pinv,alpha: 0.208, 1.321 / LogL: -5458.760
+
+Parameters optimization took 3.423 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.265073 secs using 198.1% CPU
+Computing ML distances took 0.265364 sec (of wall-clock time) 0.525232 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.70092e-05 secs using 189.6% CPU
+Constructing RapidNJ tree: done in 0.00166392 secs using 65.21% CPU
+Computing RapidNJ tree took 0.001784 sec (of wall-clock time) 0.001280 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5460.503
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.365 second
+Computing log-likelihood of 98 initial trees ... 1.439 seconds
+Current best score: -5457.426
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5453.688
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -5441.931
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -5441.697
+Iteration 10 / LogL: -5443.945 / Time: 0h:0m:28s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -5441.329
+Iteration 20 / LogL: -5451.324 / Time: 0h:0m:31s
+Finish initializing candidate tree set (17)
+Current best tree score: -5441.329 / CPU time: 6.749
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -5441.328
+UPDATE BEST LOG-LIKELIHOOD: -5441.328
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -5440.259
+Iteration 30 / LogL: -5440.401 / Time: 0h:0m:35s (0h:0m:47s left)
+Iteration 40 / LogL: -5444.090 / Time: 0h:0m:38s (0h:0m:38s left)
+Iteration 50 / LogL: -5440.678 / Time: 0h:0m:42s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -5481.540
+Iteration 60 / LogL: -5441.504 / Time: 0h:0m:46s (0h:0m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -5440.067
+Iteration 70 / LogL: -5441.343 / Time: 0h:0m:49s (0h:0m:39s left)
+Iteration 80 / LogL: -5441.009 / Time: 0h:0m:53s (0h:0m:35s left)
+Iteration 90 / LogL: -5440.485 / Time: 0h:0m:57s (0h:0m:30s left)
+Iteration 100 / LogL: -5440.199 / Time: 0h:1m:0s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -5481.540
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -5440.304 / Time: 0h:1m:3s (0h:0m:35s left)
+Iteration 120 / LogL: -5440.219 / Time: 0h:1m:6s (0h:0m:30s left)
+Iteration 130 / LogL: -5440.164 / Time: 0h:1m:10s (0h:0m:26s left)
+Iteration 140 / LogL: -5441.824 / Time: 0h:1m:14s (0h:0m:22s left)
+Iteration 150 / LogL: -5440.394 / Time: 0h:1m:17s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -5481.540
+Iteration 160 / LogL: -5440.220 / Time: 0h:1m:20s (0h:0m:15s left)
+TREE SEARCH COMPLETED AFTER 166 ITERATIONS / Time: 0h:1m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5440.067
+Optimal log-likelihood: -5440.063
+Proportion of invariable sites: 0.206
+Gamma shape alpha: 1.288
+Parameters optimization took 1 rounds (0.049 sec)
+BEST SCORE FOUND : -5440.063
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.143 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.splits.nex
+Total tree length: 8.873
+
+Total number of iterations: 166
+CPU time used for tree search: 70.735 sec (0h:1m:10s)
+Wall-clock time used for tree search: 58.118 sec (0h:0m:58s)
+Total CPU time used: 103.048 sec (0h:1m:43s)
+Total wall-clock time used: 83.146 sec (0h:1m:23s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.splits.nex...
+45 taxa and 418 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.contree
+Log-likelihood of consensus tree: -5440.088
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/GlutathionePeroxidase_WP_026826575.1_IQTREE_iTOL.fasta.log
+
+Date and Time: Tue Aug 18 19:56:01 2026
