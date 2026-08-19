@@ -1,0 +1,370 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Pro-6.local (SSE4.2, 8 GB RAM)
+Command: ./bin/iqtree3 -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta -m MFP -B 1000 -alrt 1000 -T AUTO
+Seed:    293220 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 23:11:58 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta ... Fasta format detected
+Reading fasta file: done in 0.00419998 secs using 81.81% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00269794 secs using 74.06% CPU
+Alignment has 188 sequences with 966 columns, 767 distinct patterns
+581 parsimony-informative, 61 singleton sites, 324 constant sites
+                                                                                                                                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000168085 secs using 208.8% CPU
+   1  Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                   29.30%    passed     40.09%
+   2  Shewanella_seohaensis|WP_495141453.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 29.30%    passed     44.13%
+   3  unclassified_Shewanella|WP_269970245.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               29.09%    passed     60.40%
+   4  Pseudoalteromonas_sp._NFXS39|WP_349560949.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          24.84%    passed     99.45%
+   5  Pseudoalteromonas_lipolytica_1|WP_054553986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.77%
+   6  Pseudoalteromonas_sp._SCSIO_43101|WP_250662258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     24.84%    passed     99.46%
+   7  Colwellia_sp._E150_009|WP_448896118.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                24.64%    passed      8.95%
+   8  Pseudoalteromonas_apostichopi_1|WP_286260681.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       24.84%    passed     99.38%
+   9  Pseudoalteromonas_sp._1|WP_294089584.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.18%
+  10  Pseudoalteromonas_sp._HF66|WP_217702824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     98.62%
+  11  Pseudoalteromonas_gelatinilytica_1|WP_462147847.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.81%
+  12  Pseudoalteromonas_gelatinilytica_2|WP_119853069.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.57%
+  13  Pseudoalteromonas|WP_220094646.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                     24.84%    passed     99.95%
+  14  Pseudoalteromonas_sp._SCSIO_43088|WP_250660409.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     24.84%    passed     99.91%
+  15  Pseudoalteromonas_sp._2|WP_490386461.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.27%
+  16  unclassified_Pseudoalteromonas_1|WP_349274157.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.35%
+  17  Pseudoalteromonas_sp._S2721|WP_212751477.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           24.84%    passed     99.79%
+  18  unclassified_Pseudoalteromonas_2|WP_337117224.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.88%
+  19  Pseudoalteromonas_lipolytica_2|WP_339981228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.55%
+  20  unclassified_Pseudoalteromonas_3|WP_138686283.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.45%
+  21  Pseudoalteromonas_sp._MEBiC_03607|WP_205994337.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     24.84%    passed     99.83%
+  22  Pseudoalteromonas_sp._NCCP-2140|WP_251601605.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       24.84%    passed     98.96%
+  23  Pseudoalteromonas_gelatinilytica_3|WP_483432081.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.76%
+  24  Pseudoalteromonas_sp._3|WP_304636376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.64%
+  25  Pseudoalteromonas_sp._BZK2|WP_222937990.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     99.62%
+  26  Pseudoalteromonas_sp._4|WP_287244842.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.38%
+  27  Pseudoalteromonas_tetraodonis|WP_483313308.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         24.64%    passed      7.61%
+  28  Pseudoalteromonas_gelatinilytica_4|WP_462178957.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.58%
+  29  Pseudoalteromonas_shioyasakiensis_1|WP_269407229.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase   24.84%    passed     99.82%
+  30  Pseudoalteromonas_apostichopi_2|WP_484580970.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       24.84%    passed     99.10%
+  31  Colwellia_sp._SU-HH01217|WP_487117931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              24.64%    passed     57.67%
+  32  Pseudoalteromonas_sp._T1lg122|WP_105173614.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         24.84%    passed     99.47%
+  33  Pseudoalteromonas_sp._S4492|WP_212746797.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           24.84%    passed     99.78%
+  34  unclassified_Pseudoalteromonas_4|WP_235382668.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.86%
+  35  Pseudoalteromonas_gelatinilytica_5|WP_462175783.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.64%
+  36  Pseudoalteromonas_sp._5|WP_297330116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.21%
+  37  Pseudoalteromonas_simplex|WP_228482490.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             24.84%    passed     99.84%
+  38  Pseudoalteromonas_sp._Ps84H-4|WP_253039232.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         24.84%    passed     99.54%
+  39  unclassified_Pseudoalteromonas_5|WP_138557790.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.87%
+  40  Pseudoalteromonas_gelatinilytica_6|WP_082873985.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.60%
+  41  uncultured_Pseudoalteromonas_sp._1|WP_348708929.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.23%
+  42  uncultured_Pseudoalteromonas_sp._2|WP_348714410.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.73%
+  43  Pseudoalteromonas_gelatinilytica_7|WP_462182065.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.37%
+  44  unclassified_Pseudoalteromonas_6|WP_130167674.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.47%
+  45  Pseudoalteromonas_shioyasakiensis_2|WP_062565773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase   24.84%    passed     99.66%
+  46  Pseudoalteromonas_sp._UCD-33C|WP_054562494.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         24.84%    passed     99.46%
+  47  Pseudoalteromonas_sp._6|WP_488035880.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.74%    passed     99.83%
+  48  Pseudoalteromonas_sp._7|WP_487986883.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     99.83%
+  49  Pseudoalteromonas_sp._8|WP_287205260.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.74%    passed     99.42%
+  50  Pseudoalteromonas_sp._MB47|WP_206004052.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     99.67%
+  51  Pseudoalteromonas_sp._P80D2|WP_332393413.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           24.84%    passed     99.83%
+  52  Pseudoalteromonas_sp._CnMc7-37|WP_253048777.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.90%
+  53  Pseudoalteromonas_shioyasakiensis_3|WP_474704773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase   24.84%    passed     99.55%
+  54  Pseudoalteromonas_shioyasakiensis_4|WP_285220986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase   24.84%    passed     99.47%
+  55  uncultured_Pseudoalteromonas_sp._3|WP_300421023.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    24.84%    passed     99.38%
+  56  unclassified_Pseudoalteromonas_7|WP_235374218.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase      24.84%    passed     99.50%
+  57  Pseudoalteromonas_sp._D15MCD-2|WP_342409634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.58%
+  58  Pseudoalteromonas_sp._XI10|WP_058584693.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     99.66%
+  59  Pseudoalteromonas_sp._9|WP_294410258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               24.84%    passed     98.64%
+  60  Pseudoalteromonas_sp._10|WP_300358640.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              24.84%    passed     99.11%
+  61  Pseudoalteromonas_sp._Cn5-37|WP_235377235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          24.84%    passed     99.27%
+  62  Pseudoalteromonas_sp._MB41|WP_230237131.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     99.62%
+  63  Pseudoalteromonas_sp._P1-8|WP_055197275.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     99.32%
+  64  Pseudoalteromonas_sp._GB43|WP_462167324.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            24.84%    passed     98.64%
+  65  Pseudoalteromonas_sp._P1-26|WP_055021419.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           24.84%    passed     99.58%
+  66  Pseudoalteromonas_lipolytica_3|WP_065978975.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.32%
+  67  Pseudoalteromonas_lipolytica_4|WP_417698834.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     98.82%
+  68  Pseudoalteromonas_nanhaiensis|WP_435559480.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         25.98%    passed     99.68%
+  69  Pseudoalteromonas_lipolytica_5|WP_462168155.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        24.84%    passed     99.72%
+  70  Colwellia_sp._SU-HH00943|WP_487093717.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              24.74%    failed      1.58%
+  71  Shewanella_sp._Scap07|WP_179025361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 24.84%    passed     37.36%
+  72  Colwellia_sp._KS18-150|WP_487054184.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                20.29%    failed      0.03%
+  73  Colwellia_sp._KU-HH00111|WP_353537636.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              29.19%    passed     32.85%
+  74  Colwellia_sp._1|WP_487539752.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                       28.67%    failed      3.51%
+  75  Colwellia_sp._2|WP_291610914.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                       29.09%    failed      1.06%
+  76  Psychrosphaera_sp._F3M07|WP_216054076.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              25.26%    passed     16.88%
+  77  Colwellia_sp._3|WP_487943909.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                       28.67%    failed      1.58%
+  78  Psychrosphaera_aquimarina|WP_315947146.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             25.26%    passed     18.42%
+  79  Thalassotalea_sp._PS06|WP_144035305.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                21.01%    passed     63.78%
+  80  Colwellia_sp._4|WP_291624144.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                       28.67%    failed      1.35%
+  81  Thalassotalea_sp._SU-HH00458|WP_353517955.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          20.81%    passed     26.93%
+  82  Colwellia_sp._5|WP_490032689.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                       24.64%    passed     11.04%
+  83  unclassified_Psychrosphaera|WP_215964367.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           25.57%    passed     66.62%
+  84  Psychrosphaera_sp._1_MG-2023|WP_303521422.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          25.57%    passed     68.79%
+  85  Microbulbifer_sp._Q7|WP_227718221.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                  28.05%    passed     88.36%
+  86  Microbulbifer_mangrovi|WP_078085898.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                25.47%    passed     97.24%
+  87  Microbulbifer_sp._YPW1|WP_219932609.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                27.95%    passed     92.75%
+  88  Microbulbifer_pacificus|WP_318954214.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               25.26%    passed     95.98%
+  89  Arenicella_sp._4NH20-0111|WP_353410179.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             30.02%    passed     18.50%
+  90  Colwellia_sp._F1|WP_475659072.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                      28.99%    failed      0.11%
+  91  Microbulbifer_sp._ABF4_148|WP_475089634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            21.01%    passed     34.03%
+  92  Simiduia_agarivorans|WP_495483543.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                  26.19%    passed     77.81%
+  93  uncultured_Pseudoalteromonas_sp._4|WP_289097053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase    41.82%    passed     83.73%
+  94  Pseudoalteromonas_sp._11|WP_375185160.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              41.82%    passed     90.87%
+  95  Microbulbifer_aggregans|WP_069947361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.13%    passed     14.96%
+  96  Neptunicella_plasticusilytica|WP_416306217.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         34.06%    passed     55.30%
+  97  Microbulbifer|WP_067085875.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                         31.78%    passed     24.31%
+  98  Alloalcanivorax_mobilis|WP_101674902.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.54%    passed     62.85%
+  99  Alcanivorax_sp._24|WP_133493510.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                    34.27%    failed      4.67%
+ 100  Alloalcanivorax_xenomutans_1|WP_485163824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    passed      5.67%
+ 101  Alloalcanivorax_xenomutans_2|WP_317009323.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    failed      4.41%
+ 102  Alloalcanivorax_xenomutans_3|WP_244168483.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    failed      4.53%
+ 103  Alloalcanivorax_xenomutans_4|WP_316308580.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    failed      3.52%
+ 104  Alloalcanivorax_xenomutans_5|WP_416391079.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    passed      5.18%
+ 105  Alloalcanivorax_xenomutans_6|WP_433976675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    failed      3.52%
+ 106  Alloalcanivorax_xenomutans_7|WP_474365385.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.37%    passed      5.87%
+ 107  Alloalcanivorax_marinus_1|WP_204431675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.75%    passed     13.42%
+ 108  Alloalcanivorax_marinus_2|WP_228233368.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.75%    passed     17.02%
+ 109  Alloalcanivorax_xenomutans_8|WP_502013871.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.27%    passed      6.14%
+ 110  Alloalcanivorax_venustensis_1|WP_485164795.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.75%    passed     49.41%
+ 111  Alloalcanivorax_sp._C16-1|WP_410308002.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.95%    passed     36.99%
+ 112  Microbulbifer_sp._SAOS-129_SWC|WP_346839204.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        32.51%    passed     21.51%
+ 113  Planctobacterium_sp._AWH2_060|WP_475231578.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.54%    passed     98.05%
+ 114  Alloalcanivorax_venustensis_2|WP_194855806.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.75%    passed     43.52%
+ 115  Alloalcanivorax_venustensis_3|WP_474359680.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.75%    passed     45.14%
+ 116  Alloalcanivorax_sp._C16-2|WP_410298276.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.54%    passed     37.63%
+ 117  unclassified_Microbulbifer|WP_475092319.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            32.30%    failed      4.97%
+ 118  Alloalcanivorax_venustensis_4|WP_474234444.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.75%    passed     28.57%
+ 119  Gallaecimonas_xiamenensis|WP_008486116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             34.89%    passed     34.21%
+ 120  Arsukibacterium_indicum|WP_308160236.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.23%    passed     82.09%
+ 121  Microbulbifer_hainanensis|WP_226877159.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.13%    passed     72.46%
+ 122  Alloalcanivorax_venustensis_5|WP_473780318.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     31.45%
+ 123  Alloalcanivorax_venustensis_6|WP_423934416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     34.46%
+ 124  Alloalcanivorax_venustensis_7|WP_423885108.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     26.51%
+ 125  Alteromonas_oceanisediminis|WP_214129931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           33.75%    passed     96.90%
+ 126  Alloalcanivorax_venustensis_8|WP_473785057.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     30.46%
+ 127  Alloalcanivorax_venustensis_9|WP_474367516.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     32.67%
+ 128  Alloalcanivorax_venustensis_10|WP_475364427.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        33.85%    passed     27.09%
+ 129  Alteromonas_sp._H39|WP_414828916.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                   34.27%    passed     99.34%
+ 130  Alloalcanivorax_venustensis_11|WP_473781655.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        33.85%    passed     28.29%
+ 131  Microbulbifer_sp._HZ11|WP_043321053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                33.44%    passed     19.04%
+ 132  Alloalcanivorax_gelatiniphagus|WP_485154554.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        33.44%    passed     18.73%
+ 133  Gallaecimonas_pentaromativorans_1|WP_464948910.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     34.58%    passed     10.59%
+ 134  Microbulbifer_sp._ARAS458-1|WP_406827977.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           33.02%    passed     10.44%
+ 135  Gallaecimonas_pentaromativorans_2|WP_417359899.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     33.13%    failed      2.05%
+ 136  Gallaecimonas_pentaromativorans_3|WP_417358013.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     34.58%    passed      6.88%
+ 137  Rheinheimera_aquimaris_1|WP_483429720.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.68%    passed     61.77%
+ 138  Alloalcanivorax_profundimaris_1|WP_228548738.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       33.85%    passed     29.43%
+ 139  Alloalcanivorax_venustensis_12|WP_475647339.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase        33.85%    passed     28.39%
+ 140  Rheinheimera_sp.|WP_273024228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                      34.68%    passed     76.68%
+ 141  Lacimicrobium_alkaliphilum|WP_062478888.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            33.75%    passed     90.36%
+ 142  unclassified_Rheinheimera|WP_475148261.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             34.68%    passed     60.15%
+ 143  Rheinheimera_aquimaris_2|WP_226766338.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.68%    passed     69.54%
+ 144  Alloalcanivorax_profundimaris_2|WP_194298376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       35.51%    passed     57.05%
+ 145  Gallaecimonas_pentaromativorans_4|WP_050660496.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     34.58%    passed      7.78%
+ 146  Rheinheimera_aquimaris_3|WP_134052912.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.68%    passed     72.37%
+ 147  Rheinheimera_aquimaris_4|WP_230818297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.68%    passed     64.98%
+ 148  Rheinheimera_aquimaris_5|WP_415186404.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.68%    passed     72.92%
+ 149  Alteromonas_lipotrueiana|WP_218355362.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              34.47%    passed     99.54%
+ 150  Planctobacterium_sp._AWM4_229|WP_475263346.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.95%    passed     99.92%
+ 151  Paraneptunicella_aestuarii|WP_232359458.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            33.33%    passed     14.95%
+ 152  Aliiglaciecola_sp._3_MG-2023|WP_303473067.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.16%    passed     15.14%
+ 153  uncultured_Microbulbifer_sp.|WP_299599601.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          32.19%    failed      3.11%
+ 154  Aliiglaciecola_aliphaticivorans|WP_460311521.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase       34.16%    passed     16.03%
+ 155  Aliiglaciecola_sp._NS0011-25|WP_353370548.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase          34.37%    passed     30.50%
+ 156  unclassified_Aliiglaciecola|WP_303500066.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           33.75%    passed     34.18%
+ 157  Alteromonas_antoniana|WP_218312562.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 34.27%    passed     98.92%
+ 158  Salinimonas_sediminis|WP_108566897.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 33.95%    passed     69.62%
+ 159  Alteromonas_ponticola|WP_169211550.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 34.47%    passed     85.53%
+ 160  Aliiglaciecola_lipolytica|WP_216049299.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.75%    passed     34.23%
+ 161  Fluctibacter_halophilus|WP_229158737.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               34.27%    passed     80.42%
+ 162  Alteromonas_sp._M12|WP_342806235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                   33.75%    passed     32.07%
+ 163  Paraglaciecola_sp._IT1134|WP_489728994.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             37.27%    passed     90.89%
+ 164  uncultured_Paraglaciecola_sp.|WP_339720544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.85%    passed     47.90%
+ 165  Microbulbifer_agarilyticus|WP_077405297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            29.61%    failed      0.08%
+ 166  Arsukibacterium_sp._1|WP_318967992.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 32.82%    passed     44.12%
+ 167  Maricurvus_nonylphenolicus|WP_390614625.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            31.47%    passed     98.88%
+ 168  Alkalimonas_collagenimarina|WP_369812671.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase           32.61%    passed     86.53%
+ 169  Alteromonas_sp._a30|WP_268408416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                   33.23%    passed     93.43%
+ 170  Alteromonas_sp._4NH20-0104|WP_487122015.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase            34.06%    passed     49.96%
+ 171  Arsukibacterium_sp._2|WP_372626301.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                 32.92%    passed     49.74%
+ 172  Alteromonas_sp._D210916BOD_24|WP_412725544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.75%    passed     98.95%
+ 173  Alteromonas_salexigens|WP_262992133.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                34.58%    passed     50.80%
+ 174  Alteromonas_sp._H02|WP_499614433.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                   32.71%    passed     27.56%
+ 175  unclassified_Alteromonas|WP_232370634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              33.33%    passed     74.69%
+ 176  Marisediminitalea_sp._1|WP_490711645.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.54%    passed     76.36%
+ 177  Alteromonas_lipotrueae_1|WP_246604452.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              33.33%    passed     72.94%
+ 178  Alteromonas_lipotrueae_2|WP_258544420.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase              33.33%    passed     74.63%
+ 179  Marisediminitalea_alba|WP_105936495.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase                33.02%    passed     36.70%
+ 180  Marisediminitalea_sp._2|WP_487964638.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.54%    passed     84.68%
+ 181  Marisediminitalea_sp._3|WP_488801699.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.54%    passed     91.62%
+ 182  Marisediminitalea_sp._4|WP_488798885.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase               33.54%    passed     93.03%
+ 183  Marisediminitalea_aggregata_1|WP_475070608.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.54%    passed     84.23%
+ 184  Marisediminitalea_aggregata_2|WP_255052969.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase         33.23%    passed     83.93%
+ 185  Aestuariibacter_sp._GS-14|WP_140959234.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase             33.44%    passed     54.39%
+ 186  Halioxenophilus_aromaticivorans_1|WP_390517656.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     30.23%    passed     66.23%
+ 187  Halioxenophilus_aromaticivorans_2|WP_345421781.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     29.61%    passed     64.95%
+ 188  Halioxenophilus_aromaticivorans_3|WP_464370279.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase     28.99%    passed     62.65%
+****  TOTAL                                                                                                                                           29.62%  16 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000458956 secs using 129.6% CPU
+
+NOTE: Restoring information from model checkpoint file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 11.477 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -120888
+Threads: 2 / Time: 10.733 sec / Speedup: 1.069 / Efficiency: 53% / LogL: -120888
+Threads: 3 / Time: 8.886 sec / Speedup: 1.292 / Efficiency: 43% / LogL: -120888
+Determining AUTO threadcount: done in 31.1064 secs using 140.3% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+CHECKPOINT: Tree restored, LogL: -49170.387
+NOTE: ModelFinder requires 231 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 966 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           WAG+F+I+R6
+Corrected Akaike Information Criterion: WAG+F+I+R6
+Bayesian Information Criterion:         WAG+F+I+R6
+Best-fit model: WAG+F+I+R6 chosen according to BIC
+
+All model information printed to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.model.gz
+CPU time for ModelFinder: 11402.742 seconds (3h:10m:2s)
+Wall-clock time for ModelFinder: 7346.425 seconds (2h:2m:26s)
+Generating 1000 samples for ultrafast bootstrap (seed: 293220)...
+
+NOTE: 140 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -48352.038
+2. Current log-likelihood: -48346.463
+3. Current log-likelihood: -48346.221
+4. Current log-likelihood: -48346.113
+Optimal log-likelihood: -48346.032
+Proportion of invariable sites: 0.112
+Site proportion and rates:  (0.163,0.085) (0.153,0.306) (0.189,0.733) (0.151,1.330) (0.161,2.153) (0.072,3.539)
+Parameters optimization took 4 rounds (27.340 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 10.2939 secs using 198.4% CPU
+Computing ML distances took 10.295331 sec (of wall-clock time) 20.427497 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000740051 secs using 217.8% CPU
+Constructing RapidNJ tree: done in 0.00932193 secs using 134.3% CPU
+Computing RapidNJ tree took 0.010137 sec (of wall-clock time) 0.014161 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -48596.482
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.184 second
+Computing log-likelihood of 98 initial trees ... 63.854 seconds
+Current best score: -48346.032
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -48338.111
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -48317.885
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -48313.082
+Iteration 10 / LogL: -48333.817 / Time: 2h:8m:10s
+Iteration 20 / LogL: -48357.937 / Time: 2h:11m:37s
+Finish initializing candidate tree set (20)
+Current best tree score: -48313.082 / CPU time: 506.564
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -48311.844
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -48311.670
+Iteration 30 / LogL: -48315.777 / Time: 2h:15m:9s (0h:42m:33s left)
+Iteration 40 / LogL: -48317.442 / Time: 2h:18m:53s (0h:36m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -48309.085
+Iteration 50 / LogL: -48322.905 / Time: 2h:22m:46s (0h:38m:10s left)
+Log-likelihood cutoff on original alignment: -48396.357
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -48308.927
+Iteration 60 / LogL: -48309.386 / Time: 2h:26m:47s (0h:40m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -48308.163
+Iteration 70 / LogL: -48308.960 / Time: 2h:30m:27s (0h:38m:34s left)
+Iteration 80 / LogL: -48308.780 / Time: 2h:33m:58s (0h:33m:55s left)
+Iteration 90 / LogL: -48418.162 / Time: 2h:37m:35s (0h:29m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -48307.876
+Iteration 100 / LogL: -48308.423 / Time: 2h:41m:26s (0h:39m:0s left)
+Log-likelihood cutoff on original alignment: -48396.357
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -48312.142 / Time: 2h:45m:10s (0h:35m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -48306.967
+Iteration 120 / LogL: -48336.578 / Time: 2h:48m:36s (0h:38m:24s left)
+Iteration 130 / LogL: -48308.810 / Time: 2h:52m:21s (0h:34m:26s left)
+Iteration 140 / LogL: -48316.755 / Time: 2h:55m:53s (0h:30m:22s left)
+Iteration 150 / LogL: -48317.302 / Time: 2h:59m:12s (0h:26m:17s left)
+Log-likelihood cutoff on original alignment: -48396.357
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -48306.710
+Iteration 160 / LogL: -48307.682 / Time: 3h:3m:1s (0h:35m:48s left)
+Iteration 170 / LogL: -48310.665 / Time: 3h:6m:28s (0h:31m:49s left)
+Iteration 180 / LogL: -48314.886 / Time: 3h:9m:47s (0h:27m:50s left)
+Iteration 190 / LogL: -48378.344 / Time: 3h:13m:31s (0h:24m:4s left)
+Iteration 200 / LogL: -48306.957 / Time: 3h:16m:32s (0h:20m:6s left)
+Log-likelihood cutoff on original alignment: -48396.357
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -48307.995 / Time: 3h:19m:58s (0h:33m:23s left)
+Iteration 220 / LogL: -48309.622 / Time: 3h:23m:25s (0h:29m:34s left)
+Iteration 230 / LogL: -48338.042 / Time: 3h:26m:59s (0h:25m:50s left)
+Iteration 240 / LogL: -48316.024 / Time: 3h:30m:23s (0h:22m:4s left)
+Iteration 250 / LogL: -48377.468 / Time: 3h:33m:51s (0h:18m:21s left)
+Log-likelihood cutoff on original alignment: -48396.357
+TREE SEARCH COMPLETED AFTER 255 ITERATIONS / Time: 3h:35m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -48306.710
+2. Current log-likelihood: -48306.697
+3. Current log-likelihood: -48306.686
+4. Current log-likelihood: -48306.676
+Optimal log-likelihood: -48306.668
+Proportion of invariable sites: 0.112
+Site proportion and rates:  (0.167,0.085) (0.160,0.321) (0.200,0.778) (0.163,1.461) (0.144,2.330) (0.055,3.770)
+Parameters optimization took 4 rounds (23.374 sec)
+BEST SCORE FOUND : -48306.668
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.790 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.splits.nex
+Total tree length: 19.168
+
+Total number of iterations: 255
+CPU time used for tree search: 8465.980 sec (2h:21m:5s)
+Wall-clock time used for tree search: 5536.860 sec (1h:32m:16s)
+Total CPU time used: 19987.197 sec (5h:33m:7s)
+Total wall-clock time used: 12955.982 sec (3h:35m:55s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.splits.nex...
+188 taxa and 1051 splits.
+Consensus tree written to /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.contree
+Reading input trees file /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.contree
+Log-likelihood of consensus tree: -48312.599
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.iqtree
+  Maximum-likelihood tree:       /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.treefile
+  Likelihood distances:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.splits.nex
+  Consensus tree:                /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.contree
+  Screen log file:               /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.log
+
+Date and Time: Wed Aug 19 02:48:02 2026

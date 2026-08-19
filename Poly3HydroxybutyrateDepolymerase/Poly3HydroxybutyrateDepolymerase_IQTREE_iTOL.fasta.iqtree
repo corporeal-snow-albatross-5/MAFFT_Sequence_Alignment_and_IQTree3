@@ -1,0 +1,1094 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 293220
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 188 sequences with 966 amino-acid sites
+Number of constant sites: 324 (= 33.5404% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 324 (= 33.5404% of all sites)
+Number of parsimony informative sites: 581
+Number of distinct site patterns: 767
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: WAG+F+I+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+WAG+F+I+R6       -48348.154   97502.309 +    0.936   98081.711 +    0.657   99466.194 +    0.523
+WAG+F+R6         -48351.858   97507.717 +   0.0627   98083.227 +    0.308   99466.729 +      0.4
+WAG+F+I+R5       -48356.946   97515.891 -  0.00105   98087.530 -   0.0358   99470.030 +   0.0768
+Q.PFAM+F+I+R6    -48431.001   97668.003 -  9.8e-37   98247.405 - 6.87e-37   99631.888 - 5.48e-37
+Q.PFAM+F+R6      -48437.068   97678.137 - 6.18e-39   98253.647 - 3.03e-38   99637.149 - 3.94e-38
+Q.PFAM+F+I+R5    -48445.743   97693.486 - 2.87e-42   98265.125 - 9.76e-41   99647.625 - 2.09e-40
+LG+F+I+R6        -48485.783   97777.565 - 1.59e-60   98356.968 - 1.11e-60   99741.451 - 8.86e-61
+LG+F+R6          -48490.849   97785.699 - 2.72e-62   98361.209 - 1.33e-61   99744.711 - 1.73e-61
+LG+F+I+R5        -48500.480   97802.960 - 4.85e-66   98374.598 - 1.65e-64   99757.099 - 3.54e-64
+VT+F+I+R6        -48595.840   97997.680 - 2.53e-108   98577.083 - 1.77e-108   99961.565 - 1.41e-108
+VT+F+R6          -48601.794   98007.589 - 1.78e-110   98583.098 - 8.76e-110   99966.600 - 1.14e-109
+VT+F+I+R5        -48605.585   98013.170 - 1.09e-111   98584.809 - 3.72e-110   99967.309 - 7.99e-110
+Q.YEAST+F+I+R6   -48674.019   98154.038 - 2.82e-142   98733.440 - 1.98e-142  100117.923 - 1.57e-142
+Q.INSECT+F+I+R6  -48675.188   98156.376 - 8.76e-143   98735.778 - 6.14e-143  100120.261 - 4.89e-143
+Q.INSECT+F+R6    -48681.885   98167.770 - 2.94e-145   98743.280 - 1.44e-144  100126.782 - 1.88e-144
+Q.YEAST+F+R6     -48682.530   98169.060 - 1.54e-145   98744.569 - 7.57e-145  100128.071 - 9.85e-145
+Q.INSECT+F+I+R5  -48694.324   98190.649 - 3.16e-150   98762.287 - 1.08e-148  100144.787 - 2.31e-148
+Q.YEAST+F+I+R5   -48694.822   98191.645 - 1.92e-150   98763.283 - 6.54e-149  100145.784 - 1.4e-148
+RTREV+F+I+R6     -48690.865   98187.730 - 1.36e-149   98767.132 - 9.55e-150  100151.615 - 7.61e-150
+JTTDCMUT+F+I+R6  -48692.571   98191.141 - 2.47e-150   98770.543 - 1.73e-150  100155.026 - 1.38e-150
+RTREV+F+R6       -48696.595   98197.189 - 1.2e-151   98772.699 - 5.9e-151  100156.201 - 7.68e-151
+JTTDCMUT+F+R6    -48697.299   98198.598 - 5.94e-152   98774.108 - 2.92e-151  100157.610 - 3.8e-151
+JTTDCMUT+F+I+R5  -48705.410   98212.821 - 4.85e-155   98784.459 - 1.65e-153  100166.959 - 3.54e-153
+RTREV+F+I+R5     -48707.116   98216.233 - 8.81e-156   98787.871 -   3e-154  100170.371 - 6.43e-154
+DAYHOFF+F+R6     -48709.201   98222.402 - 4.03e-157   98797.911 - 1.98e-156  100181.413 - 2.57e-156
+DAYHOFF+F+I+R6   -48705.999   98217.999 - 3.64e-156   98797.401 - 2.55e-156  100181.884 - 2.03e-156
+DCMUT+F+R6       -48710.009   98224.018 - 1.8e-157   98799.527 - 8.82e-157  100183.030 - 1.15e-156
+JTT+F+I+R6       -48706.758   98219.516 - 1.71e-156   98798.918 - 1.2e-156  100183.401 - 9.52e-157
+DCMUT+F+I+R6     -48706.975   98219.950 - 1.37e-156   98799.352 - 9.63e-157  100183.835 - 7.67e-157
+JTT+F+R6         -48711.396   98226.792 - 4.49e-158   98802.302 - 2.2e-157  100185.804 - 2.87e-157
+JTT+F+I+R5       -48721.409   98244.818 - 5.46e-162   98816.456 - 1.86e-160  100198.957 - 3.99e-160
+DAYHOFF+F+I+R5   -48722.708   98247.417 - 1.49e-162   98819.055 - 5.07e-161  100201.555 - 1.09e-160
+DCMUT+F+I+R5     -48723.552   98249.104 - 6.41e-163   98820.742 - 2.18e-161  100203.243 - 4.68e-161
+BLOSUM62+F+I+R6  -48801.472   98408.944 - 1.25e-197   98988.346 - 8.79e-198  100372.829 -   7e-198
+PMB+F+I+R6       -48802.395   98410.791 - 4.98e-198   98990.193 - 3.49e-198  100374.676 - 2.78e-198
+BLOSUM62+F+R6    -48806.415   98416.829 - 2.43e-199   98992.339 - 1.19e-198  100375.841 - 1.55e-198
+PMB+F+R6         -48806.715   98417.429 - 1.8e-199   98992.939 - 8.84e-199  100376.441 - 1.15e-198
+PMB+F+I+R5       -48810.742   98423.484 - 8.72e-201   98995.122 - 2.97e-199  100377.623 - 6.37e-199
+BLOSUM62+F+I+R5  -48810.871   98423.742 - 7.67e-201   98995.380 - 2.61e-199  100377.881 - 5.6e-199
+CPREV+F+R6       -48832.343   98468.687 - 1.33e-210   99044.197 - 6.55e-210  100427.699 - 8.52e-210
+CPREV+F+I+R6     -48830.854   98467.708 - 2.18e-210   99047.110 - 1.53e-210  100431.593 - 1.22e-210
+CPREV+F+I+R5     -48837.736   98477.472 - 1.65e-212   99049.111 - 5.61e-211  100431.611 - 1.2e-210
+Q.YEAST+I+R6     -48917.089   98602.179 - 1.37e-239   99111.095 - 1.95e-224  100473.474 - 9.78e-220
+Q.YEAST+R6       -48924.441   98614.882 - 2.39e-242   99120.285 - 1.97e-226  100481.304 - 1.95e-221
+Q.YEAST+I+R5     -48931.005   98626.009 - 9.18e-245   99127.917 - 4.33e-228  100487.558 - 8.55e-223
+Q.PFAM+I+R6      -48956.926   98681.853 - 6.86e-257   99190.769 - 9.74e-242  100553.148 - 4.89e-237
+Q.PFAM+R6        -48962.406   98690.811 - 7.79e-259   99196.213 - 6.4e-243  100557.233 - 6.34e-238
+Q.PFAM+I+R5      -48966.678   98697.357 - 2.95e-260   99199.264 - 1.39e-243  100558.905 - 2.75e-238
+Q.PLANT+F+I+R6   -48899.579   98605.158 - 3.09e-240   99184.560 - 2.17e-240  100569.043 - 1.73e-240
+Q.PLANT+F+R6     -48906.832   98617.663 - 5.96e-243   99193.173 - 2.93e-242  100576.675 - 3.81e-242
+Q.PLANT+F+I+R5   -48912.270   98626.540 - 7.04e-245   99198.179 - 2.4e-243  100580.679 - 5.14e-243
+Q.INSECT+I+R6    -49010.106   98788.212 - 5.51e-280   99297.128 - 7.81e-265  100659.507 - 3.92e-260
+Q.INSECT+R6      -49016.207   98798.415 - 3.35e-282   99303.817 - 2.76e-266  100664.836 - 2.73e-261
+Q.INSECT+I+R5    -49024.433   98812.867 - 2.44e-285   99314.774 - 1.15e-268  100674.415 - 2.27e-263
+FLU+F+I+R6       -48966.743   98739.487 - 2.1e-269   99318.889 - 1.47e-269  100703.372 - 1.17e-269
+FLU+F+R6         -48974.128   98752.256 - 3.54e-272   99327.766 - 1.74e-271  100711.268 - 2.26e-271
+FLU+F+I+R5       -48977.615   98757.229 - 2.94e-273   99328.868 -   1e-271  100711.368 - 2.15e-271
+LG+R6            -49109.183   98984.366 - 1.38e-322   99489.768 - 1.15e-306  100850.787 - 1.14e-301
+LG+I+R6          -49106.002   98980.003 - 1.24e-321   99488.919 - 1.76e-306  100851.298 - 8.85e-302
+LG+I+R5          -49114.986   98993.972 -        0   99495.879 - 5.43e-308  100855.521 - 1.07e-302
+LG+R7            -49108.463   98986.925 - 3.46e-323   99499.374 - 9.46e-309  100863.093 - 2.43e-304
+LG+R5            -49122.224   99006.447 -        0   99504.879 - 6.03e-310  100863.123 - 2.39e-304
+LG+I+R7          -49105.338   98982.677 - 3.26e-322   99498.677 - 1.34e-308  100863.718 - 1.78e-304
+LG+I+R4          -49132.160   99024.321 -        0   99519.295 - 4.46e-313  100876.123 - 3.6e-307
+WAG+I+R6         -49121.854   99011.707 -        0   99520.623 - 2.3e-313  100883.002 - 1.15e-308
+WAG+R6           -49126.067   99018.135 -        0   99523.537 - 5.35e-314  100884.557 - 5.31e-309
+WAG+I+R5         -49129.723   99023.445 -        0   99525.353 - 2.16e-314  100884.994 - 4.26e-309
+LG+I+G4          -49169.280   99088.560 -        0   99566.526 - 2.47e-323  100915.996 - 7.9e-316
+LG+R4            -49179.352   99116.703 -        0   99608.239 -        0  100963.632 -        0
+LG+G4            -49222.045   99192.090 -        0   99666.710 -        0  101014.654 -        0
+LG+I+R3          -49211.987   99179.973 -        0   99668.089 -        0  101022.029 -        0
+JTTDCMUT+I+R6    -49277.917   99323.833 -        0   99832.749 -        0  101195.128 -        0
+JTTDCMUT+R6      -49283.285   99332.570 -        0   99837.972 -        0  101198.991 -        0
+JTTDCMUT+I+R5    -49287.967   99339.934 -        0   99841.842 -        0  101201.483 -        0
+JTT+I+R6         -49295.944   99359.887 -        0   99868.803 -        0  101231.182 -        0
+JTT+R6           -49301.575   99369.150 -        0   99874.552 -        0  101235.572 -        0
+JTT+I+R5         -49307.999   99379.998 -        0   99881.905 -        0  101241.546 -        0
+VT+I+R6          -49313.264   99394.527 -        0   99903.443 -        0  101265.822 -        0
+VT+I+R5          -49321.475   99406.949 -        0   99908.856 -        0  101268.498 -        0
+VT+R6            -49319.012   99404.025 -        0   99909.427 -        0  101270.447 -        0
+DAYHOFF+I+R6     -49324.056   99416.111 -        0   99925.027 -        0  101287.406 -        0
+DAYHOFF+R6       -49327.747   99421.493 -        0   99926.896 -        0  101287.915 -        0
+DCMUT+I+R6       -49327.898   99423.797 -        0   99932.713 -        0  101295.092 -        0
+DCMUT+R6         -49331.409   99428.818 -        0   99934.220 -        0  101295.240 -        0
+LG+R3            -49356.558   99467.116 -        0   99951.830 -        0  101304.299 -        0
+DAYHOFF+I+R5     -49350.666   99465.331 -        0   99967.239 -        0  101326.880 -        0
+DCMUT+I+R5       -49352.558   99469.116 -        0   99971.023 -        0  101330.664 -        0
+Q.PLANT+I+R6     -49389.119   99546.237 -        0  100055.153 -        0  101417.532 -        0
+Q.PLANT+I+R5     -49396.556   99557.112 -        0  100059.020 -        0  101418.661 -        0
+Q.PLANT+R6       -49397.715   99561.431 -        0  100066.833 -        0  101427.852 -        0
+MTINV+F+I+R6     -49371.427   99548.854 -        0  100128.256 -        0  101512.739 -        0
+MTINV+F+R6       -49379.182   99562.363 -        0  100137.873 -        0  101521.375 -        0
+MTREV+F+R6       -49385.922   99575.843 -        0  100151.353 -        0  101534.855 -        0
+MTREV+F+I+R6     -49383.943   99573.887 -        0  100153.289 -        0  101537.772 -        0
+MTREV+F+I+R5     -49393.535   99589.070 -        0  100160.709 -        0  101543.209 -        0
+MTINV+F+I+R5     -49398.432   99598.863 -        0  100170.502 -        0  101553.002 -        0
+LG+I+R2          -49540.020   99832.040 -        0  100313.371 -        0  101664.350 -        0
+Q.MAMMAL+F+I+R6  -49447.748   99701.497 -        0  100280.899 -        0  101665.382 -        0
+Q.MAMMAL+F+R6    -49455.078   99714.155 -        0  100289.665 -        0  101673.167 -        0
+Q.MAMMAL+F+I+R5  -49458.660   99719.319 -        0  100290.958 -        0  101673.458 -        0
+CPREV+I+R6       -49668.583  100105.166 -        0  100614.082 -        0  101976.461 -        0
+CPREV+R6         -49672.316  100110.631 -        0  100616.033 -        0  101977.053 -        0
+CPREV+I+R5       -49676.773  100117.545 -        0  100619.453 -        0  101979.094 -        0
+RTREV+I+R6       -49679.475  100126.950 -        0  100635.865 -        0  101998.245 -        0
+RTREV+R6         -49683.609  100133.218 -        0  100638.620 -        0  101999.640 -        0
+RTREV+I+R5       -49692.131  100148.262 -        0  100650.170 -        0  102009.811 -        0
+FLU+I+R5         -49748.927  100261.854 -        0  100763.762 -        0  102123.403 -        0
+FLU+I+R6         -49743.225  100254.450 -        0  100763.366 -        0  102125.745 -        0
+FLU+R6           -49752.302  100270.605 -        0  100776.007 -        0  102137.026 -        0
+MTZOA+F+I+R6     -49729.578  100265.156 -        0  100844.558 -        0  102229.041 -        0
+MTZOA+F+R6       -49735.086  100274.172 -        0  100849.682 -        0  102233.184 -        0
+MTZOA+F+I+R5     -49745.956  100293.912 -        0  100865.550 -        0  102248.050 -        0
+MTMET+F+I+R6     -49751.917  100309.834 -        0  100889.236 -        0  102273.719 -        0
+MTMET+F+R6       -49760.008  100324.016 -        0  100899.526 -        0  102283.028 -        0
+MTMET+F+I+R5     -49777.385  100356.770 -        0  100928.408 -        0  102310.909 -        0
+LG+R2            -49868.016  100486.032 -        0  100963.998 -        0  102313.469 -        0
+PMB+I+R5         -49881.941  100527.882 -        0  101029.790 -        0  102389.431 -        0
+PMB+I+R6         -49875.772  100519.545 -        0  101028.461 -        0  102390.840 -        0
+PMB+R6           -49879.842  100525.684 -        0  101031.086 -        0  102392.106 -        0
+Q.MAMMAL+I+R5    -49917.928  100599.856 -        0  101101.763 -        0  102461.404 -        0
+Q.MAMMAL+I+R6    -49912.404  100592.809 -        0  101101.724 -        0  102464.104 -        0
+BLOSUM62+I+R6    -49915.300  100598.600 -        0  101107.515 -        0  102469.895 -        0
+Q.MAMMAL+R6      -49918.904  100603.807 -        0  101109.209 -        0  102470.229 -        0
+BLOSUM62+I+R5    -49922.828  100609.656 -        0  101111.563 -        0  102471.205 -        0
+BLOSUM62+R6      -49919.491  100604.982 -        0  101110.384 -        0  102471.403 -        0
+Q.BIRD+F+I+R6    -49883.615  100573.231 -        0  101152.633 -        0  102537.116 -        0
+Q.BIRD+F+R6      -49890.346  100584.692 -        0  101160.202 -        0  102543.704 -        0
+Q.BIRD+F+I+R5    -49896.572  100595.145 -        0  101166.783 -        0  102549.284 -        0
+HIVB+F+I+R6      -49905.469  100616.939 -        0  101196.341 -        0  102580.824 -        0
+HIVB+F+R6        -49910.002  100624.003 -        0  101199.513 -        0  102583.015 -        0
+HIVB+F+I+R5      -49919.426  100640.852 -        0  101212.491 -        0  102594.991 -        0
+MTVER+F+I+R6     -50139.781  101085.562 -        0  101664.964 -        0  103049.447 -        0
+MTVER+F+R6       -50149.302  101102.603 -        0  101678.113 -        0  103061.615 -        0
+MTVER+F+I+R5     -50169.934  101141.868 -        0  101713.507 -        0  103096.007 -        0
+Q.BIRD+I+R6      -50373.210  101514.421 -        0  102023.336 -        0  103385.715 -        0
+Q.BIRD+I+R5      -50381.640  101527.280 -        0  102029.188 -        0  103388.829 -        0
+Q.BIRD+R6        -50384.510  101535.020 -        0  102040.422 -        0  103401.441 -        0
+MTART+F+I+R6     -50332.448  101470.895 -        0  102050.297 -        0  103434.780 -        0
+MTART+F+R6       -50337.688  101479.376 -        0  102054.885 -        0  103438.387 -        0
+MTART+F+I+R5     -50345.307  101492.614 -        0  102064.252 -        0  103446.753 -        0
+MTMAM+F+I+R6     -50340.797  101487.595 -        0  102066.997 -        0  103451.480 -        0
+MTMAM+F+R6       -50354.514  101513.027 -        0  102088.537 -        0  103472.039 -        0
+MTMAM+F+I+R5     -50366.211  101534.422 -        0  102106.060 -        0  103488.561 -        0
+FLAVI+F+I+R6     -50573.857  101953.714 -        0  102533.116 -        0  103917.599 -        0
+FLAVI+F+I+R5     -50584.506  101971.012 -        0  102542.650 -        0  103925.151 -        0
+FLAVI+F+R6       -50584.971  101973.941 -        0  102549.451 -        0  103932.953 -        0
+MTZOA+I+R6       -50767.987  102303.974 -        0  102812.890 -        0  104175.269 -        0
+MTZOA+I+R5       -50775.524  102315.047 -        0  102816.955 -        0  104176.596 -        0
+MTZOA+R6         -50777.893  102321.785 -        0  102827.187 -        0  104188.207 -        0
+HIVB+I+R6        -50926.217  102620.434 -        0  103129.350 -        0  104491.729 -        0
+HIVB+I+R5        -50934.327  102632.655 -        0  103134.562 -        0  104494.204 -        0
+HIVB+R6          -50934.646  102635.291 -        0  103140.693 -        0  104501.713 -        0
+HIVW+F+I+R6      -50993.042  102792.085 -        0  103371.487 -        0  104755.970 -        0
+HIVW+F+R6        -51001.457  102806.914 -        0  103382.423 -        0  104765.926 -        0
+HIVW+F+I+R5      -51009.135  102820.271 -        0  103391.909 -        0  104774.409 -        0
+MTREV+R6         -51218.939  103203.877 -        0  103709.279 -        0  105070.299 -        0
+MTREV+I+R5       -51223.118  103210.236 -        0  103712.143 -        0  105071.785 -        0
+MTREV+I+R6       -51216.674  103201.348 -        0  103710.264 -        0  105072.643 -        0
+MTMET+I+R6       -51317.252  103402.503 -        0  103911.419 -        0  105273.798 -        0
+MTMET+I+R5       -51325.099  103414.198 -        0  103916.105 -        0  105275.746 -        0
+MTMET+R6         -51330.745  103427.491 -        0  103932.893 -        0  105293.913 -        0
+MTVER+I+R6       -51437.923  103643.846 -        0  104152.761 -        0  105515.141 -        0
+MTVER+R6         -51444.496  103654.993 -        0  104160.395 -        0  105521.414 -        0
+MTVER+I+R5       -51449.612  103663.224 -        0  104165.131 -        0  105524.773 -        0
+MTINV+I+R5       -51515.880  103795.759 -        0  104297.666 -        0  105657.308 -        0
+MTINV+I+R6       -51509.529  103787.058 -        0  104295.974 -        0  105658.353 -        0
+MTINV+R6         -51525.683  103817.366 -        0  104322.768 -        0  105683.788 -        0
+FLAVI+I+R5       -51538.626  103841.252 -        0  104343.160 -        0  105702.801 -        0
+FLAVI+I+R6       -51531.853  103831.706 -        0  104340.621 -        0  105703.001 -        0
+FLAVI+R6         -51554.121  103874.243 -        0  104379.645 -        0  105740.665 -        0
+LG+I             -51627.301  104002.602 -        0  104477.221 -        0  105825.165 -        0
+MTART+I+R6       -51764.984  104297.967 -        0  104806.883 -        0  106169.262 -        0
+MTART+I+R5       -51777.541  104319.082 -        0  104820.989 -        0  106180.630 -        0
+MTART+R6         -51780.671  104327.342 -        0  104832.744 -        0  106193.764 -        0
+MTMAM+I+R6       -52245.501  105259.002 -        0  105767.917 -        0  107130.297 -        0
+MTMAM+R6         -52251.225  105268.451 -        0  105773.853 -        0  107134.872 -        0
+MTMAM+I+R5       -52267.246  105298.492 -        0  105800.400 -        0  107160.041 -        0
+HIVW+I+R6        -52406.670  105581.341 -        0  106090.256 -        0  107452.636 -        0
+HIVW+I+R5        -52414.928  105593.856 -        0  106095.764 -        0  107455.405 -        0
+HIVW+R6          -52416.769  105599.539 -        0  106104.941 -        0  107465.960 -        0
+LG               -52929.566  106605.132 -        0  107076.422 -        0  108422.822 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+I+R6
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1198
+  pi(R) = 0.0201
+  pi(N) = 0.0759
+  pi(D) = 0.0742
+  pi(C) = 0.0248
+  pi(Q) = 0.0449
+  pi(E) = 0.0307
+  pi(G) = 0.1046
+  pi(H) = 0.0130
+  pi(I) = 0.0401
+  pi(L) = 0.0616
+  pi(K) = 0.0134
+  pi(M) = 0.0111
+  pi(F) = 0.0252
+  pi(P) = 0.0317
+  pi(S) = 0.1063
+  pi(T) = 0.0806
+  pi(W) = 0.0128
+  pi(Y) = 0.0401
+  pi(V) = 0.0691
+
+Model of rate heterogeneity: Invar+FreeRate with 6 categories
+Proportion of invariable sites: 0.1116
+Site proportion and rates:  (0.1671,0.0855) (0.1605,0.3205) (0.1999,0.7781) (0.1625,1.4606) (0.1437,2.3297) (0.0548,3.7703)
+
+ Category  Relative_rate  Proportion
+  0         0              0.1116
+  1         0.0855         0.1671
+  2         0.3205         0.1605
+  3         0.7781         0.1999
+  4         1.4606         0.1625
+  5         2.3297         0.1437
+  6         3.7703         0.0548
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -48306.6679 (s.e. 1653.6212)
+Unconstrained log-likelihood (without tree): -6210.1945
+Number of free parameters (#branches + #model parameters): 403
+Akaike information criterion (AIC) score: 97419.3357
+Corrected Akaike information criterion (AICc) score: 97998.7379
+Bayesian information criterion (BIC) score: 99383.2208
+
+Total tree length (sum of branch lengths): 19.1683
+Sum of internal branch lengths: 9.2401 (48.2050% of tree length)
+
+WARNING: 22 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|
++--Shewanella_seohaensis|WP_495141453.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|
+|                       +----------unclassified_Shewanella|WP_269970245.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    +--| (87.5/95)
+|                    |  |            +**Colwellia_sp._E150_009|WP_448896118.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |        +---| (100/100)
+|                    |  |        |   +--Pseudoalteromonas_tetraodonis|WP_483313308.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |     +--| (81.3/97)
+|                    |  |     |  |  +-------Colwellia_sp._KU-HH00111|WP_353537636.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |     |  +--| (87.8/100)
+|                    |  |     |     +-------Colwellia_sp._F1|WP_475659072.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  +--| (87.3/96)
+|                    |  |  |  |  +----Colwellia_sp._SU-HH01217|WP_487117931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  |  +--| (35.5/89)
+|                    |  |  |     |  +--Colwellia_sp._SU-HH00943|WP_487093717.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  |     +--| (100/100)
+|                    |  |  |        +---Colwellia_sp._KS18-150|WP_487054184.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  +--| (95.2/96)
+|                    |     |             +--Colwellia_sp._1|WP_487539752.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |          +--| (100/100)
+|                    |     |          |  |  +--Colwellia_sp._3|WP_487943909.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |          |  +--| (94.2/100)
+|                    |     |          |     +--Colwellia_sp._4|WP_291624144.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |       +--| (98.9/100)
+|                    |     |       |  +--Colwellia_sp._2|WP_291610914.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |  +----| (100/100)
+|                    |     |  |    +----Colwellia_sp._5|WP_490032689.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     +--| (88.4/98)
+|                    |        +---------Thalassotalea_sp._SU-HH00458|WP_353517955.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 +--| (43.6/51)
+|                 |  |              +--Psychrosphaera_sp._F3M07|WP_216054076.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |        +-----| (100/100)
+|                 |  |        |     +--Psychrosphaera_aquimarina|WP_315947146.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |     +--| (99.7/100)
+|                 |  |     |  +--Thalassotalea_sp._PS06|WP_144035305.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |  +--| (99.9/100)
+|                 |  |  |  |        +--unclassified_Psychrosphaera|WP_215964367.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |  |  +--------| (100/100)
+|                 |  |  |           +--Psychrosphaera_sp._1_MG-2023|WP_303521422.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  +--| (76.2/57)
+|                 |     +--------------Arenicella_sp._4NH20-0111|WP_353410179.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              +--| (63.3/90)
+|              |  |         +--Microbulbifer_sp._Q7|WP_227718221.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      +--| (99.8/100)
+|              |  |      |  |     +--Microbulbifer_mangrovi|WP_078085898.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      |  |  +--| (93.2/100)
+|              |  |      |  |  |  +--Microbulbifer_sp._YPW1|WP_219932609.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      |  +--| (94/100)
+|              |  |      |     +--Microbulbifer_pacificus|WP_318954214.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |   +--| (98.6/100)
+|              |  |   |  +-----Microbulbifer_sp._ABF4_148|WP_475089634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  +---| (100/100)
+|              |      |  +-----------Simiduia_agarivorans|WP_495483543.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |      +--| (95.8/98)
+|              |         |                               +--Microbulbifer_aggregans|WP_069947361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                         +-----| (100/100)
+|              |         |                         |     +--Microbulbifer|WP_067085875.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                      +--| (93.1/97)
+|              |         |                      |  |  +---Microbulbifer_sp._SAOS-129_SWC|WP_346839204.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                      |  +--| (98.3/100)
+|              |         |                      |     +--Microbulbifer_hainanensis|WP_226877159.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  +---| (100/99)
+|              |         |                  |   |        +--unclassified_Microbulbifer|WP_475092319.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |     +--| (99.3/100)
+|              |         |                  |   |     |  |  +**Microbulbifer_sp._HZ11|WP_043321053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |     |  +--| (100/100)
+|              |         |                  |   |     |     +--Microbulbifer_sp._ARAS458-1|WP_406827977.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |  +--| (15.5/88)
+|              |         |                  |   |  |  +-----uncultured_Microbulbifer_sp.|WP_299599601.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   +--| (100/100)
+|              |         |                  |      +--------Microbulbifer_agarilyticus|WP_077405297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               +--| (72.8/68)
+|              |         |               |  |     +----------Neptunicella_plasticusilytica|WP_416306217.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  +--| (35.4/90)
+|              |         |               |  |  |  |               +--Gallaecimonas_xiamenensis|WP_008486116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     +---------| (100/100)
+|              |         |               |  |  |  |     |         |     +--Gallaecimonas_pentaromativorans_1|WP_464948910.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         |  +--| (48.1/93)
+|              |         |               |  |  |  |     |         |  |  |  +--Gallaecimonas_pentaromativorans_3|WP_417358013.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         |  |  +--| (4.6/88)
+|              |         |               |  |  |  |     |         |  |     +--Gallaecimonas_pentaromativorans_4|WP_050660496.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         +--| (65.8/97)
+|              |         |               |  |  |  |     |            +--Gallaecimonas_pentaromativorans_2|WP_417359899.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  +--| (76.3/99)
+|              |         |               |  |  |  |  |  |                +--Arsukibacterium_indicum|WP_308160236.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |             +--| (97/100)
+|              |         |               |  |  |  |  |  |             |  +--Arsukibacterium_sp._1|WP_318967992.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |          +--| (26.2/94)
+|              |         |               |  |  |  |  |  |          |  +--Arsukibacterium_sp._2|WP_372626301.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |      +---| (99.8/100)
+|              |         |               |  |  |  |  |  |      |   +--Alkalimonas_collagenimarina|WP_369812671.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  +------| (100/100)
+|              |         |               |  |  |  |  |         |            +--Rheinheimera_aquimaris_1|WP_483429720.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         |         +--| (96.5/98)
+|              |         |               |  |  |  |  |         |         |  +--unclassified_Rheinheimera|WP_475148261.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         |      +--| (5.7/71)
+|              |         |               |  |  |  |  |         |      |  +--Rheinheimera_sp.|WP_273024228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         +------| (100/100)
+|              |         |               |  |  |  |  |                |  +--Rheinheimera_aquimaris_2|WP_226766338.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                +--| (55/95)
+|              |         |               |  |  |  |  |                   |     +**Rheinheimera_aquimaris_3|WP_134052912.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                   |  +--| (98.5/100)
+|              |         |               |  |  |  |  |                   |  |  +--Rheinheimera_aquimaris_5|WP_415186404.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                   +--| (67.2/95)
+|              |         |               |  |  |  |  |                      +--Rheinheimera_aquimaris_4|WP_230818297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  +--| (73.7/98)
+|              |         |               |  |  |     +---------Lacimicrobium_alkaliphilum|WP_062478888.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  +--| (92/98)
+|              |         |               |     |     +---Planctobacterium_sp._AWH2_060|WP_475231578.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |     +-----| (100/100)
+|              |         |               |           +--Planctobacterium_sp._AWM4_229|WP_475263346.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            +--| (92.5/92)
+|              |         |            |  |       +-----Paraneptunicella_aestuarii|WP_232359458.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |  |  +----| (100/100)
+|              |         |            |  |  |    +-------Alteromonas_sp._a30|WP_268408416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |  +--| (95.7/100)
+|              |         |            |     |     +-------------Salinimonas_sediminis|WP_108566897.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |     |  +--| (90.8/99)
+|              |         |            |     |  |  +---uncultured_Paraglaciecola_sp.|WP_339720544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |     +--| (95.1/100)
+|              |         |            |        +----------Paraglaciecola_sp._IT1134|WP_489728994.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         +--| (81.3/71)
+|              |         |         |  |           +--------Alteromonas_oceanisediminis|WP_214129931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        +--| (91/99)
+|              |         |         |  |        |  |           +--Alteromonas_sp._H39|WP_414828916.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |        +--| (100/100)
+|              |         |         |  |        |  |        |  +--Alteromonas_antoniana|WP_218312562.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |     +--| (64.4/99)
+|              |         |         |  |        |  |     |  +---------Alteromonas_ponticola|WP_169211550.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |  +--| (86.3/100)
+|              |         |         |  |        |  |  |  +---------Alteromonas_salexigens|WP_262992133.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  +--| (96.4/100)
+|              |         |         |  |        |     +----Alteromonas_lipotrueiana|WP_218355362.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     +--| (99.2/100)
+|              |         |         |  |     |  |            +--Alteromonas_sp._4NH20-0104|WP_487122015.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |     +------| (100/100)
+|              |         |         |  |     |  |     |      |  +--Alteromonas_sp._H02|WP_499614433.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |     |      +--| (58.4/96)
+|              |         |         |  |     |  |     |         +--Marisediminitalea_alba|WP_105936495.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  +--| (5.8/68)
+|              |         |         |  |     |  |  |  |     +--Alteromonas_sp._D210916BOD_24|WP_412725544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |  +-----| (100/100)
+|              |         |         |  |     |  |  |        |  +--unclassified_Alteromonas|WP_232370634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |        +--| (100/100)
+|              |         |         |  |     |  |  |           |  +**Alteromonas_lipotrueae_1|WP_246604452.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |           +**| (0/66)
+|              |         |         |  |     |  |  |              +--Alteromonas_lipotrueae_2|WP_258544420.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  +--| (99.5/100)
+|              |         |         |  |     |     |                 +--Marisediminitalea_sp._1|WP_490711645.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |              +--| (47.3/58)
+|              |         |         |  |     |     |              |  +--Marisediminitalea_aggregata_2|WP_255052969.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |           +--| (76.9/61)
+|              |         |         |  |     |     |           |  |  +--Marisediminitalea_sp._3|WP_488801699.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |           |  +**| (0/64)
+|              |         |         |  |     |     |           |     +--Marisediminitalea_sp._4|WP_488798885.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |        +--| (76.9/99)
+|              |         |         |  |     |     |        |  +--Marisediminitalea_sp._2|WP_487964638.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |     +--| (99.9/100)
+|              |         |         |  |     |     |     |  +--Marisediminitalea_aggregata_1|WP_475070608.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     +-----| (100/100)
+|              |         |         |  |     |           +--Aestuariibacter_sp._GS-14|WP_140959234.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  +--| (93.3/99)
+|              |         |         |  |  |  |             +--Aliiglaciecola_sp._3_MG-2023|WP_303473067.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |          +--| (99.6/100)
+|              |         |         |  |  |  |          |  +--Aliiglaciecola_aliphaticivorans|WP_460311521.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  +-------| (100/100)
+|              |         |         |  |  |  |  |       |  +**Aliiglaciecola_sp._NS0011-25|WP_353370548.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |       +--| (99.6/100)
+|              |         |         |  |  |  |  |          |  +--unclassified_Aliiglaciecola|WP_303500066.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |          +--| (80/98)
+|              |         |         |  |  |  |  |             |  +**Aliiglaciecola_lipolytica|WP_216049299.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |             +--| (77.4/100)
+|              |         |         |  |  |  |  |                +--Alteromonas_sp._M12|WP_342806235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  +--| (98.7/100)
+|              |         |         |  |  |     +--------Fluctibacter_halophilus|WP_229158737.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  +--| (95.1/97)
+|              |         |         |     |                      +**Halioxenophilus_aromaticivorans_1|WP_390517656.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |     |                   +**| (0/92)
+|              |         |         |     |                   |  +**Halioxenophilus_aromaticivorans_2|WP_345421781.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |     +-------------------| (100/100)
+|              |         |         |                         +--Halioxenophilus_aromaticivorans_3|WP_464370279.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         +---------| (100/100)
+|              |                   |        +------Alloalcanivorax_mobilis|WP_101674902.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  +-----| (100/100)
+|              |                   |  |     |       +--Alcanivorax_sp._24|WP_133493510.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  +----| (100/100)
+|              |                   |  |     |  |    |     +**Alloalcanivorax_xenomutans_1|WP_485163824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |    |  +**| (0/80)
+|              |                   |  |     |  |    |  |  +--Alloalcanivorax_xenomutans_3|WP_244168483.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |    +--| (98.3/98)
+|              |                   |  |     |  |       |  +--Alloalcanivorax_xenomutans_2|WP_317009323.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |       +--| (71.9/33)
+|              |                   |  |     |  |          |     +--Alloalcanivorax_xenomutans_4|WP_316308580.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |          |  +--| (83.6/28)
+|              |                   |  |     |  |          |  |  |  +--Alloalcanivorax_xenomutans_6|WP_433976675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |          |  |  +**| (0/14)
+|              |                   |  |     |  |          |  |     +--Alloalcanivorax_xenomutans_7|WP_474365385.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |          +--| (91/47)
+|              |                   |  |     |  |             |  +--Alloalcanivorax_xenomutans_5|WP_416391079.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |             +**| (0/59)
+|              |                   |  |     |  |                +--Alloalcanivorax_xenomutans_8|WP_502013871.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     +--| (99.3/100)
+|              |                   |  |        |              +--Alloalcanivorax_marinus_1|WP_204431675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |           +--| (99.7/100)
+|              |                   |  |        |           |  +--Alloalcanivorax_marinus_2|WP_228233368.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |        +--| (58.9/99)
+|              |                   |  |        |        |  +--Alloalcanivorax_sp._C16-1|WP_410308002.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     +--| (95.8/100)
+|              |                   |  |        |     |  |  +--Alloalcanivorax_sp._C16-2|WP_410298276.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     |  +--| (99.9/100)
+|              |                   |  |        |     |     |  +--Alloalcanivorax_profundimaris_1|WP_228548738.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     |     +--| (78.8/100)
+|              |                   |  |        |     |        +--Alloalcanivorax_profundimaris_2|WP_194298376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |  +--| (99.9/100)
+|              |                   |  |        |  |  +--Alloalcanivorax_gelatiniphagus|WP_485154554.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        +--| (88.1/98)
+|              |                   |  |           |        +--Alloalcanivorax_venustensis_1|WP_485164795.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           |     +--| (73.6/99)
+|              |                   |  |           |     |  +--Alloalcanivorax_venustensis_3|WP_474359680.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           |  +--| (96.4/100)
+|              |                   |  |           |  |  +--Alloalcanivorax_venustensis_2|WP_194855806.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           +--| (100/100)
+|              |                   |  |              |     +--Alloalcanivorax_venustensis_4|WP_474234444.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  +--| (76.5/98)
+|              |                   |  |              |  |  |     +**Alloalcanivorax_venustensis_6|WP_423934416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |  |  +**| (0/86)
+|              |                   |  |              |  |  |  |  +--Alloalcanivorax_venustensis_9|WP_474367516.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |  +--| (57.1/92)
+|              |                   |  |              |  |     |  +**Alloalcanivorax_venustensis_8|WP_473785057.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |     +--| (73.7/93)
+|              |                   |  |              |  |        |     +--Alloalcanivorax_venustensis_10|WP_475364427.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |        |  +**| (0/66)
+|              |                   |  |              |  |        |  |  +--Alloalcanivorax_venustensis_12|WP_475647339.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |        +--| (83.6/99)
+|              |                   |  |              |  |           +**Alloalcanivorax_venustensis_11|WP_473781655.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              +--| (95.7/100)
+|              |                   |  |                 |  +**Alloalcanivorax_venustensis_5|WP_473780318.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |                 +--| (76.7/99)
+|              |                   |  |                    +--Alloalcanivorax_venustensis_7|WP_423885108.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   +--| (87.3/98)
+|              |                      +------------Maricurvus_nonylphenolicus|WP_390614625.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           +--| (87.1/94)
+|           |  |                +--Pseudoalteromonas_sp._NFXS39|WP_349560949.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |             +**| (0/61)
+|           |  |             |  |  +**Pseudoalteromonas_apostichopi_1|WP_286260681.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |             |  +**| (0/41)
+|           |  |             |     +--Pseudoalteromonas_sp._1|WP_294089584.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |          +--| (76.4/91)
+|           |  |          |  +--Pseudoalteromonas_sp._SCSIO_43101|WP_250662258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       +--| (76/65)
+|           |  |       |  |                                +--Pseudoalteromonas_lipolytica_1|WP_054553986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             +--| (96.5/100)
+|           |  |       |  |                             |  +--Pseudoalteromonas_sp._S2721|WP_212751477.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          +**| (0/80)
+|           |  |       |  |                          |  +--Pseudoalteromonas_simplex|WP_228482490.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                       +--| (81.3/78)
+|           |  |       |  |                       |  |  +--Pseudoalteromonas_lipolytica_2|WP_339981228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                       |  +--| (98.6/100)
+|           |  |       |  |                       |     +**Pseudoalteromonas_sp._BZK2|WP_222937990.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    +--| (89.3/88)
+|           |  |       |  |                    |  |           +**Pseudoalteromonas_sp._2|WP_490386461.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |        +**| (0/70)
+|           |  |       |  |                    |  |        |  |     +**unclassified_Pseudoalteromonas_1|WP_349274157.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |        |  |  +--| (86.7/99)
+|           |  |       |  |                    |  |        |  |  |  |  +**uncultured_Pseudoalteromonas_sp._4|WP_289097053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |        |  |  |  +--| (99.3/100)
+|           |  |       |  |                    |  |        |  |  |     +--Pseudoalteromonas_sp._11|WP_375185160.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |        |  +--| (75.9/99)
+|           |  |       |  |                    |  |        |     +--Pseudoalteromonas_sp._NCCP-2140|WP_251601605.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |     +--| (94.2/99)
+|           |  |       |  |                    |  |     |  +--Pseudoalteromonas_sp._4|WP_287244842.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  +--| (74.5/79)
+|           |  |       |  |                    |  |  |  |  +--Pseudoalteromonas_sp._UCD-33C|WP_054562494.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |  +--| (98.8/100)
+|           |  |       |  |                    |  |  |     |     +--Pseudoalteromonas_sp._6|WP_488035880.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |     |  +**| (0/90)
+|           |  |       |  |                    |  |  |     |  |  +**Pseudoalteromonas_sp._8|WP_287205260.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |     +**| (0/79)
+|           |  |       |  |                    |  |  |        |     +--Pseudoalteromonas_shioyasakiensis_4|WP_285220986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |        |  +**| (0/94)
+|           |  |       |  |                    |  |  |        |  |  |  +--Pseudoalteromonas_sp._P1-8|WP_055197275.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |        |  |  +--| (81.5/97)
+|           |  |       |  |                    |  |  |        |  |     +--Pseudoalteromonas_sp._P1-26|WP_055021419.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  |  |        +--| (92.7/100)
+|           |  |       |  |                    |  |  |           +**Pseudoalteromonas_sp._D15MCD-2|WP_342409634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  +--| (77.6/38)
+|           |  |       |  |                    |     |  +--unclassified_Pseudoalteromonas_3|WP_138686283.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     +--| (86.2/82)
+|           |  |       |  |                    |        |  +--Pseudoalteromonas_sp._MB47|WP_206004052.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |        +--| (92.5/90)
+|           |  |       |  |                    |           |           +**uncultured_Pseudoalteromonas_sp._3|WP_300421023.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |           |        +--| (90.1/91)
+|           |  |       |  |                    |           |        |  +--Pseudoalteromonas_sp._Cn5-37|WP_235377235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |           |     +**| (0/56)
+|           |  |       |  |                    |           |     |  |  +**Pseudoalteromonas_sp._9|WP_294410258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |           |     |  +--| (85.9/100)
+|           |  |       |  |                    |           |     |     +--Pseudoalteromonas_sp._GB43|WP_462167324.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |           |  +**| (0/75)
+|           |  |       |  |                    |           |  |  +**Pseudoalteromonas_sp._10|WP_300358640.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |           +--| (94.5/98)
+|           |  |       |  |                    |              +--unclassified_Pseudoalteromonas_7|WP_235374218.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                 +--| (77.7/26)
+|           |  |       |  |                 |  |     +--Pseudoalteromonas|WP_220094646.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                 |  |  +--| (86/100)
+|           |  |       |  |                 |  |  |  +**Pseudoalteromonas_sp._SCSIO_43088|WP_250660409.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                 |  +--| (74.2/46)
+|           |  |       |  |                 |     +--unclassified_Pseudoalteromonas_6|WP_130167674.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              +**| (0/41)
+|           |  |       |  |              |  |  +--Pseudoalteromonas_gelatinilytica_2|WP_119853069.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              |  +--| (78.5/35)
+|           |  |       |  |              |     |  +--Pseudoalteromonas_gelatinilytica_3|WP_483432081.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              |     +--| (76.5/54)
+|           |  |       |  |              |        |        +--Pseudoalteromonas_sp._T1lg122|WP_105173614.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              |        |     +--| (80.8/86)
+|           |  |       |  |              |        |     |  +**Pseudoalteromonas_gelatinilytica_6|WP_082873985.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              |        |  +--| (77/71)
+|           |  |       |  |              |        |  |  +--Pseudoalteromonas_gelatinilytica_5|WP_462175783.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              |        +--| (77.5/90)
+|           |  |       |  |              |           +--Pseudoalteromonas_sp._S4492|WP_212746797.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           +--| (84.9/64)
+|           |  |       |  |           |  +--Pseudoalteromonas_gelatinilytica_1|WP_462147847.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        +--| (72.2/74)
+|           |  |       |  |        |  |     +--unclassified_Pseudoalteromonas_2|WP_337117224.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |  |  +**| (0/10)
+|           |  |       |  |        |  |  |  +--Pseudoalteromonas_sp._XI10|WP_058584693.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |  +**| (0/9)
+|           |  |       |  |        |     |                    +--Pseudoalteromonas_sp._MEBiC_03607|WP_205994337.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |                 +--| (40.5/100)
+|           |  |       |  |        |     |                 |  |  +--Pseudoalteromonas_sp._Ps84H-4|WP_253039232.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |                 |  +--| (76.8/100)
+|           |  |       |  |        |     |                 |     +**uncultured_Pseudoalteromonas_sp._2|WP_348714410.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |              +--| (86.6/100)
+|           |  |       |  |        |     |              |  +--unclassified_Pseudoalteromonas_5|WP_138557790.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |           +--| (93.9/100)
+|           |  |       |  |        |     |           |  +--Pseudoalteromonas_nanhaiensis|WP_435559480.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |        +--| (88.3/98)
+|           |  |       |  |        |     |        |  +--Pseudoalteromonas_sp._P80D2|WP_332393413.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |     +--| (87.5/91)
+|           |  |       |  |        |     |     |  +--Pseudoalteromonas_shioyasakiensis_2|WP_062565773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |  +**| (0/28)
+|           |  |       |  |        |     |  |  |  +--Pseudoalteromonas_sp._3|WP_304636376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |  |  +--| (78.6/85)
+|           |  |       |  |        |     |  |     |     +--Pseudoalteromonas_shioyasakiensis_1|WP_269407229.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |  |     |  +--| (76.3/90)
+|           |  |       |  |        |     |  |     |  |  |  +--Pseudoalteromonas_sp._7|WP_487986883.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |  |     |  |  +--| (95.5/100)
+|           |  |       |  |        |     |  |     |  |     +--Pseudoalteromonas_sp._CnMc7-37|WP_253048777.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     |  |     +--| (69/77)
+|           |  |       |  |        |     |  |        +--Pseudoalteromonas_shioyasakiensis_3|WP_474704773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |     +--| (84.4/57)
+|           |  |       |  |        |        |     +--Pseudoalteromonas_gelatinilytica_4|WP_462178957.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |        |  +--| (74.5/99)
+|           |  |       |  |        |        |  |  +--unclassified_Pseudoalteromonas_4|WP_235382668.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        |        +--| (90.2/73)
+|           |  |       |  |        |           +--Pseudoalteromonas_gelatinilytica_7|WP_462182065.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     +--| (100/78)
+|           |  |       |  |     |  |     +--Pseudoalteromonas_sp._MB41|WP_230237131.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  |  +--| (98.5/100)
+|           |  |       |  |     |  |  |  |  +--Pseudoalteromonas_lipolytica_3|WP_065978975.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  |  |  +--| (38.6/96)
+|           |  |       |  |     |  |  |     +--Pseudoalteromonas_lipolytica_4|WP_417698834.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  +--| (100/100)
+|           |  |       |  |     |     +--Pseudoalteromonas_lipolytica_5|WP_462168155.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |  +--| (79/71)
+|           |  |       |  |  |  +--uncultured_Pseudoalteromonas_sp._1|WP_348708929.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  +**| (0/55)
+|           |  |       |     |  +--Pseudoalteromonas_apostichopi_2|WP_484580970.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |     +--| (95.1/99)
+|           |  |       |        +--Pseudoalteromonas_sp._5|WP_297330116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  +-------| (100/100)
+|           |          +**Pseudoalteromonas_sp._HF66|WP_217702824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
++-----------| (100/100)
+            +-----------Shewanella_sp._Scap07|WP_179025361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+
+Tree in newick format:
+
+(Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0044414377,Shewanella_seohaensis|WP_495141453.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0062107533,(((((unclassified_Shewanella|WP_269970245.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3289294988,((((Colwellia_sp._E150_009|WP_448896118.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0009605328,Pseudoalteromonas_tetraodonis|WP_483313308.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0083946376)100/100:0.1324972858,(Colwellia_sp._KU-HH00111|WP_353537636.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2388391553,Colwellia_sp._F1|WP_475659072.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2478530276)87.8/100:0.0321541982)81.3/97:0.0321325856,(Colwellia_sp._SU-HH01217|WP_487117931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1556858708,(Colwellia_sp._SU-HH00943|WP_487093717.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1079276124,Colwellia_sp._KS18-150|WP_487054184.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1171156388)100/100:0.1122814459)35.5/89:0.0302526148)87.3/96:0.0245913383,((((Colwellia_sp._1|WP_487539752.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0070737779,(Colwellia_sp._3|WP_487943909.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0014308511,Colwellia_sp._4|WP_291624144.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0055727294)94.2/100:0.0097987782)100/100:0.0747667094,Colwellia_sp._2|WP_291610914.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1084025893)98.9/100:0.0652932526,Colwellia_sp._5|WP_490032689.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1490974758)100/100:0.1506268445,Thalassotalea_sp._SU-HH00458|WP_353517955.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3084667770)88.4/98:0.0414195272)95.2/96:0.0366362521)87.5/95:0.0232841452,((((Psychrosphaera_sp._F3M07|WP_216054076.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0023385890,Psychrosphaera_aquimarina|WP_315947146.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0152064545)100/100:0.1844824748,Thalassotalea_sp._PS06|WP_144035305.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1086706856)99.7/100:0.0836609142,(unclassified_Psychrosphaera|WP_215964367.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0056167223,Psychrosphaera_sp._1_MG-2023|WP_303521422.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026107842)100/100:0.2601098030)99.9/100:0.1125738279,Arenicella_sp._4NH20-0111|WP_353410179.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.4560070409)76.2/57:0.0358012524)43.6/51:0.0439778367,(((Microbulbifer_sp._Q7|WP_227718221.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0689013166,((Microbulbifer_mangrovi|WP_078085898.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0228945460,Microbulbifer_sp._YPW1|WP_219932609.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0186576235)93.2/100:0.0279550857,Microbulbifer_pacificus|WP_318954214.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1012836736)94/100:0.0354792798)99.8/100:0.0737399260,Microbulbifer_sp._ABF4_148|WP_475089634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1880300959)98.6/100:0.1077980280,(Simiduia_agarivorans|WP_495483543.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3716378064,(((((((Microbulbifer_aggregans|WP_069947361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0856590149,Microbulbifer|WP_067085875.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1032290586)100/100:0.1853397635,(Microbulbifer_sp._SAOS-129_SWC|WP_346839204.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1393792402,Microbulbifer_hainanensis|WP_226877159.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1088609389)98.3/100:0.0634735540)93.1/97:0.0701089325,(((unclassified_Microbulbifer|WP_475092319.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0431129053,(Microbulbifer_sp._HZ11|WP_043321053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0009014771,Microbulbifer_sp._ARAS458-1|WP_406827977.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0164278521)100/100:0.0511860141)99.3/100:0.0639940904,uncultured_Microbulbifer_sp.|WP_299599601.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1724427492)15.5/88:0.0205259844,Microbulbifer_agarilyticus|WP_077405297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2750681113)100/100:0.0825922414)100/99:0.1301900440,((Neptunicella_plasticusilytica|WP_416306217.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3333206557,(((Gallaecimonas_xiamenensis|WP_008486116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0129971977,((Gallaecimonas_pentaromativorans_1|WP_464948910.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0136331313,(Gallaecimonas_pentaromativorans_3|WP_417358013.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0096600343,Gallaecimonas_pentaromativorans_4|WP_050660496.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0106489794)4.6/88:0.0035613256)48.1/93:0.0062657057,Gallaecimonas_pentaromativorans_2|WP_417359899.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0070337997)65.8/97:0.0129398851)100/100:0.3122853814,((((Arsukibacterium_indicum|WP_308160236.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0489274936,Arsukibacterium_sp._1|WP_318967992.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0672280746)97/100:0.0337314982,Arsukibacterium_sp._2|WP_372626301.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1123992239)26.2/94:0.0186434481,Alkalimonas_collagenimarina|WP_369812671.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0979448092)99.8/100:0.1319842759,(((Rheinheimera_aquimaris_1|WP_483429720.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0223179559,unclassified_Rheinheimera|WP_475148261.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0162618784)96.5/98:0.0107376875,Rheinheimera_sp.|WP_273024228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0034119589)5.7/71:0.0011753203,(Rheinheimera_aquimaris_2|WP_226766338.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039669813,((Rheinheimera_aquimaris_3|WP_134052912.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Rheinheimera_aquimaris_5|WP_415186404.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016115550)98.5/100:0.0123877866,Rheinheimera_aquimaris_4|WP_230818297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0055226215)67.2/95:0.0047484042)55/95:0.0045667236)100/100:0.2065714199)100/100:0.2121645534)76.3/99:0.0542821780,Lacimicrobium_alkaliphilum|WP_062478888.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3060879304)73.7/98:0.0525740560)35.4/90:0.0499787743,(Planctobacterium_sp._AWH2_060|WP_475231578.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1341827652,Planctobacterium_sp._AWM4_229|WP_475263346.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1028348968)100/100:0.1869615145)92/98:0.0388094095)72.8/68:0.0255085943,((Paraneptunicella_aestuarii|WP_232359458.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1793624551,Alteromonas_sp._a30|WP_268408416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2357077916)100/100:0.1704914443,((Salinimonas_sediminis|WP_108566897.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.4120704295,uncultured_Paraglaciecola_sp.|WP_339720544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1407956372)90.8/99:0.0766195131,Paraglaciecola_sp._IT1134|WP_489728994.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3262071295)95.1/100:0.0920349929)95.7/100:0.0650242770)92.5/92:0.0392013991,((((Alteromonas_oceanisediminis|WP_214129931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2841588817,((((Alteromonas_sp._H39|WP_414828916.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0459535379,Alteromonas_antoniana|WP_218312562.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0398103817)100/100:0.0962469439,Alteromonas_ponticola|WP_169211550.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2917743355)64.4/99:0.0341912903,Alteromonas_salexigens|WP_262992133.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2954214752)86.3/100:0.0499257095,Alteromonas_lipotrueiana|WP_218355362.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1687106394)96.4/100:0.0778904279)91/99:0.0905587076,(((Alteromonas_sp._4NH20-0104|WP_487122015.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0561483998,(Alteromonas_sp._H02|WP_499614433.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0358140135,Marisediminitalea_alba|WP_105936495.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0123791380)58.4/96:0.0321845775)100/100:0.2067986684,(Alteromonas_sp._D210916BOD_24|WP_412725544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1003434362,(unclassified_Alteromonas|WP_232370634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015490034,(Alteromonas_lipotrueae_1|WP_246604452.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Alteromonas_lipotrueae_2|WP_258544420.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015511370)0/66:0.0000021935)100/100:0.1131078964)100/100:0.1876647389)5.8/68:0.0674800221,(((((Marisediminitalea_sp._1|WP_490711645.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0127510863,Marisediminitalea_aggregata_2|WP_255052969.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0043465661)47.3/58:0.0037729852,(Marisediminitalea_sp._3|WP_488801699.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0047704531,Marisediminitalea_sp._4|WP_488798885.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0063754559)0/64:0.0000026041)76.9/61:0.0015873407,Marisediminitalea_sp._2|WP_487964638.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015885926)76.9/99:0.0040403297,Marisediminitalea_aggregata_1|WP_475070608.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039476012)99.9/100:0.0714973675,Aestuariibacter_sp._GS-14|WP_140959234.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0914806229)100/100:0.1847800484)99.5/100:0.1035996430)99.2/100:0.0941032395,(((Aliiglaciecola_sp._3_MG-2023|WP_303473067.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013076546,Aliiglaciecola_aliphaticivorans|WP_460311521.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0064441760)99.6/100:0.0786614423,(Aliiglaciecola_sp._NS0011-25|WP_353370548.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000025148,(unclassified_Aliiglaciecola|WP_303500066.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0062094193,(Aliiglaciecola_lipolytica|WP_216049299.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Alteromonas_sp._M12|WP_342806235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015418999)77.4/100:0.0015418877)80/98:0.0015804972)99.6/100:0.0644475332)100/100:0.2314688660,Fluctibacter_halophilus|WP_229158737.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2632178505)98.7/100:0.0974798092)93.3/99:0.0579727493,((Halioxenophilus_aromaticivorans_1|WP_390517656.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Halioxenophilus_aromaticivorans_2|WP_345421781.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013)0/92:0.0008507193,Halioxenophilus_aromaticivorans_3|WP_464370279.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0082171325)100/100:0.5991270160)95.1/97:0.0573650100)81.3/71:0.0239679203,((Alloalcanivorax_mobilis|WP_101674902.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2048704370,((Alcanivorax_sp._24|WP_133493510.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0445108741,((Alloalcanivorax_xenomutans_1|WP_485163824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Alloalcanivorax_xenomutans_3|WP_244168483.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033665601)0/80:0.0000026113,(Alloalcanivorax_xenomutans_2|WP_317009323.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016825908,((Alloalcanivorax_xenomutans_4|WP_316308580.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067524337,(Alloalcanivorax_xenomutans_6|WP_433976675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0137868958,Alloalcanivorax_xenomutans_7|WP_474365385.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0050689057)0/14:0.0000024610)83.6/28:0.0016838885,(Alloalcanivorax_xenomutans_5|WP_416391079.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016832806,Alloalcanivorax_xenomutans_8|WP_502013871.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0084784272)0/59:0.0000028337)91/47:0.0033737914)71.9/33:0.0016818021)98.3/98:0.0384116492)100/100:0.1610665445,(((((Alloalcanivorax_marinus_1|WP_204431675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0017153369,Alloalcanivorax_marinus_2|WP_228233368.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0034930428)99.7/100:0.0356349959,Alloalcanivorax_sp._C16-1|WP_410308002.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0207453995)58.9/99:0.0123709364,(Alloalcanivorax_sp._C16-2|WP_410298276.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0316635734,(Alloalcanivorax_profundimaris_1|WP_228548738.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0069278082,Alloalcanivorax_profundimaris_2|WP_194298376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0282675950)78.8/100:0.0175422111)99.9/100:0.0438641754)95.8/100:0.0318157224,Alloalcanivorax_gelatiniphagus|WP_485154554.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0382662100)99.9/100:0.0961184831,(((Alloalcanivorax_venustensis_1|WP_485164795.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016691542,Alloalcanivorax_venustensis_3|WP_474359680.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016657693)73.6/99:0.0014091076,Alloalcanivorax_venustensis_2|WP_194855806.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0103041587)96.4/100:0.0222481787,((Alloalcanivorax_venustensis_4|WP_474234444.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0153871683,((Alloalcanivorax_venustensis_6|WP_423934416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Alloalcanivorax_venustensis_9|WP_474367516.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016822352)0/86:0.0000023952,(Alloalcanivorax_venustensis_8|WP_473785057.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000027843,((Alloalcanivorax_venustensis_10|WP_475364427.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033830115,Alloalcanivorax_venustensis_12|WP_475647339.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033839151)0/66:0.0000025956,Alloalcanivorax_venustensis_11|WP_473781655.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000026604)83.6/99:0.0016853411)73.7/93:0.0016812883)57.1/92:0.0034275691)76.5/98:0.0035698364,(Alloalcanivorax_venustensis_5|WP_473780318.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000023402,Alloalcanivorax_venustensis_7|WP_423885108.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067699370)76.7/99:0.0015312197)95.7/100:0.0181125548)100/100:0.0915261927)88.1/98:0.0585334619)99.3/100:0.1017535581)100/100:0.1882439757,Maricurvus_nonylphenolicus|WP_390614625.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3941629292)87.3/98:0.0464509338)100/100:0.3076449981)95.8/98:0.0757029761)100/100:0.1324041631)63.3/90:0.0406930243,((((Pseudoalteromonas_sp._NFXS39|WP_349560949.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013371027,(Pseudoalteromonas_apostichopi_1|WP_286260681.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Pseudoalteromonas_sp._1|WP_294089584.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013287918)0/41:0.0000020401)0/61:0.0000022774,Pseudoalteromonas_sp._SCSIO_43101|WP_250662258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013286474)76.4/91:0.0013282376,(((((((((((Pseudoalteromonas_lipolytica_1|WP_054553986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040440613,Pseudoalteromonas_sp._S2721|WP_212751477.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0080842403)96.5/100:0.0067478068,Pseudoalteromonas_simplex|WP_228482490.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0054277503)0/80:0.0000022868,(Pseudoalteromonas_lipolytica_2|WP_339981228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026918537,Pseudoalteromonas_sp._BZK2|WP_222937990.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000026695)98.6/100:0.0094578829)81.3/78:0.0026904513,((((Pseudoalteromonas_sp._2|WP_490386461.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020462,((unclassified_Pseudoalteromonas_1|WP_349274157.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000022364,(uncultured_Pseudoalteromonas_sp._4|WP_289097053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000026593,Pseudoalteromonas_sp._11|WP_375185160.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0144700506)99.3/100:0.0174805694)86.7/99:0.0027705085,Pseudoalteromonas_sp._NCCP-2140|WP_251601605.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053859662)75.9/99:0.0013962143)0/70:0.0000010013,Pseudoalteromonas_sp._4|WP_287244842.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013377683)94.2/99:0.0042135380,(Pseudoalteromonas_sp._UCD-33C|WP_054562494.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013336449,((Pseudoalteromonas_sp._6|WP_488035880.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039955226,Pseudoalteromonas_sp._8|WP_287205260.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013)0/90:0.0000023127,((Pseudoalteromonas_shioyasakiensis_4|WP_285220986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040274659,(Pseudoalteromonas_sp._P1-8|WP_055197275.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013349916,Pseudoalteromonas_sp._P1-26|WP_055021419.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013392105)81.5/97:0.0026762630)0/94:0.0000021798,Pseudoalteromonas_sp._D15MCD-2|WP_342409634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000024307)92.7/100:0.0013367987)0/79:0.0000029204)98.8/100:0.0083928628)74.5/79:0.0013017282,(unclassified_Pseudoalteromonas_3|WP_138686283.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0066734949,(Pseudoalteromonas_sp._MB47|WP_206004052.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053904096,((((uncultured_Pseudoalteromonas_sp._3|WP_300421023.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000022856,Pseudoalteromonas_sp._Cn5-37|WP_235377235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067084156)90.1/91:0.0026733066,(Pseudoalteromonas_sp._9|WP_294410258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013,Pseudoalteromonas_sp._GB43|WP_462167324.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026755006)85.9/100:0.0013367160)0/56:0.0000021886,Pseudoalteromonas_sp._10|WP_300358640.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013)0/75:0.0000023226,unclassified_Pseudoalteromonas_7|WP_235374218.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0080878630)94.5/98:0.0067526563)92.5/90:0.0042006599)86.2/82:0.0026392495)77.6/38:0.0013386274)89.3/88:0.0027043306,((Pseudoalteromonas|WP_220094646.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013468976,Pseudoalteromonas_sp._SCSIO_43088|WP_250660409.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000027523)86/100:0.0026937083,unclassified_Pseudoalteromonas_6|WP_130167674.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0094810658)74.2/46:0.0013525635)77.7/26:0.0013398319,(Pseudoalteromonas_gelatinilytica_2|WP_119853069.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0054059741,(Pseudoalteromonas_gelatinilytica_3|WP_483432081.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040513156,(((Pseudoalteromonas_sp._T1lg122|WP_105173614.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040325379,Pseudoalteromonas_gelatinilytica_6|WP_082873985.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000010013)80.8/86:0.0013420764,Pseudoalteromonas_gelatinilytica_5|WP_462175783.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013435978)77/71:0.0013453872,Pseudoalteromonas_sp._S4492|WP_212746797.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026942853)77.5/90:0.0013508508)76.5/54:0.0013536562)78.5/35:0.0013387153)0/41:0.0000023261,Pseudoalteromonas_gelatinilytica_1|WP_462147847.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040408704)84.9/64:0.0013437497,((unclassified_Pseudoalteromonas_2|WP_337117224.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0108750046,Pseudoalteromonas_sp._XI10|WP_058584693.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0191417133)0/10:0.0000023148,(((((((Pseudoalteromonas_sp._MEBiC_03607|WP_205994337.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0038814992,(Pseudoalteromonas_sp._Ps84H-4|WP_253039232.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013414283,uncultured_Pseudoalteromonas_sp._2|WP_348714410.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000028480)76.8/100:0.0014901430)40.5/100:0.0013445537,unclassified_Pseudoalteromonas_5|WP_138557790.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0065917750)86.6/100:0.0028411269,Pseudoalteromonas_nanhaiensis|WP_435559480.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0083120012)93.9/100:0.0040563062,Pseudoalteromonas_sp._P80D2|WP_332393413.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053917966)88.3/98:0.0027074797,Pseudoalteromonas_shioyasakiensis_2|WP_062565773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0108167927)87.5/91:0.0026839638,(Pseudoalteromonas_sp._3|WP_304636376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026653935,((Pseudoalteromonas_shioyasakiensis_1|WP_269407229.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013187941,(Pseudoalteromonas_sp._7|WP_487986883.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053765379,Pseudoalteromonas_sp._CnMc7-37|WP_253048777.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053781350)95.5/100:0.0054101537)76.3/90:0.0013406427,Pseudoalteromonas_shioyasakiensis_3|WP_474704773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0081025790)69/77:0.0013424437)78.6/85:0.0013631593)0/28:0.0000023028,((Pseudoalteromonas_gelatinilytica_4|WP_462178957.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067651617,unclassified_Pseudoalteromonas_4|WP_235382668.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040471158)74.5/99:0.0013438589,Pseudoalteromonas_gelatinilytica_7|WP_462182065.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0108628766)90.2/73:0.0026818473)84.4/57:0.0013439896)0/9:0.0000023106)72.2/74:0.0012944425,((Pseudoalteromonas_sp._MB41|WP_230237131.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013078590,(Pseudoalteromonas_lipolytica_3|WP_065978975.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013489238,Pseudoalteromonas_lipolytica_4|WP_417698834.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026654465)38.6/96:0.0027151094)98.5/100:0.0132044704,Pseudoalteromonas_lipolytica_5|WP_462168155.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0044665899)100/100:0.0432962428)100/78:0.0179598924,uncultured_Pseudoalteromonas_sp._1|WP_348708929.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0069129305)79/71:0.0079047469,(Pseudoalteromonas_apostichopi_2|WP_484580970.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013198237,Pseudoalteromonas_sp._5|WP_297330116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053727762)95.1/99:0.0080739335)0/55:0.0000024455)76/65:0.0026616700,Pseudoalteromonas_sp._HF66|WP_217702824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000021033)100/100:0.2346938954)87.1/94:0.0401365664,Shewanella_sp._Scap07|WP_179025361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3606877607)100/100:0.3480475088);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -48312.599237
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|
++--Shewanella_seohaensis|WP_495141453.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|
+|                       +----------unclassified_Shewanella|WP_269970245.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    +--| (95)
+|                    |  |            +--Colwellia_sp._E150_009|WP_448896118.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |        +---| (100)
+|                    |  |        |   +--Pseudoalteromonas_tetraodonis|WP_483313308.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |     +--| (97)
+|                    |  |     |  |  +-------Colwellia_sp._KU-HH00111|WP_353537636.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |     |  +--| (100)
+|                    |  |     |     +-------Colwellia_sp._F1|WP_475659072.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  +--| (96)
+|                    |  |  |  |  +----Colwellia_sp._SU-HH01217|WP_487117931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  |  +--| (89)
+|                    |  |  |     |  +--Colwellia_sp._SU-HH00943|WP_487093717.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  |  |     +--| (100)
+|                    |  |  |        +---Colwellia_sp._KS18-150|WP_487054184.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |  +--| (96)
+|                    |     |             +--Colwellia_sp._1|WP_487539752.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |          +--| (100)
+|                    |     |          |  |  +--Colwellia_sp._3|WP_487943909.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |          |  +--| (100)
+|                    |     |          |     +--Colwellia_sp._4|WP_291624144.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |       +--| (100)
+|                    |     |       |  +--Colwellia_sp._2|WP_291610914.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     |  +----| (100)
+|                    |     |  |    +----Colwellia_sp._5|WP_490032689.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                    |     +--| (98)
+|                    |        +---------Thalassotalea_sp._SU-HH00458|WP_353517955.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 +--| (51)
+|                 |  |              +--Psychrosphaera_sp._F3M07|WP_216054076.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |        +-----| (100)
+|                 |  |        |     +--Psychrosphaera_aquimarina|WP_315947146.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |     +--| (100)
+|                 |  |     |  +--Thalassotalea_sp._PS06|WP_144035305.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |  +--| (100)
+|                 |  |  |  |        +--unclassified_Psychrosphaera|WP_215964367.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  |  |  +--------| (100)
+|                 |  |  |           +--Psychrosphaera_sp._1_MG-2023|WP_303521422.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|                 |  +--| (57)
+|                 |     +--------------Arenicella_sp._4NH20-0111|WP_353410179.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              +--| (90)
+|              |  |         +--Microbulbifer_sp._Q7|WP_227718221.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      +--| (100)
+|              |  |      |  |     +--Microbulbifer_mangrovi|WP_078085898.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      |  |  +--| (100)
+|              |  |      |  |  |  +--Microbulbifer_sp._YPW1|WP_219932609.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |      |  +--| (100)
+|              |  |      |     +--Microbulbifer_pacificus|WP_318954214.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  |   +--| (100)
+|              |  |   |  +-----Microbulbifer_sp._ABF4_148|WP_475089634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |  +---| (100)
+|              |      |  +-----------Simiduia_agarivorans|WP_495483543.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |      +--| (98)
+|              |         |                               +--Microbulbifer_aggregans|WP_069947361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                         +-----| (100)
+|              |         |                         |     +--Microbulbifer|WP_067085875.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                      +--| (97)
+|              |         |                      |  |  +---Microbulbifer_sp._SAOS-129_SWC|WP_346839204.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                      |  +--| (100)
+|              |         |                      |     +--Microbulbifer_hainanensis|WP_226877159.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  +---| (99)
+|              |         |                  |   |        +--unclassified_Microbulbifer|WP_475092319.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |     +--| (100)
+|              |         |                  |   |     |  |  +--Microbulbifer_sp._HZ11|WP_043321053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |     |  +--| (100)
+|              |         |                  |   |     |     +--Microbulbifer_sp._ARAS458-1|WP_406827977.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   |  +--| (88)
+|              |         |                  |   |  |  +-----uncultured_Microbulbifer_sp.|WP_299599601.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |                  |   +--| (100)
+|              |         |                  |      +--------Microbulbifer_agarilyticus|WP_077405297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               +--| (68)
+|              |         |               |  |     +----------Neptunicella_plasticusilytica|WP_416306217.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  +--| (90)
+|              |         |               |  |  |  |               +--Gallaecimonas_xiamenensis|WP_008486116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     +---------| (100)
+|              |         |               |  |  |  |     |         |     +--Gallaecimonas_pentaromativorans_1|WP_464948910.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         |  +--| (93)
+|              |         |               |  |  |  |     |         |  |  |  +--Gallaecimonas_pentaromativorans_3|WP_417358013.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         |  |  +--| (88)
+|              |         |               |  |  |  |     |         |  |     +--Gallaecimonas_pentaromativorans_4|WP_050660496.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |     |         +--| (97)
+|              |         |               |  |  |  |     |            +--Gallaecimonas_pentaromativorans_2|WP_417359899.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  +--| (99)
+|              |         |               |  |  |  |  |  |                +--Arsukibacterium_indicum|WP_308160236.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |             +--| (100)
+|              |         |               |  |  |  |  |  |             |  +--Arsukibacterium_sp._1|WP_318967992.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |          +--| (94)
+|              |         |               |  |  |  |  |  |          |  +--Arsukibacterium_sp._2|WP_372626301.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  |      +---| (100)
+|              |         |               |  |  |  |  |  |      |   +--Alkalimonas_collagenimarina|WP_369812671.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |  +------| (100)
+|              |         |               |  |  |  |  |         |            +--Rheinheimera_aquimaris_1|WP_483429720.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         |         +--| (98)
+|              |         |               |  |  |  |  |         |         |  +--unclassified_Rheinheimera|WP_475148261.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         |      +--| (71)
+|              |         |               |  |  |  |  |         |      |  +--Rheinheimera_sp.|WP_273024228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |         +------| (100)
+|              |         |               |  |  |  |  |                |  +--Rheinheimera_aquimaris_2|WP_226766338.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                +--| (95)
+|              |         |               |  |  |  |  |                   |     +--Rheinheimera_aquimaris_3|WP_134052912.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                   |  +--| (100)
+|              |         |               |  |  |  |  |                   |  |  +--Rheinheimera_aquimaris_5|WP_415186404.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  |  |                   +--| (95)
+|              |         |               |  |  |  |  |                      +--Rheinheimera_aquimaris_4|WP_230818297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  |  |  +--| (98)
+|              |         |               |  |  |     +---------Lacimicrobium_alkaliphilum|WP_062478888.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |  +--| (98)
+|              |         |               |     |     +---Planctobacterium_sp._AWH2_060|WP_475231578.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |               |     +-----| (100)
+|              |         |               |           +--Planctobacterium_sp._AWM4_229|WP_475263346.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            +--| (92)
+|              |         |            |  |       +-----Paraneptunicella_aestuarii|WP_232359458.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |  |  +----| (100)
+|              |         |            |  |  |    +-------Alteromonas_sp._a30|WP_268408416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |  +--| (100)
+|              |         |            |     |     +-------------Salinimonas_sediminis|WP_108566897.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |     |  +--| (99)
+|              |         |            |     |  |  +---uncultured_Paraglaciecola_sp.|WP_339720544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |            |     +--| (100)
+|              |         |            |        +----------Paraglaciecola_sp._IT1134|WP_489728994.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         +--| (71)
+|              |         |         |  |           +--------Alteromonas_oceanisediminis|WP_214129931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        +--| (99)
+|              |         |         |  |        |  |           +--Alteromonas_sp._H39|WP_414828916.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |        +--| (100)
+|              |         |         |  |        |  |        |  +--Alteromonas_antoniana|WP_218312562.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |     +--| (99)
+|              |         |         |  |        |  |     |  +---------Alteromonas_ponticola|WP_169211550.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  |  +--| (100)
+|              |         |         |  |        |  |  |  +---------Alteromonas_salexigens|WP_262992133.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |        |  +--| (100)
+|              |         |         |  |        |     +----Alteromonas_lipotrueiana|WP_218355362.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     +--| (100)
+|              |         |         |  |     |  |            +--Alteromonas_sp._4NH20-0104|WP_487122015.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |     +------| (100)
+|              |         |         |  |     |  |     |      |  +--Alteromonas_sp._H02|WP_499614433.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |     |      +--| (96)
+|              |         |         |  |     |  |     |         +--Marisediminitalea_alba|WP_105936495.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  +--| (68)
+|              |         |         |  |     |  |  |  |     +--Alteromonas_sp._D210916BOD_24|WP_412725544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |  +-----| (100)
+|              |         |         |  |     |  |  |        |  +--unclassified_Alteromonas|WP_232370634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |        +--| (100)
+|              |         |         |  |     |  |  |           |  +--Alteromonas_lipotrueae_1|WP_246604452.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  |  |           +--| (66)
+|              |         |         |  |     |  |  |              +--Alteromonas_lipotrueae_2|WP_258544420.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |  +--| (100)
+|              |         |         |  |     |     |                 +--Marisediminitalea_sp._1|WP_490711645.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |              +--| (58)
+|              |         |         |  |     |     |              |  +--Marisediminitalea_aggregata_2|WP_255052969.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |           +--| (61)
+|              |         |         |  |     |     |           |  |  +--Marisediminitalea_sp._3|WP_488801699.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |           |  +--| (64)
+|              |         |         |  |     |     |           |     +--Marisediminitalea_sp._4|WP_488798885.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |        +--| (99)
+|              |         |         |  |     |     |        |  +--Marisediminitalea_sp._2|WP_487964638.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     |     +--| (100)
+|              |         |         |  |     |     |     |  +--Marisediminitalea_aggregata_1|WP_475070608.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |     |     +-----| (100)
+|              |         |         |  |     |           +--Aestuariibacter_sp._GS-14|WP_140959234.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  +--| (99)
+|              |         |         |  |  |  |             +--Aliiglaciecola_sp._3_MG-2023|WP_303473067.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |          +--| (100)
+|              |         |         |  |  |  |          |  +--Aliiglaciecola_aliphaticivorans|WP_460311521.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  +-------| (100)
+|              |         |         |  |  |  |  |       |  +--Aliiglaciecola_sp._NS0011-25|WP_353370548.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |       +--| (100)
+|              |         |         |  |  |  |  |          |  +--unclassified_Aliiglaciecola|WP_303500066.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |          +--| (98)
+|              |         |         |  |  |  |  |             |  +--Aliiglaciecola_lipolytica|WP_216049299.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  |  |             +--| (100)
+|              |         |         |  |  |  |  |                +--Alteromonas_sp._M12|WP_342806235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  |  |  +--| (100)
+|              |         |         |  |  |     +--------Fluctibacter_halophilus|WP_229158737.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |  +--| (97)
+|              |         |         |     |                      +--Halioxenophilus_aromaticivorans_1|WP_390517656.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |     |                   +--| (92)
+|              |         |         |     |                   |  +--Halioxenophilus_aromaticivorans_2|WP_345421781.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         |         |     +-------------------| (100)
+|              |         |         |                         +--Halioxenophilus_aromaticivorans_3|WP_464370279.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |         +---------| (100)
+|              |                   |        +------Alloalcanivorax_mobilis|WP_101674902.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  +-----| (100)
+|              |                   |  |     |       +--Alcanivorax_sp._24|WP_133493510.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  +----| (100)
+|              |                   |  |     |  |    |        +--Alloalcanivorax_xenomutans_1|WP_485163824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |    |     +--| (80)
+|              |                   |  |     |  |    |     |  +--Alloalcanivorax_xenomutans_3|WP_244168483.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |    |  +--| (44)
+|              |                   |  |     |  |    |  |  +--Alloalcanivorax_xenomutans_2|WP_317009323.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |    +--| (98)
+|              |                   |  |     |  |       |        +--Alloalcanivorax_xenomutans_4|WP_316308580.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |       |     +--| (49)
+|              |                   |  |     |  |       |     |  +--Alloalcanivorax_xenomutans_6|WP_433976675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |       |  +--| (34)
+|              |                   |  |     |  |       |  |  |  +--Alloalcanivorax_xenomutans_5|WP_416391079.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |       |  |  +--| (59)
+|              |                   |  |     |  |       |  |     +--Alloalcanivorax_xenomutans_8|WP_502013871.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     |  |       +--| (47)
+|              |                   |  |     |  |          +--Alloalcanivorax_xenomutans_7|WP_474365385.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |     +--| (100)
+|              |                   |  |        |              +--Alloalcanivorax_marinus_1|WP_204431675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |           +--| (100)
+|              |                   |  |        |           |  +--Alloalcanivorax_marinus_2|WP_228233368.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |        +--| (99)
+|              |                   |  |        |        |  +--Alloalcanivorax_sp._C16-1|WP_410308002.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     +--| (100)
+|              |                   |  |        |     |  |  +--Alloalcanivorax_sp._C16-2|WP_410298276.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     |  +--| (100)
+|              |                   |  |        |     |     |  +--Alloalcanivorax_profundimaris_1|WP_228548738.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |     |     +--| (100)
+|              |                   |  |        |     |        +--Alloalcanivorax_profundimaris_2|WP_194298376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        |  +--| (100)
+|              |                   |  |        |  |  +--Alloalcanivorax_gelatiniphagus|WP_485154554.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |        +--| (98)
+|              |                   |  |           |        +--Alloalcanivorax_venustensis_1|WP_485164795.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           |     +--| (99)
+|              |                   |  |           |     |  +--Alloalcanivorax_venustensis_3|WP_474359680.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           |  +--| (100)
+|              |                   |  |           |  |  +--Alloalcanivorax_venustensis_2|WP_194855806.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |           +--| (100)
+|              |                   |  |              |     +--Alloalcanivorax_venustensis_4|WP_474234444.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  +--| (98)
+|              |                   |  |              |  |  |     +--Alloalcanivorax_venustensis_6|WP_423934416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |  |  +--| (86)
+|              |                   |  |              |  |  |  |  +--Alloalcanivorax_venustensis_9|WP_474367516.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |  +--| (92)
+|              |                   |  |              |  |     |  +--Alloalcanivorax_venustensis_8|WP_473785057.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |     +--| (93)
+|              |                   |  |              |  |        |     +--Alloalcanivorax_venustensis_10|WP_475364427.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |        |  +--| (66)
+|              |                   |  |              |  |        |  |  +--Alloalcanivorax_venustensis_12|WP_475647339.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              |  |        +--| (99)
+|              |                   |  |              |  |           +--Alloalcanivorax_venustensis_11|WP_473781655.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |              +--| (100)
+|              |                   |  |                 |  +--Alloalcanivorax_venustensis_5|WP_473780318.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   |  |                 +--| (99)
+|              |                   |  |                    +--Alloalcanivorax_venustensis_7|WP_423885108.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|              |                   +--| (98)
+|              |                      +------------Maricurvus_nonylphenolicus|WP_390614625.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           +--| (94)
+|           |  |                +--Pseudoalteromonas_sp._NFXS39|WP_349560949.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |             +--| (61)
+|           |  |             |  |  +--Pseudoalteromonas_apostichopi_1|WP_286260681.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |             |  +--| (41)
+|           |  |             |     +--Pseudoalteromonas_sp._1|WP_294089584.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |          +--| (91)
+|           |  |          |  +--Pseudoalteromonas_sp._SCSIO_43101|WP_250662258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       +--| (65)
+|           |  |       |  |                                         +--Pseudoalteromonas_lipolytica_1|WP_054553986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                                      +--| (100)
+|           |  |       |  |                                      |  +--Pseudoalteromonas_sp._S2721|WP_212751477.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                                   +--| (80)
+|           |  |       |  |                                   |  +--Pseudoalteromonas_simplex|WP_228482490.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                                +--| (78)
+|           |  |       |  |                                |  |  +--Pseudoalteromonas_lipolytica_2|WP_339981228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                                |  +--| (100)
+|           |  |       |  |                                |     +--Pseudoalteromonas_sp._BZK2|WP_222937990.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             +--| (44)
+|           |  |       |  |                             |  |        +--Pseudoalteromonas_sp._2|WP_490386461.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  |     +--| (70)
+|           |  |       |  |                             |  |     |  |     +--unclassified_Pseudoalteromonas_1|WP_349274157.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  |     |  |  +--| (99)
+|           |  |       |  |                             |  |     |  |  |  |  +--uncultured_Pseudoalteromonas_sp._4|WP_289097053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  |     |  |  |  +--| (100)
+|           |  |       |  |                             |  |     |  |  |     +--Pseudoalteromonas_sp._11|WP_375185160.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  |     |  +--| (99)
+|           |  |       |  |                             |  |     |     +--Pseudoalteromonas_sp._NCCP-2140|WP_251601605.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  |  +--| (99)
+|           |  |       |  |                             |  |  |  +--Pseudoalteromonas_sp._4|WP_287244842.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |  +--| (79)
+|           |  |       |  |                             |     |  +--Pseudoalteromonas_sp._UCD-33C|WP_054562494.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |     +--| (100)
+|           |  |       |  |                             |        |     +--Pseudoalteromonas_sp._6|WP_488035880.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |        |  +--| (90)
+|           |  |       |  |                             |        |  |  +--Pseudoalteromonas_sp._8|WP_287205260.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |        +--| (79)
+|           |  |       |  |                             |           |     +--Pseudoalteromonas_shioyasakiensis_4|WP_285220986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |           |  +--| (94)
+|           |  |       |  |                             |           |  |  |  +--Pseudoalteromonas_sp._P1-8|WP_055197275.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |           |  |  +--| (97)
+|           |  |       |  |                             |           |  |     +--Pseudoalteromonas_sp._P1-26|WP_055021419.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                             |           +--| (100)
+|           |  |       |  |                             |              +--Pseudoalteromonas_sp._D15MCD-2|WP_342409634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          +--| (88)
+|           |  |       |  |                          |  |  +--unclassified_Pseudoalteromonas_3|WP_138686283.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |  +--| (82)
+|           |  |       |  |                          |     |  +--Pseudoalteromonas_sp._MB47|WP_206004052.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |     +--| (90)
+|           |  |       |  |                          |        |           +--uncultured_Pseudoalteromonas_sp._3|WP_300421023.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |        |        +--| (91)
+|           |  |       |  |                          |        |        |  +--Pseudoalteromonas_sp._Cn5-37|WP_235377235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |        |     +--| (56)
+|           |  |       |  |                          |        |     |  |  +--Pseudoalteromonas_sp._9|WP_294410258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |        |     |  +--| (100)
+|           |  |       |  |                          |        |     |     +--Pseudoalteromonas_sp._GB43|WP_462167324.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |        |  +--| (75)
+|           |  |       |  |                          |        |  |  +--Pseudoalteromonas_sp._10|WP_300358640.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                          |        +--| (98)
+|           |  |       |  |                          |           +--unclassified_Pseudoalteromonas_7|WP_235374218.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                       +--| (31)
+|           |  |       |  |                       |  |  +--Pseudoalteromonas|WP_220094646.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                       |  +--| (100)
+|           |  |       |  |                       |     +--Pseudoalteromonas_sp._SCSIO_43088|WP_250660409.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    +--| (41)
+|           |  |       |  |                    |  |  +--Pseudoalteromonas_gelatinilytica_2|WP_119853069.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |  +--| (41)
+|           |  |       |  |                    |     |     +--Pseudoalteromonas_gelatinilytica_3|WP_483432081.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     |  +--| (54)
+|           |  |       |  |                    |     |  |  |        +--Pseudoalteromonas_sp._T1lg122|WP_105173614.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     |  |  |     +--| (86)
+|           |  |       |  |                    |     |  |  |     |  +--Pseudoalteromonas_gelatinilytica_6|WP_082873985.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     |  |  |  +--| (71)
+|           |  |       |  |                    |     |  |  |  |  +--Pseudoalteromonas_gelatinilytica_5|WP_462175783.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     |  |  +--| (90)
+|           |  |       |  |                    |     |  |     +--Pseudoalteromonas_sp._S4492|WP_212746797.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                    |     +--| (49)
+|           |  |       |  |                    |        +--unclassified_Pseudoalteromonas_6|WP_130167674.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |                 +--| (64)
+|           |  |       |  |                 |  +--Pseudoalteromonas_gelatinilytica_1|WP_462147847.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |              +--| (27)
+|           |  |       |  |              |  +--Pseudoalteromonas_sp._XI10|WP_058584693.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           +--| (20)
+|           |  |       |  |           |  |                 +--Pseudoalteromonas_sp._MEBiC_03607|WP_205994337.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |              +--| (100)
+|           |  |       |  |           |  |              |  |  +--Pseudoalteromonas_sp._Ps84H-4|WP_253039232.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |              |  +--| (100)
+|           |  |       |  |           |  |              |     +--uncultured_Pseudoalteromonas_sp._2|WP_348714410.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |           +--| (100)
+|           |  |       |  |           |  |           |  +--unclassified_Pseudoalteromonas_5|WP_138557790.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |        +--| (100)
+|           |  |       |  |           |  |        |  +--Pseudoalteromonas_nanhaiensis|WP_435559480.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |     +--| (98)
+|           |  |       |  |           |  |     |  +--Pseudoalteromonas_sp._P80D2|WP_332393413.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  |  +--| (91)
+|           |  |       |  |           |  |  |  +--Pseudoalteromonas_shioyasakiensis_2|WP_062565773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |  +--| (57)
+|           |  |       |  |           |     |     +--Pseudoalteromonas_sp._3|WP_304636376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |     |  +--| (85)
+|           |  |       |  |           |     |  |  |     +--Pseudoalteromonas_shioyasakiensis_1|WP_269407229.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |     |  |  |  +--| (90)
+|           |  |       |  |           |     |  |  |  |  |  +--Pseudoalteromonas_sp._7|WP_487986883.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |     |  |  |  |  +--| (100)
+|           |  |       |  |           |     |  |  |  |     +--Pseudoalteromonas_sp._CnMc7-37|WP_253048777.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |     |  |  +--| (77)
+|           |  |       |  |           |     |  |     +--Pseudoalteromonas_shioyasakiensis_3|WP_474704773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |     +--| (37)
+|           |  |       |  |           |        |     +--Pseudoalteromonas_gelatinilytica_4|WP_462178957.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |        |  +--| (99)
+|           |  |       |  |           |        |  |  +--unclassified_Pseudoalteromonas_4|WP_235382668.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |           |        +--| (73)
+|           |  |       |  |           |           +--Pseudoalteromonas_gelatinilytica_7|WP_462182065.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |        +--| (74)
+|           |  |       |  |        |  +--unclassified_Pseudoalteromonas_2|WP_337117224.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     +--| (78)
+|           |  |       |  |     |  |     +--Pseudoalteromonas_sp._MB41|WP_230237131.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  |  +--| (100)
+|           |  |       |  |     |  |  |  |  +--Pseudoalteromonas_lipolytica_3|WP_065978975.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  |  |  +--| (96)
+|           |  |       |  |     |  |  |     +--Pseudoalteromonas_lipolytica_4|WP_417698834.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |     |  +--| (100)
+|           |  |       |  |     |     +--Pseudoalteromonas_lipolytica_5|WP_462168155.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  |  +--| (71)
+|           |  |       |  |  |  +--uncultured_Pseudoalteromonas_sp._1|WP_348708929.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |  +--| (55)
+|           |  |       |     |  +--Pseudoalteromonas_apostichopi_2|WP_484580970.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  |       |     +--| (99)
+|           |  |       |        +--Pseudoalteromonas_sp._5|WP_297330116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+|           |  +-------| (100)
+|           |          +--Pseudoalteromonas_sp._HF66|WP_217702824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
++-----------| (100)
+            +-----------Shewanella_sp._Scap07|WP_179025361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase
+
+
+Consensus tree in newick format: 
+
+(Shewanella_sp._MR-4|WP_011624024.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0044264755,Shewanella_seohaensis|WP_495141453.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0061902386,(((((unclassified_Shewanella|WP_269970245.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3277722242,((((Colwellia_sp._E150_009|WP_448896118.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0009562699,Pseudoalteromonas_tetraodonis|WP_483313308.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0083688491)100:0.1320691600,(Colwellia_sp._KU-HH00111|WP_353537636.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2380201876,Colwellia_sp._F1|WP_475659072.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2469882195)100:0.0320978064)97:0.0320444413,(Colwellia_sp._SU-HH01217|WP_487117931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1552132688,(Colwellia_sp._SU-HH00943|WP_487093717.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1075763364,Colwellia_sp._KS18-150|WP_487054184.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1167021691)100:0.1119152398)89:0.0301284930)96:0.0245212685,((((Colwellia_sp._1|WP_487539752.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0070501061,(Colwellia_sp._3|WP_487943909.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0014252559,Colwellia_sp._4|WP_291624144.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0055533608)100:0.0097655100)100:0.0745273949,Colwellia_sp._2|WP_291610914.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1080272078)100:0.0650755183,Colwellia_sp._5|WP_490032689.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1486284728)100:0.1501237837,Thalassotalea_sp._SU-HH00458|WP_353517955.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3074456498)98:0.0413241040)96:0.0365285104)95:0.0232397648,((((Psychrosphaera_sp._F3M07|WP_216054076.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0023319764,Psychrosphaera_aquimarina|WP_315947146.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0151552358)100:0.1838700664,Thalassotalea_sp._PS06|WP_144035305.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1083047877)100:0.0834088100,(unclassified_Psychrosphaera|WP_215964367.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0056017427,Psychrosphaera_sp._1_MG-2023|WP_303521422.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0025983536)100:0.2592002646)100:0.1121867218,Arenicella_sp._4NH20-0111|WP_353410179.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.4544025305)57:0.0357327138)51:0.0437755007,(((Microbulbifer_sp._Q7|WP_227718221.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0686833391,((Microbulbifer_mangrovi|WP_078085898.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0228230771,Microbulbifer_sp._YPW1|WP_219932609.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0185951757)100:0.0278702983,Microbulbifer_pacificus|WP_318954214.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1009604104)100:0.0353713108)100:0.0735336528,Microbulbifer_sp._ABF4_148|WP_475089634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1874719367)100:0.1073868188,(Simiduia_agarivorans|WP_495483543.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3704428659,(((((((Microbulbifer_aggregans|WP_069947361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0854073507,Microbulbifer|WP_067085875.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1028728803)100:0.1847613830,(Microbulbifer_sp._SAOS-129_SWC|WP_346839204.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1389402251,Microbulbifer_hainanensis|WP_226877159.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1085166859)100:0.0632878618)97:0.0698358428,(((unclassified_Microbulbifer|WP_475092319.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0429825328,(Microbulbifer_sp._HZ11|WP_043321053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0009041089,Microbulbifer_sp._ARAS458-1|WP_406827977.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0163701208)100:0.0510189788)100:0.0637487037,uncultured_Microbulbifer_sp.|WP_299599601.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1719398657)88:0.0204773408,Microbulbifer_agarilyticus|WP_077405297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2741635549)100:0.0823467439)99:0.1297294549,((Neptunicella_plasticusilytica|WP_416306217.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3325041661,(((Gallaecimonas_xiamenensis|WP_008486116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0129604953,((Gallaecimonas_pentaromativorans_1|WP_464948910.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0135870941,(Gallaecimonas_pentaromativorans_3|WP_417358013.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0096283612,Gallaecimonas_pentaromativorans_4|WP_050660496.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0106131855)88:0.0035484477)93:0.0062454054,Gallaecimonas_pentaromativorans_2|WP_417359899.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0070103003)97:0.0128905826)100:0.3114169239,((((Arsukibacterium_indicum|WP_308160236.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0487761147,Arsukibacterium_sp._1|WP_318967992.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0670063494)100:0.0336256449,Arsukibacterium_sp._2|WP_372626301.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1120460510)94:0.0185828855,Alkalimonas_collagenimarina|WP_369812671.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0976382014)100:0.1314999170,(((Rheinheimera_aquimaris_1|WP_483429720.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0222442568,unclassified_Rheinheimera|WP_475148261.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0162076203)98:0.0107022902,Rheinheimera_sp.|WP_273024228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033999579)71:0.0011791283,(Rheinheimera_aquimaris_2|WP_226766338.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039546947,((Rheinheimera_aquimaris_3|WP_134052912.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Rheinheimera_aquimaris_5|WP_415186404.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016057983)100:0.0123459387,Rheinheimera_aquimaris_4|WP_230818297.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0055054545)95:0.0047327410)95:0.0045432585)100:0.2059760272)100:0.2116030900)99:0.0542010515,Lacimicrobium_alkaliphilum|WP_062478888.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3049987804)98:0.0524632371)90:0.0497663346,(Planctobacterium_sp._AWH2_060|WP_475231578.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1337547452,Planctobacterium_sp._AWM4_229|WP_475263346.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1025340243)100:0.1865132568)98:0.0386396448)68:0.0254361500,((Paraneptunicella_aestuarii|WP_232359458.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1787987232,Alteromonas_sp._a30|WP_268408416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2349342584)100:0.1699001523,((Salinimonas_sediminis|WP_108566897.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.4107675518,uncultured_Paraglaciecola_sp.|WP_339720544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1403364875)99:0.0764451356,Paraglaciecola_sp._IT1134|WP_489728994.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3250430864)100:0.0917486740)100:0.0648917977)92:0.0390555262,((((Alteromonas_oceanisediminis|WP_214129931.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2832383728,((((Alteromonas_sp._H39|WP_414828916.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0458111239,Alteromonas_antoniana|WP_218312562.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0396802329)100:0.0959081524,Alteromonas_ponticola|WP_169211550.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2907842867)99:0.0340999057,Alteromonas_salexigens|WP_262992133.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2944302795)100:0.0497719124,Alteromonas_lipotrueiana|WP_218355362.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1681618911)100:0.0776590106)99:0.0902743449,(((Alteromonas_sp._4NH20-0104|WP_487122015.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0559686167,(Alteromonas_sp._H02|WP_499614433.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0356953378,Marisediminitalea_alba|WP_105936495.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0123394050)96:0.0320743606)100:0.2061194799,(Alteromonas_sp._D210916BOD_24|WP_412725544.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.1000444702,(unclassified_Alteromonas|WP_232370634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015438000,(Alteromonas_lipotrueae_1|WP_246604452.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Alteromonas_lipotrueae_2|WP_258544420.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015459236)66:0.0000020111)100:0.1127167519)100:0.1869947758)68:0.0673074767,(((((Marisediminitalea_sp._1|WP_490711645.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0127081625,Marisediminitalea_aggregata_2|WP_255052969.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0043317652)58:0.0037605842,(Marisediminitalea_sp._3|WP_488801699.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0047543637,Marisediminitalea_sp._4|WP_488798885.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0063539766)64:0.0000020111)61:0.0015813416,Marisediminitalea_sp._2|WP_487964638.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015824959)99:0.0040260546,Marisediminitalea_aggregata_1|WP_475070608.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039354435)100:0.0712329265,Aestuariibacter_sp._GS-14|WP_140959234.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0911995788)100:0.1841014029)100:0.1033248165)100:0.0938376699,(((Aliiglaciecola_sp._3_MG-2023|WP_303473067.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013064913,Aliiglaciecola_aliphaticivorans|WP_460311521.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0064196050)100:0.0783920980,(Aliiglaciecola_sp._NS0011-25|WP_353370548.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,(unclassified_Aliiglaciecola|WP_303500066.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0061884279,(Aliiglaciecola_lipolytica|WP_216049299.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Alteromonas_sp._M12|WP_342806235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0015354905)100:0.0015354781)98:0.0015742599)100:0.0642423915)100:0.2306579648,Fluctibacter_halophilus|WP_229158737.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2623387378)100:0.0971712537)99:0.0577401969,((Halioxenophilus_aromaticivorans_1|WP_390517656.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Halioxenophilus_aromaticivorans_2|WP_345421781.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)92:0.0008468324,Halioxenophilus_aromaticivorans_3|WP_464370279.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0081892824)100:0.5970846870)97:0.0571870550)71:0.0238882588,((Alloalcanivorax_mobilis|WP_101674902.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.2041665023,((Alcanivorax_sp._24|WP_133493510.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0443890340,(((Alloalcanivorax_xenomutans_1|WP_485163824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Alloalcanivorax_xenomutans_3|WP_244168483.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033552999)80:0.0000020111,Alloalcanivorax_xenomutans_2|WP_317009323.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033524504)44:0.0000020111,(((Alloalcanivorax_xenomutans_4|WP_316308580.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067326115,Alloalcanivorax_xenomutans_6|WP_433976675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0137433179)49:0.0000020111,(Alloalcanivorax_xenomutans_5|WP_416391079.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016811784,Alloalcanivorax_xenomutans_8|WP_502013871.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0084557598)59:0.0016695223)34:0.0033570123,Alloalcanivorax_xenomutans_7|WP_474365385.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016862798)47:0.0033576146)98:0.0382645087)100:0.1605124908,(((((Alloalcanivorax_marinus_1|WP_204431675.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0017078544,Alloalcanivorax_marinus_2|WP_228233368.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0034806801)100:0.0355077474,Alloalcanivorax_sp._C16-1|WP_410308002.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0206739413)99:0.0123243330,(Alloalcanivorax_sp._C16-2|WP_410298276.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0315567497,(Alloalcanivorax_profundimaris_1|WP_228548738.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0069039340,Alloalcanivorax_profundimaris_2|WP_194298376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0281667721)100:0.0174784813)100:0.0437089388)100:0.0317123910,Alloalcanivorax_gelatiniphagus|WP_485154554.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0381294800)100:0.0958251945,(((Alloalcanivorax_venustensis_1|WP_485164795.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016625304,Alloalcanivorax_venustensis_3|WP_474359680.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016591643)99:0.0014028385,Alloalcanivorax_venustensis_2|WP_194855806.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0102687589)100:0.0221742875,((Alloalcanivorax_venustensis_4|WP_474234444.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0153338462,((Alloalcanivorax_venustensis_6|WP_423934416.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Alloalcanivorax_venustensis_9|WP_474367516.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0016755592)86:0.0000020111,(Alloalcanivorax_venustensis_8|WP_473785057.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,((Alloalcanivorax_venustensis_10|WP_475364427.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033703428,Alloalcanivorax_venustensis_12|WP_475647339.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0033712855)66:0.0000020111,Alloalcanivorax_venustensis_11|WP_473781655.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)99:0.0016786451)93:0.0016746632)92:0.0034147276)98:0.0035576617,(Alloalcanivorax_venustensis_5|WP_473780318.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Alloalcanivorax_venustensis_7|WP_423885108.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067464882)99:0.0015251569)100:0.0180513618)100:0.0911974292)98:0.0583658555)100:0.1014465026)100:0.1875169316,Maricurvus_nonylphenolicus|WP_390614625.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3926833780)98:0.0463820825)100:0.3066145717)98:0.0755584686)100:0.1321101606)90:0.0406060356,((((Pseudoalteromonas_sp._NFXS39|WP_349560949.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013317573,(Pseudoalteromonas_apostichopi_1|WP_286260681.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Pseudoalteromonas_sp._1|WP_294089584.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013235147)41:0.0000020111)61:0.0000020111,Pseudoalteromonas_sp._SCSIO_43101|WP_250662258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013233690)91:0.0013229665,((((((((((((((Pseudoalteromonas_lipolytica_1|WP_054553986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040303719,Pseudoalteromonas_sp._S2721|WP_212751477.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0080561618)100:0.0067359559,Pseudoalteromonas_simplex|WP_228482490.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0054203650)80:0.0013193474,(Pseudoalteromonas_lipolytica_2|WP_339981228.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026825299,Pseudoalteromonas_sp._BZK2|WP_222937990.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)100:0.0080798014)78:0.0026863791,(((Pseudoalteromonas_sp._2|WP_490386461.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,((unclassified_Pseudoalteromonas_1|WP_349274157.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020127,(uncultured_Pseudoalteromonas_sp._4|WP_289097053.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Pseudoalteromonas_sp._11|WP_375185160.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0144178037)100:0.0174175840)99:0.0027611494,Pseudoalteromonas_sp._NCCP-2140|WP_251601605.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053673167)99:0.0013905654)70:0.0000020111,Pseudoalteromonas_sp._4|WP_287244842.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013323346)99:0.0042016828,(Pseudoalteromonas_sp._UCD-33C|WP_054562494.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013282387,((Pseudoalteromonas_sp._6|WP_488035880.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0039807279,Pseudoalteromonas_sp._8|WP_287205260.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)90:0.0000020111,((Pseudoalteromonas_shioyasakiensis_4|WP_285220986.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040135893,(Pseudoalteromonas_sp._P1-8|WP_055197275.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013286526,Pseudoalteromonas_sp._P1-26|WP_055021419.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013337235)97:0.0026663167)94:0.0000020111,Pseudoalteromonas_sp._D15MCD-2|WP_342409634.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)100:0.0013313650)79:0.0000020111)100:0.0083615304)79:0.0012958148)44:0.0013341304,(unclassified_Pseudoalteromonas_3|WP_138686283.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0066407406,(Pseudoalteromonas_sp._MB47|WP_206004052.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053717103,((((uncultured_Pseudoalteromonas_sp._3|WP_300421023.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Pseudoalteromonas_sp._Cn5-37|WP_235377235.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0066851672)91:0.0026641590,(Pseudoalteromonas_sp._9|WP_294410258.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111,Pseudoalteromonas_sp._GB43|WP_462167324.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026662790)100:0.0013313166)56:0.0000020111,Pseudoalteromonas_sp._10|WP_300358640.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)75:0.0000020127,unclassified_Pseudoalteromonas_7|WP_235374218.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0080601099)98:0.0067294211)90:0.0042285430)82:0.0012472674)88:0.0040334465,(Pseudoalteromonas|WP_220094646.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013415262,Pseudoalteromonas_sp._SCSIO_43088|WP_250660409.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)100:0.0053800433)31:0.0000022526,(Pseudoalteromonas_gelatinilytica_2|WP_119853069.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053847483,((Pseudoalteromonas_gelatinilytica_3|WP_483432081.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0038981910,(((Pseudoalteromonas_sp._T1lg122|WP_105173614.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040185776,Pseudoalteromonas_gelatinilytica_6|WP_082873985.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)86:0.0014341405,Pseudoalteromonas_gelatinilytica_5|WP_462175783.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0012407924)71:0.0013398578,Pseudoalteromonas_sp._S4492|WP_212746797.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0027830295)90:0.0013869012)54:0.0005719842,unclassified_Pseudoalteromonas_6|WP_130167674.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0105786127)49:0.0010016258)41:0.0013359935)41:0.0000020215,Pseudoalteromonas_gelatinilytica_1|WP_462147847.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040270726)64:0.0013384527,Pseudoalteromonas_sp._XI10|WP_058584693.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0190757411)27:0.0000020111,((((((Pseudoalteromonas_sp._MEBiC_03607|WP_205994337.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0038683332,(Pseudoalteromonas_sp._Ps84H-4|WP_253039232.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013360403,uncultured_Pseudoalteromonas_sp._2|WP_348714410.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)100:0.0014833491)100:0.0013391569,unclassified_Pseudoalteromonas_5|WP_138557790.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0065691924)100:0.0028314563,Pseudoalteromonas_nanhaiensis|WP_435559480.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0082834330)100:0.0040423583,Pseudoalteromonas_sp._P80D2|WP_332393413.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053732939)98:0.0026981784,Pseudoalteromonas_shioyasakiensis_2|WP_062565773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0107796869)91:0.0026747665,((Pseudoalteromonas_sp._3|WP_304636376.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026545472,((Pseudoalteromonas_shioyasakiensis_1|WP_269407229.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013113177,(Pseudoalteromonas_sp._7|WP_487986883.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053582794,Pseudoalteromonas_sp._CnMc7-37|WP_253048777.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053592921)100:0.0053925538)90:0.0013353471,Pseudoalteromonas_shioyasakiensis_3|WP_474704773.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0080759610)77:0.0013370850)85:0.0013589142,((Pseudoalteromonas_gelatinilytica_4|WP_462178957.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0067418031,unclassified_Pseudoalteromonas_4|WP_235382668.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0040331815)99:0.0013368511,Pseudoalteromonas_gelatinilytica_7|WP_462182065.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0108247770)73:0.0026732681)37:0.0000020111)57:0.0013385632)20:0.0000020111,unclassified_Pseudoalteromonas_2|WP_337117224.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0108374790)74:0.0012894447,((Pseudoalteromonas_sp._MB41|WP_230237131.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013015145,(Pseudoalteromonas_lipolytica_3|WP_065978975.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013433353,Pseudoalteromonas_lipolytica_4|WP_417698834.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0026559842)96:0.0027056715)100:0.0131574774,Pseudoalteromonas_lipolytica_5|WP_462168155.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0044520823)100:0.0431473762)78:0.0178992292,uncultured_Pseudoalteromonas_sp._1|WP_348708929.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0068894493)71:0.0078780225,(Pseudoalteromonas_apostichopi_2|WP_484580970.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0013138156,Pseudoalteromonas_sp._5|WP_297330116.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0053543634)99:0.0080465795)55:0.0000020554)65:0.0026527022,Pseudoalteromonas_sp._HF66|WP_217702824.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.0000020111)100:0.2339410854)94:0.0401889695,Shewanella_sp._Scap07|WP_179025361.1|extracellular_catalytic_domain_type_1_short-chain-length_polyhydroxyalkanoate_depolymerase:0.3593816433)100:0.3467773493);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta.treefile -m "WAG+F+I{0.111594}+R6{0.167063,0.0854633,0.16046,0.320526,0.199858,0.778112,0.162504,1.46056,0.143722,2.32968,0.0547983,3.77029}" --length 966
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/sabrinaelkassas/Downloads/MAFFT_Aligned_fasta_files/Poly3HydroxybutyrateDepolymerase_IQTREE_iTOL.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 19 02:48:02 2026
+Total CPU time used: 19987.19686 seconds (5h:33m:7s)
+Total wall-clock time used: 12963.7948 seconds (3h:36m:3s)
+
