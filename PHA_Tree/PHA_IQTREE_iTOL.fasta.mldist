@@ -1,0 +1,12 @@
+11
+Atopomonas_sediminilitoris|WP_241584950.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase    0.0000000 0.5518249 0.5675465 0.6019938 0.6260768 0.6192966 0.9562138 1.2400600 1.2574854 1.2934228 1.6959224 
+Pseudomonas_sp._CC6-YY-74|WP_256573097.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase     0.5518249 0.0000000 0.1631737 0.4790056 0.4645284 0.1277962 0.9331706 1.6626683 1.2291935 1.6246520 1.9067383 
+Pseudomonas_leptonychotis|WP_415754049.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase     0.5675465 0.1631737 0.0000000 0.4288166 0.4023584 0.1733269 0.9480120 1.7376171 1.2961296 1.6242215 1.8801367 
+Halopseudomonas_sp.|WP_341706354.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase           0.6019938 0.4790056 0.4288166 0.0000000 0.0689785 0.5216039 0.8551776 1.4101836 1.1676342 1.3758048 1.8669916 
+Halopseudomonas_oceani|WP_496960499.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase        0.6260768 0.4645284 0.4023584 0.0689785 0.0000000 0.4903571 0.8539981 1.4427422 1.1892829 1.3649485 1.8294901 
+Pseudomonas_paeninsulae|WP_324732504.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase       0.6192966 0.1277962 0.1733269 0.5216039 0.4903571 0.0000000 0.9498041 1.7109627 1.2810300 1.6193657 1.8556186 
+Parahaliea_mediterranea|WP_116368789.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase       0.9562138 0.9331706 0.9480120 0.8551776 0.8539981 0.9498041 0.0000000 1.1704959 1.1197142 1.1537711 1.7794363 
+Zooshikella_harenae|WP_215820801.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase           1.2400600 1.6626683 1.7376171 1.4101836 1.4427422 1.7109627 1.1704959 0.0000000 1.4766244 0.2604318 1.5824238 
+Pseudomaricurvus_sp._ABR4_320|WP_475177401.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase 1.2574854 1.2291935 1.2961296 1.1676342 1.1892829 1.2810300 1.1197142 1.4766244 0.0000000 1.5515102 1.5819158 
+Zooshikella_ganghwensis|WP_165773227.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase       1.2934228 1.6246520 1.6242215 1.3758048 1.3649485 1.6193657 1.1537711 0.2604318 1.5515102 0.0000000 1.5782212 
+Bdellovibrio_bacteriovorus|WP_374031472.1|extracellular_medium-chain-length_polyhydroxyalkanoate_depolymerase    1.6959224 1.9067383 1.8801367 1.8669916 1.8294901 1.8556186 1.7794363 1.5824238 1.5819158 1.5782212 0.0000000 
